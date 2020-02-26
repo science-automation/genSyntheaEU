@@ -1,0 +1,58 @@
+time_zone,std_abbr,dst_abbr,std_offset,dst_offset,std_full,dst_full,place_name,place_id,region_code,region_name,country_code,country_name,latitude,longitude
+Europe/Amsterdam,CET,CEST,1,2,Central European Time,Central European Summer Time,Amsterdam,ChIJVXealLU_xkcRja_At0z9AGY,,,NL,Netherlands,52.3702157,4.8951679
+Europe/Andorra,CET,CEST,1,2,Central European Time,Central European Summer Time,Andorra,ChIJlfCemC71pRIRkn_qeNc-yQc,,,AD,Andorra,42.506285,1.521801
+Europe/Athens,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Athens,ChIJ8UNwBh-9oRQR3Y1mdkU1Nic,,,GR,Greece,37.9838096,23.7275388
+Europe/Belgrade,CET,CEST,1,2,Central European Time,Central European Summer Time,Belgrade,ChIJvT-116N6WkcR5H4X8lxkuB0,,,RS,Serbia,44.786568,20.4489216
+Europe/Berlin,CET,CEST,1,2,Central European Time,Central European Summer Time,Berlin,ChIJAVkDPzdOqEcRcDteW0YgIQQ,,,DE,Germany,52.5200066,13.404954
+Europe/Bratislava,CET,CEST,1,2,Central European Time,Central European Summer Time,Bratislava,ChIJl2HKCjaJbEcRaEOI_YKbH2M,,,SK,Slovakia,48.1485965,17.1077477
+Europe/Brussels,CET,CEST,1,2,Central European Time,Central European Summer Time,Brussels,ChIJ_58PdIbEw0cRMIBML6uZAAE,,,BE,Belgium,50.8503463,4.3517211
+Europe/Bucharest,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Bucharest,ChIJT608vzr5sUARKKacfOMyBqw,,,RO,Romania,44.4267674,26.1025384
+Europe/Budapest,CET,CEST,1,2,Central European Time,Central European Summer Time,Budapest,ChIJyc_U0TTDQUcRYBEeDCnEAAQ,,,HU,Hungary,47.497912,19.040235
+Europe/Busingen,CET,CEST,1,2,Central European Time,Central European Summer Time,Büsingen am Hochrhein,ChIJr6m2ngmBmkcRffmQypLVlVM,,,DE,Germany,47.6969939,8.6904196
+Europe/Chisinau,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Chisinau,ChIJoWm3KDZ8yUARPN1JVzDW0Tc,,,MD,Moldova,47.0104529,28.8638103
+Europe/Copenhagen,CET,CEST,1,2,Central European Time,Central European Summer Time,Copenhagen,ChIJIz2AXDxTUkYRuGeU5t1-3QQ,,,DK,Denmark,55.6760968,12.5683371
+Europe/Dublin,GMT,IST,0,1,Greenwich Mean Time,Irish Summer Time,Dublin,ChIJL6wn6oAOZ0gRoHExl6nHAAo,,,IE,Ireland,53.3498053,-6.2603097
+Europe/Gibraltar,CET,CEST,1,2,Central European Time,Central European Summer Time,Gibraltar,ChIJNb4UJ3a_DA0RD4cANiYlTjg,,,GI,Gibraltar,36.140751,-5.353585
+Europe/Guernsey,GMT,BST,0,1,Greenwich Mean Time,British Summer Time,Saint Peter Port,ChIJW-PWowRzDUgR2rHna7uIkF8,,,GG,Guernsey,49.4541677,-2.5497069
+Europe/Helsinki,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Helsinki,ChIJkQYhlscLkkYRY_fiO4S9Ts0,,,FI,Finland,60.1698557,24.938379
+Europe/Isle_of_Man,GMT,BST,0,1,Greenwich Mean Time,British Summer Time,Isle of Man,ChIJ1YEuRDCFY0gRDeDw8bxbAuo,,,IM,Isle of Man,54.236107,-4.548056
+Europe/Istanbul,TRT,,3,3,Turkey Time,,Istanbul,ChIJawhoAASnyhQR0LABvJj-zOE,,,TR,Turkey,41.0082376,28.9783589
+Europe/Jersey,GMT,BST,0,1,Greenwich Mean Time,British Summer Time,Jersey,ChIJM3WSjKRSDEgRw2waCqMjnFE,,,JE,Jersey,49.214439,-2.13125
+Europe/Kaliningrad,EET,,2,2,Eastern European Time,,Kaliningrad,ChIJqSF8S40940YR024SFgCWUFA,,Kaliningrad Oblast,RU,Russia,54.7104264,20.4522144
+Europe/Kiev,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Kiev,ChIJBUVa4U7P1EAR_kYBF9IxSXY,,,UA,Ukraine,50.4501,30.5234
+Europe/Lisbon,WET,WEST,0,1,Western European Time,Western European Summer Time,Lisbon,ChIJO_PkYRozGQ0R0DaQ5L3rAAQ,,,PT,Portugal,38.7222524,-9.1393366
+Europe/Ljubljana,CET,CEST,1,2,Central European Time,Central European Summer Time,Ljubljana,ChIJ0YaYlvUxZUcRIOw_ghz4AAQ,,,SI,Slovenia,46.0569465,14.5057515
+Europe/London,GMT,BST,0,1,Greenwich Mean Time,British Summer Time,London,ChIJdd4hrwug2EcRmSrV3Vo6llI,,,GB,United Kingdom,51.5073509,-0.3514683
+Europe/Luxembourg,CET,CEST,1,2,Central European Time,Central European Summer Time,Luxembourg City,ChIJVyzznc1IlUcREG0F0dbRAAQ,,,LU,Luxembourg,49.611621,6.1319346
+Europe/Madrid,CET,CEST,1,2,Central European Time,Central European Summer Time,Madrid,ChIJgTwKgJcpQg0RaSKMYcHeNsQ,,,ES,Spain,40.4167754,-3.7037902
+Europe/Malta,CET,CEST,1,2,Central European Time,Central European Summer Time,Valletta,ChIJxUeGHShFDhMRF8lC4o7TWnQ,,,MT,Malta,35.8989085,14.5145528
+Europe/Mariehamn,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Mariehamn,ChIJ7TXGu5vDikYRzZqPbAILQkY,,,AX,Åland Islands,60.0970945,19.9348339
+Europe/Minsk,MSK,MSK,3,3,Moscow Time,,Minsk,ChIJ02oeW9PP20YR2XC13VO4YQs,,,BY,Belarus,53.9045398,27.5615244
+Europe/Monaco,CET,CEST,1,2,Central European Time,Central European Summer Time,Monaco City,ChIJ2Y7LAInCzRIRkCuP_aUZCAQ,,,MC,Monaco,43.7308084,7.4225881
+Europe/Moscow,MSK,,3,3,Moscow Time,,Moscow,ChIJybDUc_xKtUYRTM9XV8zWRD0,,Moskva Oblast,RU,Russia,55.755826,37.6173
+Europe/Oslo,CET,CEST,1,2,Central European Time,Central European Summer Time,Oslo,ChIJOfBn8mFuQUYRmh4j019gkn4,,,NO,Norway,59.9138688,10.7522454
+Europe/Paris,CET,CEST,1,2,Central European Time,Central European Summer Time,Paris,ChIJD7fiBh9u5kcRYJSMaMOCCwQ,,,FR,France,48.856614,2.3522219
+Europe/Podgorica,CET,CEST,1,2,Central European Time,Central European Summer Time,Podgorica,ChIJfYYGlgfoTRMR6YpY6naK92s,,,ME,Montenegro,42.4304196,19.2593642
+Europe/Prague,CET,CEST,1,2,Central European Time,Central European Summer Time,Prague,ChIJi3lwCZyTC0cRkEAWZg-vAAQ,,,CZ,Czechia,50.0755381,14.4378005
+Europe/Riga,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Riga,ChIJ7T0H5bDP7kYRMP7yaM3PAAQ,,,LV,Latvia,56.9496487,24.1051864
+Europe/Rome,CET,CEST,1,2,Central European Time,Central European Summer Time,Rome,ChIJu46S-ZZhLxMROG5lkwZ3D7k,,,IT,Italy,41.9027835,12.4963655
+Europe/Samara,SAMT,,4,4,Samara Time,,Samara,ChIJ03nYK-IYZkERCwM6u6nNlbo,,Samara Oblast,RU,Russia,53.2415041,50.2212463
+Europe/San_Marino,CET,CEST,1,2,Central European Time,Central European Summer Time,San Marino,ChIJeT_m9V_rLBMRECA0gpnzAAA,,,SM,San Marino,43.94236,12.457777
+Europe/Sarajevo,CET,CEST,1,2,Central European Time,Central European Summer Time,Sarajevo,ChIJ0Ztx7bHLWEcRPrOH3qbNLlY,,,BA,Bosnia and Herzegovina,43.8562586,18.4130763
+Europe/Simferopol,MSK,,3,3,Moscow Time,,Simferopol,ChIJxRyZ397d6kARQAt4vC9CKZw,,,UA,Ukraine,44.952117,34.102417
+Europe/Skopje,CET,CEST,1,2,Central European Time,Central European Summer Time,Skopje,ChIJpaKajKUVVBMRICCHYMKI7bI,,,MK,Macedonia,41.9973462,21.4279956
+Europe/Sofia,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Sofia,ChIJ9Xsxy4KGqkARYF6_aRKgAAQ,,,BG,Bulgaria,42.6977082,23.3218675
+Europe/Stockholm,CET,CEST,1,2,Central European Time,Central European Summer Time,Stockholm,ChIJywtkGTF2X0YRZnedZ9MnDag,,,SE,Sweden,59.3293235,18.0685808
+Europe/Tallinn,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Tallinn,ChIJvxZW35mUkkYRcGL8GG2zAAQ,,,EE,Estonia,59.4369608,24.7535746
+Europe/Tirane,CET,CEST,1,2,Central European Time,Central European Summer Time,Tirane,ChIJ28X6cAQxUBMRIDdlEK-SAAQ,,,AL,Albania,41.3275459,19.8186982
+Europe/Uzhgorod,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Uzhgorod,ChIJ2eO2RLkZOUcRPCoEMAGupg0,,,UA,Ukraine,48.6208,22.287883
+Europe/Vaduz,CET,CEST,1,2,Central European Time,Central European Summer Time,Vaduz,ChIJ835RXGYxm0cRgnsbyn3ZQ1E,,,LI,Liechtenstein,47.1410303,9.5209277
+Europe/Vatican,CET,CEST,1,2,Central European Time,Central European Summer Time,Vatican City,ChIJPS3UVwqJJRMRsH46sppPCQA,,,VA,Vatican City,41.902916,12.453389
+Europe/Vienna,CET,CEST,1,2,Central European Time,Central European Summer Time,Vienna,ChIJn8o2UZ4HbUcRRluiUYrlwv0,,,AT,Austria,48.2081743,16.3738189
+Europe/Vilnius,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Vilnius,ChIJ9QhkXPuT3UYRQNzpcIzRAAQ,,,LT,Lithuania,54.6871555,25.2796514
+Europe/Volgograd,VOLT,,4,4,Volgograd Time,,Volgograd,ChIJZ3ZbuHUzBUERQdpXzpwXDYg,,Volgograd Oblast,RU,Russia,48.708048,44.5133034
+Europe/Warsaw,CET,CEST,1,2,Central European Time,Central European Summer Time,Warsaw,ChIJAZ-GmmbMHkcR_NPqiCq-8HI,,,PL,Poland,52.2296756,21.0122287
+Europe/Zagreb,CET,CEST,1,2,Central European Time,Central European Summer Time,Zagreb,ChIJOcwCyZLWZUcRisL7KJYkRTo,,,HR,Croatia,45.8150108,15.981919
+Europe/Zaporozhye,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,Zaporizhia,ChIJA7uF-j1n3EARSj9NB9lcZ34,,,UA,Ukraine,47.8388,35.139567
+Europe/Zurich,CET,CEST,1,2,Central European Time,Central European Summer Time,Zürich,ChIJGaK-SZcLkEcRA9wf5_GNbuY,,,CH,Switzerland,47.3768866,8.541694
+Europe/Cyprus,EET,EEST,2,3,Eastern European Time,Eastern European Summer Time,-,ChIJGaK-SZcLkEcRA9wf5_GNbuY,,,CY,Cyprus,-,-
