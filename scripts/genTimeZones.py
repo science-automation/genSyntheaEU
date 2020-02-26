@@ -26,4 +26,8 @@ for country in countries:
     std_full = countryzone.at[0,"std_full"]
     std_abbr = countryzone.at[0,"std_abbr"]
     print(std_full, std_abbr)
-    #regions['timezone'] = 
+    regions['TIMEZONE'] = std_full
+    regions['TZ'] = std_abbr
+    regions = regions.rename(columns={"name": "STATE", "isocodem": "ST"})
+    header = ["STATE","ST","TIMEZONE","TZ"]
+    regions.to_csv(path + '/timezones.csv', columns = header, index=False, encoding='UTF-8')
