@@ -55,3 +55,4 @@ for country in countries:
             df.to_csv(amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
         else:
             print(amenity + " in " + country + " did not have and records with a name.")
+        time.sleep(10)
