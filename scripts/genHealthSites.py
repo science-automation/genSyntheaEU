@@ -56,6 +56,7 @@ for country in countries:
             df = df.append(dftemp)
         # if the amenity does not have a name, let's filter it out
         if 'name' in df.columns:
+            print("creating " + amenity + " in " + country.lower()) 
             df = df[df['name'].notnull()]
             df = df.sort_values('name')
             df.to_csv(directory + '/' + amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
