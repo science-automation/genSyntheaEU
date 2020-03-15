@@ -1,0 +1,32 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+resources:
+  repositories:
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+jobs:
+  - job: healthsites_generator
+    timeoutInMinutes: 0
+    steps:
+    - checkout: self
+      persistCredentials: true
+    - script: |
+        pip install pandas
+        pip install python-dotenv
+        pip install overpy
+      displayName: 'Install python modules needed'
+    - script: |
+        cd scripts
+        python genHealthSites.py
+        cd ../data
+        git add healthsites
+        git commit -m "generated from automation [skip ci]"
+        push origin HEAD:master
