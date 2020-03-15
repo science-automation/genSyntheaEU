@@ -30,4 +30,4 @@ jobs:
         cd ../data
         git add healthsites
         git commit -m "generated from automation [skip ci]"
-        push origin HEAD:master
+        git push origin HEAD:master
