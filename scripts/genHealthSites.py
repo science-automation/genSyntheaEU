@@ -46,7 +46,6 @@ for country in countries:
            except:
                print("Sleeping to avoid rate limit")
                time.sleep(30)
-        result = api.query(overpass_query)
         keys = extract_keys(result)
         df = pd.DataFrame(columns=keys)
         for way in result.ways:
