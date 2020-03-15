@@ -1,0 +1,5 @@
+building,addr:housenumber,amenity,addr:city,addr:postcode,wheelchair,healthcare,lon,old_name,lat,addr:street,name
+yes,24,dentist,Варна,9000,,dentist,27.9119354,Стоматологията,43.2076354,бул. Съборни,Дентален център
+yes,,dentist,Русе,,yes,,25.9520184,,43.8365798,ул. Николаевска,Стоматология
+,,dentist,,,yes,,25.9515495,,43.8369603,,Стоматология
+hospital,,dentist,,,,,24.8666109,,42.0132422,,Стоматология

@@ -1,0 +1,16 @@
+amenity,int_name,addr:housenumber,building:levels,opening_hours,lon,note,source,addr:street,email,website,phone,lat,name:bg,addr:city,building,fixme,name:en,name,addr:postcode,wheelchair,dispensing,healthcare,addr:country
+pharmacy,,,1,Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 08:00-18:00,23.2417361,,,,,,,42.7215095,,,retail,,,Med Eco,,,,,
+pharmacy,,54,,,24.3124785,,,1,,,,42.1577159,,,retail,,,Анжела 2,4409,,,,
+pharmacy,,,,,24.8072479,,,,,,,42.6415194,,,yes,,,Бергер,,no,yes,,
+pharmacy,,,,,25.5911280,,,,,,,42.4103982,,,yes,,,Ветфарм Комерс,,,no,,
+pharmacy,,,,,27.8186737,,,,,,,43.5616828,,,yes,,,Вива 4,,,,,
+pharmacy,,34,1,,25.5608044,711.4.3,,Дунав,,,,41.9388677,,Хасково,yes,,,Гален 2,6300,,,,
+pharmacy,,,,,27.4641505,,,,,,,42.4925133,,,yes,,,Димитрова,,,,,
+pharmacy,,21,,,27.8284889,,,бул. 25-ти Септември,,,,43.5702421,,Добрич,yes,,,Добруджа,9300,,,,BG
+pharmacy,Zdravets,,,,23.3754046,,,Д-р Атанас Москов,,,,42.6323939,,,yes,,,Здравец,,,,,
+pharmacy,,,,,27.8278773,,,,,,,43.5715947,,,retail,,,Марешки,,,,,
+pharmacy,,,,Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00,23.3961166,,,Туше Делииванов,drujba.pazar@aptekamedea.bg,https://aptekamedea.bg/shop/apteka-medeya-druzhba-pazara.html,+35924516569,42.6682215,Медея,,retail,,Medea,Медея,,,,,
+pharmacy,,,,Mo-Fr 08:30-20:00,25.3192995,,,,,,,42.8719374,,,,,,Медисон,,,no,,
+pharmacy,,,,,27.1412111,,,,,,,43.8254649,,,yes,,,Прима,,,yes,pharmacy,
+pharmacy,,,,,27.9245450,,,,,,,43.2209143,,,commercial,,,Св. Лука,,,,,
+pharmacy,,,,24/7,24.7677595,,,,,,,42.1374998,,,yes,,,Чайкафарма,,,yes,,

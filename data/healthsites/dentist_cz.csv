@@ -1,0 +1,14 @@
+building:ruian:type,amenity,building:flats,operator,addr:conscriptionnumber,addr:housenumber,building:levels,lon,source,addr:street,ref:ruian:building,start_date,phone,lat,addr:city,building,ref:ruian:addr,name,addr:postcode,wheelchair,addr:place,healthcare,toilets:wheelchair,addr:country
+5,dentist,,,,,2,16.6221010,cuzk:ruian,,19123019,,,49.2191867,,civic,,Jandent,,,,,,
+7,dentist,1,,,,2,17.6350960,cuzk:ruian,,26656540,,,49.2160614,,house,,Medifis,,,,,,
+15,dentist,,,,,,15.8838852,cuzk:ruian,,18628303,,,49.2221911,,civic,,Mudr. Látal,,yes,,,,
+,dentist,,,,,,15.8852193,,,,,,49.2200524,,yes,,Poliklinika Hájek,,yes,,,yes,
+15,dentist,,,,,1,18.1412079,cuzk:ruian,,8405522,,,49.5971764,,civic,,Profident,,,,dentist,,
+15,dentist,,,,,1,18.7517592,cuzk:ruian,,14109786,,,49.5249239,,civic,,Star-Dent clinic s.r.o.,,,,,,
+15,dentist,,,,,2,17.8742435,cuzk:ruian,,26509008,2002-12-17,,49.8757271,,civic,,Zubař,,,,,,
+5,dentist,1,,,,4,12.8953587,cuzk:ruian,,11836571,,,50.2478302,,civic,,Zubař MDDr. Fomenko,,,,,,
+7,dentist,1,,972,972,1,18.2091269,cuzk:ruian,Kalusova,8381208,,,49.5458769,,house,8431141,Zubař MUDr. Dresler,74401,,Frenštát pod Radhoštěm,dentist,,CZ
+7,dentist,2,,,,1,17.9141331,cuzk:ruian,,4452224,,,49.9418952,,house,,Zubaři,,,,,,
+3,dentist,2,,,,1,15.5782923,cuzk:ruian,,12279307,,,49.3913768,,yes,,Zubní laboratoř Kateřina Spilková,,,,,,
+15,dentist,,,,,2,14.3129139,cuzk:ruian,,6201199,,,50.2489510,,civic,6237711,poliklinika,,,,,,
+3,dentist,1,,,,1,14.5316078,cuzk:ruian,,22380957,,,50.0548013,,residential,,zubní ambulatorium,,,,,,
