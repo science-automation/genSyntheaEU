@@ -49,5 +49,9 @@ for country in countries:
             dftemp = pd.DataFrame(temp, index=[0], columns=keys)
             df = df.append(dftemp)
         # if the amenity does not have a name, let's filter it out
-        df = df[df['name'].notnull()]
-        df.to_csv(amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
+        if 'name' in df.columns:
+            df = df[df['name'].notnull()]
+            df = df.sort_values('name')
+            df.to_csv(amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
+        else:
+            print(amenity + " in " + country + " did not have and records with a name.")
