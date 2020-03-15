@@ -2,6 +2,7 @@
 import overpy
 import pandas as pd
 import time
+import os
 
 def make_query(country, amenity):
     outtype="[out:json][timeout:300];"
@@ -26,6 +27,11 @@ def extract_keys(result):
 api = overpy.Overpass()
 amenity_types = ["hospital", "dentist", "pharmacy", "clinic", "dialysis"]
 countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
+
+# create output directory
+directory = "../data/healthsites"
+if not os.path.exists(directory):
+    os.makedirs(directory)
 
 for country in countries:
     for amenity in amenity_types:
@@ -52,7 +58,7 @@ for country in countries:
         if 'name' in df.columns:
             df = df[df['name'].notnull()]
             df = df.sort_values('name')
-            df.to_csv(amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
+            df.to_csv(directory + '/' + amenity + '_' + country.lower() + '.csv', mode='w', header=True, index=False, encoding = 'utf-8')
         else:
             print(amenity + " in " + country + " did not have and records with a name.")
         time.sleep(10)
