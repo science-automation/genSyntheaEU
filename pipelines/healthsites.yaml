@@ -21,6 +21,10 @@ jobs:
         pip install overpy
       displayName: 'Install python modules needed'
     - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s
+        ls -la 
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
         cd scripts
         python genHealthSites.py
         cd ../data

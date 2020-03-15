@@ -43,7 +43,7 @@ for country in countries:
            try:
                result = api.query(overpass_query)
                passing=True
-           except OverpassTooManyRequests:
+           except:
                print("Sleeping to avoid rate limit")
                time.sleep(30)
         result = api.query(overpass_query)
