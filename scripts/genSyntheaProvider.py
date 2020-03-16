@@ -15,9 +15,19 @@ load_dotenv(verbose=True)
 # Path to the directory containing the input healthsites files
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
-BASE_OUTPUT_DIRECTORY    = os.environ['BASE_OUTPUT_DIRECTORY']
+BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+# Hospital base id
+HOSPITAL_BASE_ID        = os.environ['HOSPITAL_BASE_ID']
+# Urgent care base id
+URGENT_CARE_BASE_ID     = os.environ['URGENT_CARE_BASE_ID']
+# Primary care base id
+PRIMARY_CARE_BASE_ID    = os.environ['PRIMARY_CARE_BASE_ID']
+
 print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
 print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
+print('HOSPITAL_BASE_ID         =' + HOSPITAL_BASE_ID)
+print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
+print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
@@ -37,6 +47,7 @@ for country in countries:
         df = pd.DataFrame(columns=model_synthea.model_schema['hospitals'].keys())
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
         df['name'] = hospitals['name']
+        df['id'] = df.index + int(HOSPITAL_BASE_ID)
         df['LAT'] =  hospitals['lat']
         df['LON'] = hospitals['lon']
         if 'phone' in hospitals.columns:
@@ -49,6 +60,7 @@ for country in countries:
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
         # create urgent_care_facilities by filtering on emergency
         df = df.loc[df['emergency'].str.lower() == 'yes']
+        df['id'] = df.index + int(URGENT_CARE_BASE_ID)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'urgent_care_facilities.csv'), mode='w', header=True, index=True)
     else:
         print("File " + file + " does not exist")
@@ -60,6 +72,7 @@ for country in countries:
         # create primary_care_facilities.csv
         df = pd.DataFrame(columns=model_synthea.model_schema['primary_care_facilities'].keys())
         df['name'] = clinics['name']
+        df['id'] = df.index + int(HOSPITAL_BASE_ID)
         df['LAT'] =  clinics['lat']
         df['LON'] = clinics['lon']
         df['hasSpecialties'] = 'False'

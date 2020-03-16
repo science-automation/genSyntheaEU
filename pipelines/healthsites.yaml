@@ -28,6 +28,6 @@ jobs:
         cd ../data
         git add healthsites
         git commit -m "generated from automation [skip ci]"
-        git push https://scivm:$PASS@github.com/science-automation/genSyntheaEU.git HEAD:master
+        git push -f https://scivm:$PASS@github.com/science-automation/genSyntheaEU.git HEAD:master
       env:
         PASS: $(gitpass)
