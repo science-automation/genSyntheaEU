@@ -41,7 +41,7 @@ jobs:
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
         git add .
         git commit -m "generated from automation [skip ci]"
-        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
+        git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
       env:
         PASS: $(gitpass)
       displayName: 'Generate providers from OSM data'
