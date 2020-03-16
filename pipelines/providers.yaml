@@ -1,0 +1,45 @@
+# create synthea providers for all eu countries
+
+resources:
+  repositories:
+    - repository: synthea-international
+      type: github
+      endpoint: science-automation
+      name: synthetichealth/synthea-international
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+jobs:
+  - job: providers_generator
+    timeoutInMinutes: 0
+    steps:
+    - checkout: self
+      persistCredentials: true
+    - checkout: synthea-international
+      fetchDepth: 1
+      clean: true
+    - script: |
+        pip install pandas
+        pip install python-dotenv
+      displayName: 'Install python modules needed'
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
+        echo "INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites" > .env
+        echo "OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
+        cd scripts
+        python genSyntheaProvider.py
+        cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
+        git add .
+        git commit -m "generated from automation [skip ci]"
+        git push https://scivm:$PASS@github.com/science-automation/genSyntheaEU.git HEAD:master
+      env:
+        PASS: $(gitpass)
+      displayName: 'Generate providers from OSM data'
