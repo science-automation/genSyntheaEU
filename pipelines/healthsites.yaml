@@ -30,4 +30,4 @@ jobs:
         cd ../data
         git add healthsites
         git commit -m "generated from automation [skip ci]"
-        git push origin HEAD:master
+        git push https://scivm:$GITPASS@github.com/science-automation/genSyntheaEU.git HEAD:master
