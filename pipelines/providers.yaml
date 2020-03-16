@@ -39,7 +39,7 @@ jobs:
         git add .
         git commit -m "generated from automation [skip ci]"
         git pull origin master
-        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
+        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git origin:master
       env:
         PASS: $(gitpass)
       displayName: 'Generate providers from OSM data'
