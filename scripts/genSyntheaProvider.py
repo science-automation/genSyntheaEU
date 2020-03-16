@@ -46,7 +46,7 @@ for country in countries:
             df['address'] = hospitals['addr:street']
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency']
-        df.to_csv(os.path.join(BASE_OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
+        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
         # create urgent_care_facilities by filtering on emergency
         df = df.loc[df['emergency'].str.lower() == 'yes']
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'urgent_care_facilities.csv'), mode='w', header=True, index=True)
