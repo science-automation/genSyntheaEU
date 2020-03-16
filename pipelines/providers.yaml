@@ -32,6 +32,8 @@ jobs:
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         git config --global user.name "scivm"
         git config http.version HTTP/1.1
+        git branch master
+        git checkout master
         python genSyntheaProvider.py
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
         git add .
