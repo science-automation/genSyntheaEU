@@ -25,8 +25,8 @@ model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
 for country in countries:
     # load the csv
     file='./hospital_'+ country.lower() + '.csv'
-    if os.path.exists(file):
-        hospitals = pd.read_csv(file, compression=None)
+    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
+        hospitals = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
         # map OSM data synthea data
         # create hospitals.csv and urgent_care_facilities.csv
         # urgent_care_facilities has emergency=yes
@@ -55,8 +55,8 @@ for country in countries:
 
     # load clinics file and create primary_care_facilities for synthea
     file='./clinic_'+ country.lower() + '.csv'
-    if os.path.exists(file):
-        clinics = pd.read_csv(file, compression=None)
+    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
+        clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
         # create primary_care_facilities.csv
         df = pd.DataFrame(columns=model_synthea.model_schema['primary_care_facilities'].keys())
         df['name'] = clinics['name']
