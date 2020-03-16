@@ -1,0 +1,6 @@
+building,shop,amenity,indoor,wheelchair,name,level,building:levels,opening_hours,brand,healthcare,lon,lat,phone,buildingpart,ref:apotek1,branch,ref:nmd,operator,email
+,,pharmacy,room,,Apotek 1 Oslo lufthavn,0,,Mo-Su 07:00-21:00,Apotek 1,,11.0983017,60.1939315,+47 63980020,,1209,Oslo lufthavn,,,apotek1.oslolufthavn@apotek1.no
+yes,greengrocer,pharmacy,,,Gourmet matvarebutikk,,,,,,10.7960666,63.4111116,,,,,,,
+yes,,pharmacy,,,Sjukehusapoteket i Molde,,1,,,pharmacy,7.1405509,62.7376532,,,,,,Sykehusapotekene Midt-Norge HF,
+,,pharmacy,,,Vitusapotek Nerstranda,0,,"Mo-Fr 09:00-20:00, Sa 10:00-18:00",Vitusapotek,pharmacy,18.9551372,69.6467220,+47 77615310,room,,Nerstranda,1368,,nerstranda@vitusapotek.no
+,,pharmacy,room,yes,Vitusapotek Trondheim torg,0,,"Mo-Fr 09:00-20:00, Sa 09:00-18:00",Vitusapotek,,10.3925296,63.4301327,+47 73807900,,,Trondheim torg,1381,,trondheimtorg@vitusapotek.no

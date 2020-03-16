@@ -1,0 +1,2 @@
+addr:housenumber,building,amenity,addr:city,addr:postcode,lon,website,healthcare,lat,addr:street,name
+32A,yes,dentist,Tallinn,10136,24.7257288,http://www.wismari.ee/,dentist,59.4317409,Wismari,Wismari Hambaravi

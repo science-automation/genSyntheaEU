@@ -1,0 +1,14 @@
+amenity,lon,contact:website,wikidata,operator,addr:housenumber,short_name,contact:phone,wikipedia,name:de,website,emergency,contact:email,ref:caclr,phone,lat,addr:street,building,contact:fax,name,addr:postcode,wheelchair,addr:city,healthcare,toilets:wheelchair,addr:country
+hospital,6.1009636,,Q6936239,Centre Hospitalier de Luxembourg,,,,lb:Centre hospitalier de Luxembourg,,https://www.chl.lu,,,,,49.6167041,,,,Centre Hospitalier,,yes,,hospital,,
+hospital,6.0964532,,,,,,,,,,,,,,49.8431353,,hospital,,Centre Hospitalier Neuro-Psychiatrique (CHNP),,,,,,
+hospital,6.0946999,http://www.chdn.lu,,,120,CHdN Ettelbruck,+352 8166-1,lb:Centre hospitalier du Nord,Nordisches Krankenhauszentrum Ettelbruck,,,chdn@chdn.lu,,,49.8532735,Avenue Lucien Salentiny,public,+352 8166-3049,Centre Hospitalier du Nord,9080,,Ettelbruck,hospital,,LU
+hospital,5.8250859,,,,,,,,,http://www.convalescence.lu,,,,+352 2755 4300,49.7592849,,yes,,Centre de Convalescence,,,,,,
+hospital,5.9806643,,,,,,,,,,,,,,49.5029923,,,,Centre hospitalier Émile Mayrisch,,yes,,,yes,
+hospital,5.9865260,,,,,,,,,,yes,,,,49.5013745,,,,Clinique Sainte-Marie,,,,,,
+hospital,6.1349911,,,Centre Hospitalier de Luxembourg,78,,,,Klinikum Eich,https://eich.chl.lu,,,,+352 44 11 12,49.6307630,Rue d'Eich,,,Clinique d'Eich,1460,,Luxembourg,,,LU
+hospital,5.9339156,,,,10,,,,,,yes,,150694,,49.9653513,Rue Grande-Duchesse Charlotte,yes,,Clinique saint Joseph Wiltz,9515,yes,Wiltz,,yes,LU
+hospital,6.1775012,,,Hôpitaux Robert Schuman,,,,lb:Hôpitaux Robert-Schuman,,https://www.hkb.lu,,,,+352 2468-1,49.6317930,,,,Hôpital Kirchberg,,yes,,,,
+hospital,6.0882564,,,,98,,,,,,,,221972,,49.4707005,Rue de l'Hôpital,yes,,Hôpital de la ville de Dudelange,3488,,Dudelange,,,LU
+hospital,6.1544587,,,,,,,,,,,,,,49.8703995,,hospital,,Maison des Soins Sacré Coeur,,,,hospital,,
+hospital,6.1749046,,,,,,,,,,,,,,49.6288334,,hospital,,Rehazenter,,yes,,,,
+hospital,6.1354292,,,,,,,,,,,,,,49.6309966,,hospital,,Sénologie,,,,,,

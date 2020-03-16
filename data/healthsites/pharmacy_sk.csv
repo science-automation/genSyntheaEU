@@ -1,0 +1,34 @@
+roof:levels,amenity,drive_through,indoor,addr:suburb,addr:streetnumber,height,payment:debit_cards,room,operator,addr:conscriptionnumber,addr:housenumber,area,building:levels,opening_hours,lon,name,source,source:street,brand:wikidata,brand:wikipedia,import,is_in,source:conscriptionnumber,email,phone,website,building:material,brand,roof:shape,source:streetnumber,lat,name:hu,addr:street,building,level,addr:city,payment:cash,addr:postcode,wheelchair,payment:coins,addr:place,payment:credit_cards,dispensing,healthcare,addr:country
+,pharmacy,,,Píly - Prievidza II,2A,4,,,,1871,1871/2A,,,Mo-Fr 08:00-18:00; Sa 09:00-12:00,18.6175919,Althea,kapor2,,,,EvidenciaBudovPD,,,,,,,,,,48.7819763,,Juraja Fándlyho,yes,,Prievidza,,97101,,,,,,,SK
+,pharmacy,no,room,,,,yes,shop,Lekáreň Apotheka s.r.o.,,,yes,,Mo-Fr 07:00-20:00; Sa-Su 07:00-19:00,21.2674030,Apotheka,,,,,,,,lekaren@stanicakosice.sk,+421 918 117 425,https://www.partner.sk/,,,,,48.7229596,,,,0,,yes,,yes,yes,,yes,yes,pharmacy,
+,pharmacy,no,room,,,,yes,shop,"BENU SK 9, s.r.o.",,,yes,,Mo-Su 08:00-20:00,21.2505114,Benu,,,Q62562792,,,,,benu9@benulekaren.sk,+421 905 821 913,https://www.benulekaren.sk/,,Benu,,,48.6962554,,,,0,,yes,,yes,yes,,yes,yes,pharmacy,
+,pharmacy,,,,,,,,,,,,1,Mo-Su 07:00-19:30,18.7602229,Dr. Max,,,,,,,,,,,,,,,48.7294736,,,yes,,,,,,,,,,,
+,pharmacy,,,,,,,,,,,,2,,18.2586505,Dr. Max,kapor2,,,,,,,,,,,,,,48.7197443,,,yes,,,,,,,,,,,
+,pharmacy,no,room,,,,yes,shop,"Lekáreň OPTIMA KE, s.r.o.",,,yes,,Mo-Su 09:00-21:00,21.2375141,Dr. Max,,,Q56317371,fr:Dr.Max,,,,drmax@drmax.sk,+421 901 961 609,https://www.drmax.sk/,,Dr. Max,,,48.6956684,,,,1,,yes,,yes,yes,,yes,yes,pharmacy,
+,pharmacy,,,,,,,,,1748,1748,,,,18.2523029,Dubnička,kapor2,,,,,,kapor2,,,,,,,,48.7279037,,,yes,,Bánovce nad Bebravou,,,,,Bánovce nad Bebravou,,,,SK
+,pharmacy,,,,5,,,,,,5,,,Mo-Su 08:00-20:00,17.1183159,Green Pharma,,,,,,,,,,,,,,,48.0931493,,Zuzany Chalupovej,,,Bratislava,yes,851 07,,yes,,yes,,pharmacy,
+,pharmacy,,,,,,,,,72,72,,,"Mo, Tu, Th, Fr 08:00-16:00, We 10:00-17:00",16.9241314,Harmónia,kapor2,,,,budovy201004,,,,,,,,,,48.4659060,,Hlavná,yes,,Gajary,,90061,,,,,yes,,SK
+,pharmacy,no,,,,,yes,,,,18,,,Mo-Fr 08:00-16:00,20.0381450,Kamilka,kapor2,,,,budovy201004drev,,,,,,wood,,,,48.8433358,,Pohorelská Maša,yes,,Pohorelá,yes,97669,,,,yes,yes,pharmacy,
+,pharmacy,,,,,,,,,,,,,,17.7165687,Lekáreň Amaryllis,kapor2,,,,budovy201004,,,,,,,,,,47.9384777,Amaryllis gyógyszertár,Mateja Korvína,yes,,Dolný Štál,,93010,,,,,,,
+,pharmacy,,room,,,,,shop,,,,,,,18.0231806,Lekáreň Dr. Max,,,,,,,,,,,,,,,48.8635691,,,,0,,,,,,,,yes,pharmacy,
+,pharmacy,no,,,,,,,,132,132,,,,22.4199986,Lekáreň Katka,local knowledge,,,,,,,,,,,,,,48.9640873,,,yes,,Ulič,,06767,,,Ulič,,yes,pharmacy,SK
+,pharmacy,,,,,,,,,,,,,"Mo-Fr 07:30-12:00,13:00-16:30",19.1539398,Lekáreň Melissa,,,,,,,,,,,,,,,48.4238436,,,yes,,,,,,,,,,,
+,pharmacy,,,,,,,,,41,41,,,,18.1247589,Lekáreň Michala Archaniela,kapor2;local knowledge,,,,budovy201004,,kapor2,,,,,,,,48.3315734,,Jelenecká,yes,,Nitrianske Hrnčiarovce,,951 01,,,Nitrianske Hrnčiarovce,,yes,pharmacy,SK
+,pharmacy,,,,,,,,,,,,,,18.2482590,Lekáreň Plus,kapor2,,,,,,,,,,,,,,48.0818401,,,yes,,,,,,,,,,,
+,pharmacy,,,,,,,,,,,,1,,18.1737127,Lekáreň Pod Hájom,Bing,,,,,Dubnica nad Váhom,,,,,,,flat,,48.9570020,,,yes,,,,,,,,,yes,,
+,pharmacy,,,,12,,,,,5723,5723/12,,,,16.9780369,Lekáreň Pri Stanici,kapor2,,,,,,,,,,,,,,48.2198355,,Opletalova,commercial,,Bratislava,,,,,,,,,SK
+,pharmacy,,,,,,,,,857,857,,,Mo-Fr 08:00-13:00,17.9738403,Lekáreň Zlatnianska,kapor2,,,,budovy201004,,,,,http://lekaren-lekaren.sk/index.php/sk/lekaren-v-zlatnej-sk,,,,,47.7685747,,Cesta kráľa IV. Bélu,commercial,,Zlatná na Ostrove,,946 12,,,Zlatná na Ostrove,,,,SK
+,pharmacy,,,,,,,,,,,,,,17.2305408,Lekáreň na Královskej,kapor2,,,,budovy201004,,,,,,,,,,48.8467360,,,yes,,,,,,,,,,,
+,pharmacy,,,,,,,,,,,,,,18.1346857,Lekáreň u Elišky,kapor2,,,,budovy201004,,,,,,,,,,48.2896627,,Hlavná,yes,,Nitra,,94907,,,,,,pharmacy,
+1,pharmacy,,,,24,,,,,738,738/24,,1,,18.2561502,Lipa,kapor2,,,,,,,,,,,,,,48.7246116,,Sládkovičova,yes,,Bánovce nad Bebravou,,95704,,,,,,,SK
+,pharmacy,,,,,,,,,,,,,,17.7389705,Maja,kapor2,,,,budovy201004,,,,,,,,,,48.2927723,,,yes,,,,,,,,,yes,,
+,pharmacy,no,,,,,,,,,,,,Mo-Fr 07:30-16:00,21.2409515,Miliana,kapor2,,,,,"Košice II, Košický kraj, Východné Slovensko, Slovensko",,,,,,,,,48.7205537,,,yes,,,,,limited,,,,yes,pharmacy,
+,pharmacy,,room,,,,,shop,,,,,,Mo-Fr 08:00-20:00; Sa-Su 09:00-21:00,18.6088228,Na Korze,,,,,,,,,,,,,,,48.7799810,,,,0,,,,yes,,,,yes,,
+,pharmacy,,,,73,,,,"Palmitas, s.r.o.",1356,1356/73,,,Mo-Fr 07:30-16:30; PH closed,18.7845251,Na rohu,kapor2,municipality,,,freemapkapor,,kapor2,,,,,,,municipality,49.3007350,,Belanského,yes,,Kysucké Nové Mesto,,,,,,,yes,,SK
+,pharmacy,,,,,,,,,549,549,,,,20.3655755,Na rohu,kapor2,,,,budovy201004,,kapor2,,,,,,,,48.8206954,,,yes,,Dobšiná,,,,,Dobšiná,,,,
+,pharmacy,,,,,,,,,,,,,,21.2537742,Nemocničná lekáreň,kapor2,,,,,,,,,,,,,,48.9971075,,,yes,,,,,,,,,,,
+,pharmacy,,,,,,,,,809,809,,,,17.4399588,Orešanka,,,,,,,kapor2,,,,,,,,48.4664426,,,yes,,Horné Orešany,,,yes,,Horné Orešany,,,,SK
+,pharmacy,no,room,,,,yes,shop,Schneider Lekáreň,,,yes,,Mo-Su 09:00-21:00,21.2624997,Schneider,,,,,,,,auparkke@schneider-lekaren.sk,+421 911 747 702,https://www.schneider-lekaren.sk/,,,,,48.7178218,,,,0,,yes,,yes,yes,,yes,yes,pharmacy,
+,pharmacy,,,,,,,,,,94,,,,18.8791083,Vidiecke Centrum Zdravia,kapor2,,,,,,,,,,,,,,48.9960646,,,yes,,,,,,,,,,pharmacy,
+,pharmacy,,,,,,,,NRC,371,371,,,,19.1042690,Výdajňa zdravotníckych pomôcok,kapor2,,,,,,kapor2,,,,,,,,48.6065871,,,yes,,Kováčová,,,yes,,Kováčová,,,,
+,pharmacy,,,Necpaly - Prievidza III,14,,,,,236,236/14,,1,Mo-Fr 08:00-16:30,18.6263445,Žabník,kapor2,,,,EvidenciaBudovPD,,,,,,,,,,48.7769383,,Necpalská cesta,yes,,Prievidza,,97101,,,,,no,,SK

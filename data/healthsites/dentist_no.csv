@@ -1,0 +1,10 @@
+building,addr:housenumber,amenity,name,operator:type,ref:hvakostertannlegen,addr:postcode,image,lon,website,source,mapillary,healthcare,lat,addr:street,wheelchair,addr:city
+yes,100H,dentist,Askim Tannklinikk,,,1813,,11.1613421,,,,dentist,59.5760393,Vammaveien,,
+yes,,dentist,Borgheim tannteknikk,,,,,10.4071386,,,,dentist,59.2316645,,,
+yes,,dentist,Brundalen tannklinikk,,,,,10.4847977,,,,,63.4211020,,,
+,,dentist,Fana tannklinikk,,,,,5.3517173,,,,,60.2652931,,yes,
+commercial,,dentist,GodTann tannklinikken,,,,,10.8433707,https://www.godtann.net/,,,,59.7196078,,,
+yes,38,dentist,Nordøya tannklinikk;Nordøya Hovedtannklinikk,public,15907,9010,,18.9678034,,,,dentist,69.6766128,Breivangvegen,,Tromsø
+yes,,dentist,Rygge tannlegesenter,,,,,10.7522519,,,,,59.3810614,,,
+yes,,dentist,Stavanger tannklinikk,public,15935,,https://images.mapillary.com/NaGCrWKACP7UpJsv-YMVyQ/thumb-2048.jpg,5.7322214,,,https://www.mapillary.com/map/im/NaGCrWKACP7UpJsv-YMVyQ,dentist,58.9647470,,yes,
+yes,,dentist,Tannlegegården,,,,,14.3768547,,,,,67.2821209,,,

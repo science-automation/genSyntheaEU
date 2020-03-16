@@ -1,0 +1,41 @@
+amenity,operator:type,name:tr,wikidata,operator,is_in,addr:housenumber,healthcare:speciality,lon,ele,source,addr:street,email,website,fax,emergency,phone,lat,addr:city,building,name:el,name:en,name,addr:postcode,wheelchair,healthcare
+hospital,,,,,,,,33.3932239,,,,,,,,,35.1500186,,yes,,,Aglantzia Outpatients,,,hospital
+hospital,,,,,,,,33.3414197,,,,info@ahi.com.cy,http://www.ahi.com.cy/,+357 22819667,,+357 22476777,35.1221667,,,,,American Heart Institute,,,
+hospital,,,,,,,,33.3214882,,,,apollonion@cytanet.com.cy,http://www.apollonion.com/,+357 22 469001,,+357 22 469000,35.1479337,,,,,Apollonion Private Hospital,,,
+hospital,,,,,,16,,33.3821891,,Local Informant,Gianni Tsiatala,,,,,,35.1839874,Nicosia,,,,Archangelos Michael Elders Clinic,,yes,hospital
+hospital,,,,,,,,33.3637781,,,,,,,,,35.1395303,,yes,,,Aretaieio Hospital,,,
+hospital,,,,,,,,33.3313285,,,,,,,,,35.2061662,,,,,Barış Ruh ve Sinir Hastalıkları Hastanesi,,,hospital
+hospital,,,,,,,,32.8682908,,,,,,,,,35.1580014,,,,,Cengiz Topel Hastanesi,,,hospital
+hospital,,,,,,,,33.3403277,,,,,,,yes,,35.2098127,,,,,Cyprus Life Hospital,,,hospital
+hospital,,Dr. Burhan Nalbantoğlu Devlet Hastanesi,,,,,,33.3288537,,,,,http://www.drbndh.com/,,,,35.2058541,,,,,Dr. Burhan Nalbantoğlu Devlet Hastanesi,,,hospital
+hospital,,,,,,,,33.3386900,,,,,,,,,35.3312552,,,,,Dunya IVF (Dünya Tüp Bebek Merkezi),,,hospital
+hospital,,ETİK Hastanesi,,,,,,33.3298384,,,,,http://www.etikhastanesi.com/,,,+90 392 223 46 94,35.2013543,,,,ETİK Hospital,ETİK Hastanesi,,,hospital
+hospital,,,,,,16,,33.0417051,,,Naupliou,,,,,,34.6808384,Limassol,yes,,,Ecnomou Clinic,3025,,
+hospital,,,,,,,general,33.5833660,,,,,,,no,,35.3380316,,,,Esentepe Cottage Hospital,Esentepe Sağlık Ocağı,,,hospital
+hospital,,,,,,,,33.3494325,,,,,,,,,35.1658936,,hospital,,,Euaggelistria Clinic-Hospital,,,
+hospital,,,,,,,general;dentistry;emergency,32.9986843,,,,,,,yes,,35.2074194,,,,,Güzelyurt Sağlık Merkezi,,,hospital
+hospital,,,,,Paphos,,,32.4381288,,,,,,,,,34.7631157,,,,,Iasis Hospital,,,
+hospital,,,,Cyprus Gov,,20,,33.3820903,,Local Informant,Gianni Tsiatala,,,,,,35.1840661,Kaimakli,,,,Kaimakli Local Hospital,,limited,hospital
+hospital,,,,,,,,33.3167016,,,,,,,,,35.2095852,,,,Kolan British Hospital,Kolan British Hastanesi,,,hospital
+hospital,,,,,Lakatamia,,,33.3005243,,,,,,,,,35.1207416,,yes,,,Lakatameia Medical Centre,,,
+hospital,,,,,,,,33.6048140,,,,,,,,,34.9214056,,yes,,,Larnaca General Hospital,,,
+hospital,,,,,,,,32.9826175,,,,,,,,,34.7087380,,,ΓΕΝΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΛΕΜΕΣΟΥ,,Limassol district hospital,,,
+hospital,,,,,,,,33.3570392,,,,,,,,,35.1520750,,hospital,,,Makarion,,,
+hospital,,,,,,,,33.9259600,,,,,,,,,35.1273102,,,,,Mağusa Tıp Merkezi,,,hospital
+hospital,,,,,,,,33.0066013,,,,,,,,,34.7411897,,,,,Melathron Agoniston EOKA,,,hospital
+hospital,,,,,,,,33.3186283,,,,,,,,,35.2287173,,,,,Near East University Hospital,,,
+hospital,,,,,,,,33.3766918,,,,,,,,,35.1262851,,yes,,,Nicosia General Hospital,,,
+hospital,,,,,Nicosia,,,33.3444592,,,,,,,,,35.1693645,,yes,,,Nicosia clinic,,,
+hospital,,,,,,,,33.6282718,,Kaart Ground Survey 2017,,,,,,,34.9184540,Larnaka,,,,Old Hospital,,,hospital
+hospital,,,,,,,,33.3582013,,,,,,,,,35.1525074,,hospital,Ογκολογικό Τράπεζας Κύπρου,,Ongologiko,,,
+hospital,,,,,,,,33.3105150,,,,info@ophthalmiccentre.com,http://www.ophthalmiccentre.com/,+357 22 464 345,,+357 22 464 344,35.1608588,,,,,Ophthalmos Eye and Laser Centre,,,
+hospital,,,,,,,,33.0505051,,,,,,,,,34.7052261,,,,,Pantazis Clinic,,,
+hospital,,,Q14551319,,,,,32.4452065,,,,,,,,,34.7889183,,yes,,,Paphos General Hospital,,,
+hospital,,,,,,,,34.0376350,,,,,,,,,35.0303541,,yes,,,Santa Marina Polyclinic,,,
+hospital,,,,Dr. Ermogenis Pavlou,,8,orthopaedics;paediatrics,33.0341561,,,Aristovoulou,info@orthopaidikos.com,www.orthopaidikos.com,,no,,34.6881030,Limassol,,,,St Peter and Paul Private Hospital,3085,,hospital
+hospital,,,,,,,,33.7526839,,,,,,,,,35.3727960,,,,,TATLISU SAĞLIK OCAĞI,,,hospital
+hospital,,,,,,,,34.0472574,,,,,,,,,35.0156773,,,,,Valessia,,,
+hospital,private,,,Özünlü Lab,,33,clinical_chemistry;biochemistry;microbiology,33.3508875,,,Mehmet Akif Caddesi,,,,,,35.1822118,Λευκωσία - Lefkoşa,,,,Vedat Azmi Özünlü Tıbbi Tahlil Laboratuvarı,99010,,hospital
+hospital,,,,,,,,33.0396943,,,,,,,yes,,34.6824013,,,,,Ygeia Policlinic,,,hospital
+hospital,,,,,,,,33.3275245,4,,,,http://www.ozelbaskenthastanesi.com/,,yes,,35.2001980,,,,Özel Başkent Hospital,Özel Başkent Hastanesi,,,hospital
+hospital,,,,,,,,33.3272244,,,,,,,,+90 392 8156677,35.3337947,,yes,,,Özel Girne Hastanesi,,,hospital

@@ -1,0 +1,16 @@
+amenity,addr:city,operator,addr:housenumber,building:levels,opening_hours,lon,source,addr:contact,email,website,brand,phone,lat,addr:street,building,name,addr:postcode,wheelchair,ref:lt:vvkt,dispensing,healthcare,addr:country
+pharmacy,Kuršėnai,,5,,Mo-Fr 08:00-18:00; Sa 08:00-14:00,22.9344993,,,,http://www.100metu.lt,,+370 41 581 252,56.0056128,Vytauto g.,yes,100 metų vaistinė,81182,,,,,
+pharmacy,Veliuona,,7,,"Mo-Fr 08:00-16:00, Sa 09:00-13:00",23.2691959,,yes,,https://www.benu.lt,BENU,+370 614 09317,55.0845527,Veliuonėlės g.,yes,BENU vaistinė,,,0079-9,,,
+pharmacy,,,,2,,25.4134159,ORT10LT,,,,,,55.2299722,,yes,Camelia,,,,yes,pharmacy,
+pharmacy,Maišiagala,,19,,,25.0652888,,,,,,,54.8681021,Vilniaus g.,house,Camelia,,,,,,
+pharmacy,Ignalina,,59,1,,26.1642116,,,,,,,55.3413346,Laisvės g.,yes,Camelia vaistinė,,,,,,
+pharmacy,Žiežmariai,,19,,,24.4414866,,,,,,,54.8047277,Kauno g.,yes,Camelia vaistinė,56238,,,,,
+pharmacy,Kaunas,,1,,,23.9211127,,,,https://www.gintarine.lt/,,+370 37 331816,54.9167796,V. Lašo g.,apartments,Gintarinė vaistinė,,,,,,
+pharmacy,Kaunas,,25A,,,23.9263448,,,,https://www.gintarine.lt/,,+370 37 730069,54.9191049,Lazūnų g.,yes,Gintarinė vaistinė,,,,,,
+pharmacy,Veiveriai,,44,,,23.7291850,,,,,,,54.7672367,Kauno g.,yes,Gintarinė vaistinė,59292,,,,,
+pharmacy,Obeliai,,8,,Mo-Fr 08:00-17:30; Sa 09:00-14:00; Su off,25.7952140,,,,https://www.gintarine.lt/,,+370 458 78 634,55.9399580,Vytauto g.,yes,Gintarinė vaistinė,,,,,,
+pharmacy,Rokiškis,,12,,,25.5824181,,,,,,,55.9680658,Juodupės g.,yes,Gintarinė vaistinė,,,,,,LT
+pharmacy,Pasvalys,,68,,Mo-Fr 08:30-16:00,24.4060850,,,pasvalys_gelezinkelieciu68@gintarine.lt,https://www.gintarine.lt/,,+370 451 53975,56.0676533,Geležinkeliečių g.,yes,Gintarinė vaistinė,,,,,,
+pharmacy,,,,,Mo-Fr 08:00-20:00; Sa 09:00-17:00; Su 09:00-15:00,24.2602725,,,,,,,55.0752436,,yes,Gintarinė vaistinė,,limited,,,,
+pharmacy,Kaunas,Lietuvos sveikatos mokslų universitetas,51,,,23.9273130,,,,,,,54.9223231,Sukilėlių pr.,yes,LSMU vaistinė,,,,,,
+pharmacy,,,,,,23.3023269,,,,,,,55.9422979,,yes,Litfarma vaistinė,,,,,,

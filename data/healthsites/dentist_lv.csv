@@ -1,0 +1,7 @@
+addr:housenumber,building,amenity,addr:city,phone,building:levels,addr:postcode,healthcare:speciality,lon,email,website,source,healthcare,opening_hours,lat,name:ru,addr:street,addr:country,name
+12,yes,dentist,Daugavpils,65425425,,LV-5401,,26.5161535,zob@apollo.lv,http://www.zobi.daugavpils.lv/,,,Mo-Fr 07:00-20:00;Sa 07:00-14:00;Su 09:00-15:00,55.8683479,Даугавпилсская зубоврачебная поликлиника,Lāčplēša iela,LV,Daugavpils zobārstniecības poliklīnika
+,yes,dentist,,,,,dentistry,24.3955608,,,,dentist,,56.7392369,,,,Ineses Lāces ārsta prakse
+14,yes,dentist,Cēsis,,,LV-4101,,25.2655283,,,"Ortofoto 1:10000, 2007.-2008. gads, © Latvijas Ģeotelpiskās informācijas aģentūra",,"Mo,We,Fr 08:00-16:00; Tu,Th 12:30-19:00",57.3099169,,Gaujas iela,LV,La Denta
+,yes,dentist,,,,,,23.7215146,,,,,,56.6441803,,,,Mutes veselības centrs
+20,hospital,dentist,Rīga,,4,,,24.0540142,,,,,,56.9548150,,Dzirciema iela,LV,Stomatoloģijas institūts
+,yes,dentist,,,,,,21.0148014,,,,,,56.5116832,,,,Zobārstniecības poliklīnika

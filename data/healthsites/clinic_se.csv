@@ -1,0 +1,134 @@
+amenity,healthcare:speciality,lon,contact:website,fax,height,alt_name,operator,is_in:municipality,addr:housenumber,building:levels,opening_hours,contact:phone,addr:housename,name:de,note,source,ref,website,FIXME,description,emergency,brand,addr:unit,phone,levels,ownership,lat,addr:street,building,name:en,operator:type,name,roof:shape,url,addr:postcode,wheelchair,addr:city,roof:orientation,healthcare,toilets:wheelchair,addr:country
+clinic,,17.4161276,,,,,,,,,,,,,,,,,,,,,,,,,62.4264696,,,,,Alnö vårdcentral,,,,,,,,,
+clinic,,17.8907438,,,,,,,,,,,,Arjeplog Gesundheitszentrum,,,,,,,,,,,,,66.0500335,,yes,Arjeplog Health Centre,,Arjeplogs hälsocentral,,,,,,,,,
+clinic,,13.0864536,,,,,,,6,,,,,,,,,,,,,,,,,,55.6353988,Svenshögsvägen,,,,Arlövs vårdcentral,,,232 38,,Arlöv,,,,SE
+clinic,,13.1597117,,,,,Avonova Hälsa AB,,4,,,,,,,,,,,,,,,,,private,58.5054748,Kållandsgatan,yes,,,Avonova,,,531 30,,Lidköping,,clinic,,SE
+clinic,,17.9724295,,,,,,,2,,,,,,,,,,,,no,,,,,,59.3041248,Axelsbergs Torg,,,,Axelsbergs vårdcentral,,,129 38,,Hägersten,,,,SE
+clinic,,18.1350441,,,,,,,,2,,,,,,,,,,,,,,,,,59.2765113,,yes,,,Bagarmossens vårdcentral,gabled,http://www.dvcb.se/,,,,along,,,
+clinic,,14.4876985,,,,,,,,,,,,,,,,,,,,,,,,,59.3148890,,yes,,,Baggängens vårdcentral,,,,,,,,,
+clinic,,17.1330225,,,,,Region Gävleborg,,5,,,,,,,,,,,,,,314,,,,60.6867935,Folkparksvägen,yes,,,Barn- och ungdomshabilitering Gävle,,,806 33,,Gävle,,clinic,,SE
+clinic,,13.7158379,,,,,,,12,,,,,,,,,,,,,,,,,,56.2919081,Algatan,,,,Bjärnums vårdcentral,,,,,,,,,SE
+clinic,,22.1681912,,,,,,,7,,,,,,,,,http://www.nll.se/sv/Halsa-och-sjukvard/Vardcentraler1/Lulea/Lulea-Bjorkskatans-halsocentral/,,,,,,,,,65.6155075,Höstvägen,,,,Björkskatans hälsocentral,,,976 33,,Luleå,,,,SE
+clinic,,18.2286159,,,,,,,,,,,,,,,,,,,,,,,,,59.2466421,,yes,,,Bollmora vårdcentral,,,,,,,,,
+clinic,,16.6632357,,,,,,,,,,,,,,,,,,,,,,,,,56.8806947,,yes,,,Borgholms Hälsocentral,,,,,,,,,
+clinic,,15.0508240,,,,,,,,,,,,,,,,,,,no,,,,,,58.5292431,,yes,,,Brinkens Vårdcentral,,,,,,,,,
+clinic,,18.0754806,,,,,,,,,,,,,,,,,,,,,,,,,59.4979099,,,,,Byle Gård,,,,,,,,,
+clinic,,21.2070707,,,,,,,,,,,,,,,,,,,yes,,,,,,64.9505427,,yes,,,Byske Hälsocentral,,,,,,,,,
+clinic,,17.5383191,,,,,,,,,,,,,,,,http://www2.praktikertjanst.se/8/BalstaDoktorn/,,,,,,,,,59.5580619,,yes,,,BålstaDoktorn,,,,,,,,,
+clinic,,12.9322214,,,,,,,56,,,,,,,,,,,,,,,,,,55.5798152,Järnvägsgatan,yes,,,Capio Citykliniken,,,,,Limhamn,,,,SE
+clinic,,14.8649995,,,,,,,,1,Mo-Fr 08:00-17:00,,,,,,,https://capio.se/narsjukvard/orebro/fjugesta-lekeberg-vardcentral/,,,,,,,,,59.1755260,,civic,,,Capio Vårdcentral Lekeberg,,,,,,,,,
+clinic,,17.9662137,,,,,,,1,,,,,,,,,,,,no,,,,,,59.4442381,Edsbergs Torg,yes,,,Edsbergs vårdcentral,,,19252,,Sollentuna,,,,SE
+clinic,,15.8097975,,,,,,,,,,,,,,,,,,,,,,,,,61.3801479,,yes,,,Edsbyns Hälsocentral,,,,,,,clinic,,
+clinic,,17.0337380,,,,,,,,,,,,,,,,,,,,,,,,,58.7606093,,yes,,,Ekensberg vårdcentral,,,,,,,,,
+clinic,,15.6802911,,,,,,,7,,Mo-Fr 07:30-17:00,,,,,,,,,,,,,,,,58.3771880,Ekholmsvägen,hospital,,,Ekholmens vårdcentral,,,,,Linköping,,,,SE
+clinic,,15.5374169,,,,,Landstingen i Kalmar län,,12,,,,,,,,,,,,,,,,,,56.6326597,Rådhusgatan,yes,,,Emmaboda hälsocentral,,,361 30,,Emmaboda,,clinic,,SE
+clinic,,21.7261541,,,,,,,,,,,,,,,,http://nll.se/sv/Halsa-och-sjukvard/Vardcentraler1/Boden/Boden-Erikslunds-halsocentral/,,,,,,+46 921-130 45,,,65.8291367,,yes,,,Erikslunds hälsocentral,,,,,,,,,
+clinic,,16.6396494,,,,,,,,,,,,,,,,,,,,,,,,,57.7534596,,hospital,,,Esplanaden vårdcentral,,,,,,,,,
+clinic,,15.6205508,,,,,,,18,,,,,,,Bing + local knowledge + website,,https://faluvc.se/,,,,,,,,,60.6129799,Södra Mariegatan,yes,,,Falu Vårdcentral,,,79170,,Falun,,,,SE
+clinic,,18.2809992,,,,,,,52,,,,,,,,,http://www.famlak.se/saltsjobaden/,,,,,,,,,59.2856946,Byvägen,yes,,,Familjeläkarna Saltsjöbaden,,,13334,,Saltsjöbaden,,,,SE
+clinic,,15.5920019,,,,,,,3,,,,,,,,,,,,,,,,,,59.4356826,Torgvägen,,,,Fellingsbro vårdcentral,,,732 71,,Fellingsbro,,,,SE
+clinic,,12.1710638,,,,,Region Halland,,1,,Mo-Fr 08:00-17:00,+46 300-56 52 50,,,,,,,,,,,,,,,57.4620154,Rajgräsvägen,yes,,,Fjärås Vårdcentral,,,439 71,,Fjärås,,clinic,,SE
+clinic,,17.5824151,,,,,,,95,,"Mo,Tu,Th,Fr 08:00-17:00; We 07:30-19:00",,,,,,,,,,,,,,,,59.8506021,Flogstavägen,yes,,,Flogsta vårdcentral,,,,,Uppsala,,,,SE
+clinic,dentistry,15.6862922,,,,,,,,,,,,,,,,,,,,,,,,,58.1357164,,,,,Folktandvården,,,,,,,dentist,,
+clinic,,12.5263693,,,,,,,35,,,,,,,,,,,,,,,,,,62.5490322,Rörosvägen,yes,,,Funäsdalens hälsocentral,,,84095,,Funäsdalen,,clinic,,
+clinic,,21.4854272,,,,,,,,,,,,,,,,,,,,,,,,,65.2941887,,yes,,,Furunäsets hälsocentral,,,,,,,,,
+clinic,,17.3021091,,,,,,,29,,,,,,,,,,,,no,,,,,,59.0452849,Nygatan,yes,,,Gnesta Vårdcentral,,,646 35,,Gnesta,,,,SE
+clinic,,18.3811794,,,,,Stockholms Läns Landsting,,,,,,,,,,,,,,no,,,,,,59.3226467,,hospital,,,Gustavsbergs Vårdcentral,,,,,,,,,
+clinic,,14.0906712,,,,Kärrsgårdens äldrecentrum,,,,,,,,,,Bing,,,,,,,,,,,57.9090828,Kärrsvägen,yes,,,Habo Vårdcentral,,,,,,,,,
+clinic,,15.1173793,,,,,,,,,,+46 582-880 22,,,,,,,,,,,,,,,59.0601271,,hospital,,,Hallsbergs Vårdcentral,,,,,,,,,
+clinic,,24.1329206,,+46-922-147-28,,,,,,,Mo-Fr 07:00-17:00,,,,,,,,,,,,,+46-922-251-00,,,65.8392324,Lasarettsgatan,,,,Haparanda vårdcentral,,,95322,,,,,,
+clinic,,16.2680182,,,,,,,,,,,,,,,,,,,,,,,,,57.1251644,,yes,,,Health Sub Center,,,,,,,,,
+clinic,,16.8615441,,,,,,,,,,,,,,,,,,,,,,,,,59.9425082,,clinic,,,Heby Vårdcentral,,,,,,,,,
+clinic,,15.9958710,,,,,,,,,,,,,,,,,,,no,,,,,,60.2739319,,yes,,,Hedemora vårdcentral,,,,,,,,,
+clinic,,15.1297136,,,,,,,,1,,,,,,,,,,,,,,,,,59.7145828,,hospital,,,Hjärtat Vårdcentralen,,,,,,,clinic,,
+clinic,,21.4102979,,,,,,,,,,,,,,,,,,,,,,,,,65.2881786,,yes,,,Hortlax Hälsocentral,,,,,,,,,
+clinic,,13.0676818,,,,,,,,,,,,,,,,,,,no,,,,,,55.5805147,,yes,,,Husie vårdcentral,,,,,,,,,
+clinic,,17.3108407,,,,,,,,,,,,,,,,,,,,,,,,,62.3958590,,,,,Hälsocentralen Centrum,,,,,,,,,
+clinic,,17.7805889,,,,,Landstinget Västernorrland,,,,Mo-Su 08:00-16:30,,,,,,,,,,,,,,,,62.9324791,,,,,Hälsocentralen Kramfors,,,,,,,,,
+clinic,,11.6510474,http://www.honovardcentral.se/,,,,Hönö vårdcentral,,3A,,,+46 31 712 76 60,,,,,,,,,,Västra Götalandsregionen,,,,private,57.6970212,Minkebergsvägen,commercial,,,Hönö Vårdcentral,,,475 40,,Hönö,,clinic,,SE
+clinic,,17.0748244,,,,,,,,,,,,,,,,,,,,,,,,,61.6433661,,yes,,,Iggesunds Hälsocentral,,,,,,,clinic,,
+clinic,,14.9211175,,,,,,,,,,,,,,,,,,,,,,,,,56.7439870,,yes,,,Ingelstad Vårdcentral,,,,,,,,,
+clinic,,16.1697695,,,,,,,19,,,,,,,,,,,,,,,0651-172 30,,,61.7126292,Stationsgatan,yes,,,Järvsö hälsocentral,,,827 51,,Järvsö,,,,SE
+clinic,,15.2871452,,,,,,,,,Mo-Th 08:00-17:00; Fr 08:00-15:00,,,,,,,http://www.1177.se/Hitta-vard/Blekinge/Kontakt/Kallinge-vardcentral-Ronneby//?hvq=v%C3%A5rdcentral,,,,,,+46 457 731790,,,56.2473313,,,,,Kallinge Vårdcentral,,,,yes,,,,,
+clinic,,15.1969377,,,,,,,,,,,,,,,,,,,,,,,,,59.2760475,,civic,,,Karla vårdcentral,,,,,,,,,
+clinic,,15.6353009,,,,,,,,,,,,,,,,,,,,,,,,,57.9930455,,yes,,,Kisa vårdcentral,,,,,,,,,
+clinic,,17.6209048,,,,,,,28A,,,,,,,yahoo!,,http://www.lul.se/sv/Vard-halsa/Sjukvard/Primarvard/Landstingets-vardcentraler/Vardcentral/Kungsgardets-vardcentral/,,,no,,,,,,59.8550562,Sankt Johannesgatan,yes,,,Kungsgärdets vårdcentral,,,,,Uppsala,,,,SE
+clinic,,13.1124639,,,,,Region Skåne,,,,,,,,,,,,,,,,,,,,55.7905867,,yes,,,Kävlinge vårdcentral,,,,,,,,,
+clinic,,15.6263504,,,,,,,49,,,,,,,Bing,,,,,,,,,,,58.4064429,Sankt Larsgatan,hospital,,,Landstinget Torkelbergsgatan,,,,,,,,,SE
+clinic,,12.6568153,,,,,,,,,,,,,,,,,,,no,,,,,,56.0938014,,yes,,,Laröds vårdcentral,,,,,,,,,
+clinic,,15.2701936,,,,,,,67,,,,,,,,,,,,,,,,,,56.7529415,Storgatan,yes,,,Lessebo Vårdcentral,,,,,Lessebo,,clinic,,SE
+clinic,,13.0441615,,,,,,,,,Mo-Fr 08:00-17:00,,,,,,,,,,,,,+46-564-47950,,,60.6122366,,yes,,,Likenäs vårdcentral,,,,,,,,,
+clinic,,13.0703927,,,,,,,,,,,,,,Lomma kommun,,,,,,,,,,,55.6745469,,yes,,,Lomma vårdcentral,,,,,,,,,
+clinic,,15.6484929,,,,,,,12,,,,,,,,,,,,,,,,,,56.1984070,Källevägen,yes,,,Lyckeby Vårdcentral,,,37162,,Lyckeby,,,,SE
+clinic,,13.0023914,,,,,,,,,,,,,,,,,,,,,,,,,61.1742726,,yes,,,Läkar Mottagning,,,,,,,,,
+clinic,,13.5326752,,,,,,,,,,,,,,,,,,,,,,,,,59.3319718,,yes,,,Lövnäs vårdcentral,,,,,,,,,
+clinic,,12.2917780,,,,,,,21C,,,,,,,,,,,,,,,,,,58.2835036,Djupebäcksgatan,yes,,,Maria Alberts Vårdcentral,,,46132,,,,clinic,,SE
+clinic,,15.6251412,,,,,,,42,3,,,,,,Bing,,,,,,,,,,,58.4073949,Sankt Larsgatan,hospital,,,Medicinskt centrum,,,,,,,,,SE
+clinic,general,15.1987323,,,,,,,,,,,,,,,,,,,,,,,,,59.2882942,,civic,,,Mikaeli vårdcentral,,,,,,,clinic,,
+clinic,,17.1213153,,,,,,,,,,,,,,bing,,http://www.mitthjarta.se/index.php?s=25,,,,,,,,,61.7261234,,yes,,,Mitt Hjärta - Varvet Hälsocentral,,,,yes,,,clinic,yes,
+clinic,,22.1293377,,,,,,,75,,,,,,,bing,,http://www.nll.se/sv/Halsa-och-sjukvard/Vardcentraler1/Lulea/Lulea-Mjolkuddens-halsocentral/,,,,,,,,,65.6011443,Mjölkuddsvägen,yes,,,Mjölkuddens hälsocentral,,,97341,,Luleå,,clinic,,
+clinic,,14.5743624,,,,,,,,,,,,,,,,,,,,,,,,,57.0009680,,yes,,,Moheda Vårdcentral,,,,,,,,,
+clinic,,15.9280470,,,,,,,,,,,,,,bing,,,,,,,,,,,60.0600572,,yes,,,Norbergs vårdcentral,,,,,,,,,
+clinic,,13.2041560,,,,,,,4,,Mo-Fr 08:00-17:00,,,,,,,,,,,,,,,,55.7237303,Fäladstorget,yes,,,Norra Fäladen Vårdcentral,,,,,Lund,,,,SE
+clinic,,17.9209555,,,,,,,,,,,,,,,,,,,,,,,,,59.4602075,,,,,Norrvikens vårdcentral,,,,,,,,,
+clinic,,13.5526598,,,,,Västra Götalandsregionen,,8,,,+46-515-87860,,,,,,,,,,Västra Götalandsregionen,,,,,58.1642619,Sankt Olofsgatan,civic,,,Närhälsan Oden vårdcentral,,,521 85,,Falköping,,clinic,,SE
+clinic,,11.8989037,,,,,Västra Götalandsregionen,,198B,,,,,,,,,,,,,,,,,,57.6423437,Grevegårdsvägen,yes,,,Närhälsan Opaltorget vårdcentral,,,,,,,,,SE
+clinic,,12.0333941,https://www.narhalsan.se/hitta-mottagning/goteborg/goteborg-ostra-centrum/narhalsan-torpavallen-vardcentral/,,,,Västra Götalandsregionen,,9,,,+46-31-747 81 00,,,,,,,,,,,,,,,57.7244898,Torpavallsgatan,public,,,Närhälsan Torpavallen vårdcentral,,,416 73,,Göteborg,,,,SE
+clinic,,14.1635046,,,,,,,,,,,,,,,,,,,,,,,,,56.0600154,,yes,,,Näsby vårdcentral,,,,,,,,,
+clinic,,12.9509735,,,,,,,,,,,,,,,,,,,,,,,,,55.4182840,,yes,,,Näsets läkargrupp,,,,,,,,,
+clinic,,15.5366937,,,,,,,16,,,,,,,,,,,,,,,,,,56.2018971,Kyrkvägen,yes,,,Nättraby vårdcentral,,,37024,,Nättraby,,,,SE
+clinic,,13.1766725,,,7,,,,1,2,,,,,,,,,,,,,,,,,55.7280911,Nöbbelövs torg,yes,,,Nöbbelöv vårdcentral,,,,,Lund,,,,SE
+clinic,,15.2172762,,,,,,,,,,,,,,,,,,,no,,,,,,59.2805139,Ribbingsgatan,yes,,,Olaus Petri Vårdcentral,,,,,,,,,
+clinic,,15.3322636,,,,,,,,,,,,,,,,,,,,,,,,,59.0691854,,yes,,,Pålsboda Vårdcentral,,,,,,,,,
+clinic,,15.2746350,,,,,,,,,,,,,,,,https://www.1177.se/Blekinge/Fakta-och-rad/Behandlingar/Ronneby-rehabiliteringscenter/,,,,,,+46 457 731490,,,56.2123169,,yes,,,Ronneby rehabiliteringscenter,,,,,,,,,
+clinic,,17.0754772,,,,,,,,,,,,,,bing,,,,,,,,,,,59.3513566,,yes,,,Ryggkirurgiska Kliniken,,,,,,,,,
+clinic,,15.1169306,,,,,,Rättviks kommun,,,,,,,,,,,,,,,,,,,60.8877929,,,,,Rättviks vårdcentral,,,,,,,,,
+clinic,,22.2968832,,,,,,,,,,,,,,local_knowledge,,,,,yes,,,,,,65.8584671,,,,,Råneå Vardcentral,,,,,,,,,
+clinic,,13.1848751,,,,,,,6,,,,Vårdcentralen Sankt Lars,,,,,,,,,,,,,,55.6868800,Sankt Lars väg,yes,,,Sankt Lars vårdcentral,,,22185,,Lund,,,,SE
+clinic,,17.3473490,,,,,,,,,,,,,,,Berget 9,,,,no,,,,,,62.3796072,,,,,Skönsmons vårdcentral,,,,,,,,,
+clinic,,13.2808243,,,,,Capio,,66,,,,,,,,,,,,,,,,,,55.8411490,Odengatan,,,,Specialisthuset Eslöv,,,241 35,,Eslöv,,,,SE
+clinic,,17.8989307,,+46812349578,,,,,,,Mo-Fr 08:00-17:00,,,,,Bing,,,,,,,,+46812339300,,,59.3810003,,,,,Spånga Vårdcentral,,http://www.vardguiden.se/Hitta-vard-och-omsorg/Hitta-vard-och-omsorg/Kontaktkort/?HSAID=SE2321000016-1625,,,,,,,
+clinic,,17.7028911,,,,,,,,,,,,,,Bing,,,,,,,,,,,59.9605337,,yes,,,Storvretas vårdcentral,,,,,,,clinic,,
+clinic,,15.5634199,,,,,,,,,,,,,,,,,,,,,,,,,63.8595200,,,,,Strömsunds vårdcentral,,,,,,,,,
+clinic,,18.1859007,,,,,,,,,,,,,,,,,,,,,,,,,63.0136843,,,,,Sundbrolunds Vårdcentral,,,,,,,,,
+clinic,,13.1401387,,,,,,,,,,,,,,,,,,,,,,,,,59.8451683,,public,,,Sunne vårdcentral,,,,,,,,,
+clinic,,14.3520922,,,,,,,,,,,,,,,,,,,,,,,,,62.0410001,,,,,Svegs hälsocentral,,,,,,,clinic,,
+clinic,,15.9079540,,,,,,,,,,,,,,,,,,,,,,,,,60.7419571,,yes,,,Svärdsjö vårdcentral,,,,,,,,,
+clinic,,13.0047908,,,,,,,,,,,,,,,,,,,,,,,,,55.5889925,,yes,,,Södervärns Vårdcentral,,,,,,,clinic,,
+clinic,,14.5826472,,,,,,,,,,,,,,,,,,,,,,,,,56.0563142,,hospital,,,Sölvesborgs vårdcentral,,,,,,,,,
+clinic,,15.0933830,,,,,,,19,,,,,,,,,,,,,,,,,,57.4269712,Nygatan,yes,,,Tandvårdshuset,,,57433,,Vetlanda,,,,SE
+clinic,,15.6421746,,,,,,,43C,,,,,,,,,,,,,,,,,,58.4071061,Nya Tanneforsvägen,hospital,,,Tannefors vårdcentral,,,,,Linköping,,,,SE
+clinic,,15.6335549,,,,,,,,,"Mo-Fr 08:00-12:00, 13:00-17:00",,,,,Bing,,https://www.1177.se/hitta-vard/kontaktkort/Vardcentral-Tisken/,,,no,,,,,,60.6027270,,yes,,,Tiskens Vårdcentral,,,,yes,,,clinic,,
+clinic,,17.5578777,,,,,,,,,,,,,,Bing,,,,,,,,,,,58.9025204,,hospital,,,Trosa Vårdcentral,,,,,,,,,
+clinic,,15.2363299,,,,,,,,,,,,,,,,,,,,,,,,,59.2545844,,yes,,,Tybble vårdcentral,,,,,,,,,
+clinic,,13.2879384,,,,,,,33,,,,,,,,,,,,,,,,,,55.8337014,Solvägen,,,,Tåbelunds Vårdcentral,,,241 31,,Eslöv,,,,SE
+clinic,,17.0067933,,,,,,,,,,,,,,,,,,,,,,,,,60.6438817,,yes,,,Valbo Hälsocentral,,,,,,,,,
+clinic,,15.6051778,,,,,,,25,,,,,,,,,,,,,,,,,,58.4029700,Westmansgatan,hospital,,,Valla vårdcentral,,,58216,yes,Linköping,,,,SE
+clinic,,18.0429370,,,,,,,10,,,,,,,,,https://www.vallatorpsdoktorn.se/,,,,,,,,,59.4660053,Vallatorpsvägen,yes,,,Vallatorpsdoktorn,,,187 52,,Täby,,,,SE
+clinic,,18.1955387,,,,,,,,,,,,,,,,,,,,,,,,,59.1929142,,yes,,,Vendelsö vårdcentral,,,,,,,,,
+clinic,,17.6153460,,,,,,,,,,,,,,,,,,,,,,,,,59.0657530,,,,,Vidarkliniken,,,,,,,,,
+clinic,,16.6634941,,,,,,,,,,,,,,,,,,,,,,,,,64.6247158,,yes,,,Vilhelmina vårdcentral,,,,,,,,,
+clinic,,17.8710588,,,,,,,1,,,,,,,,,http://www.ptj.se/vallingby-lakarhus/,check floors,,,,,,10,,59.3640983,Indalsbacken,yes,,,Vällingby Läkarhus,,,162 68,,Vällingby,,,,SE
+clinic,,17.8792137,,,,,,,,,,,,,,,,,,,,,,,,,59.2539241,,yes,,,Vårby Vårdcentral,,,,,,,clinic,,
+clinic,,13.7870111,,,,,,,,,,,,,,,,,,,,,,,,,56.1666281,,clinic,,,Vårdcentral Solbrinken,,,,,,,,,
+clinic,,13.1023343,,,,,,,,,,,,,,,,,,,,,,,,,59.3522094,,yes,,,Vårdcentral och tandläkare,,,,,,,,,
+clinic,,19.1673334,,,,,,,,,,,,,,,,,,,,,,,,,65.5971195,,yes,,,"Vårdcentral, Tandläkare och Äldreboende",,,,,,,,,
+clinic,,14.1342053,,,,,,,,,,,,,,,,,,,,,,,,,57.4921585,,yes,,,Vårdcentralen,,,,,,,,,
+clinic,,15.0874574,,,,,Region Östergötland,,,,,,,,,,,,,,,,,,,,58.3885863,Mjölbygatan,yes,,public,Vårdcentralen,,,,,,,clinic,,
+clinic,,12.5013360,,,,,,,,,,,,,,,,,,,,,,,,,56.9073029,,yes,,,Vårdcentralen Falkenberg,,,,,,,clinic,,
+clinic,,19.1649161,,,,,Landstinget Västernorrland,,187,,,,,,,,,,,,no,,,,,,63.3398424,Bruksvägen,yes,,,Vårdcentralen Husum-Trehörningsjö,,,89631,,Husum,,clinic,,SE
+clinic,,13.5470675,,,,,,,2,,,,,,,,,https://www.skane.se/sv/Webbplatser/Primarvarden_Skane/Vardcentraler/Vara-vardcentraler/Orter-A-L/Hoor/,,,no,,,+46 413 35 11 00,,,55.9314922,Storgatan,yes,,,Vårdcentralen Höör,,,243 30,,Höör,,,,SE
+clinic,,13.4876026,,,,,Praktikertjänst,,,,Mo-Fr 08:00-17:00,,,,,,,http://www.ptj.se/vardcentralen-kasernhojden/,,,,,,,,,59.3874552,,yes,,,Vårdcentralen Kasernhöjden,,,,,,,,,
+clinic,,13.3189663,,,,,,,,,,,,,,,,,,,,,,,,,59.4983055,,yes,,,Vårdcentralen Kil,,,,,,,,,
+clinic,,15.1241091,,,,,,,,,,,,,,Bing,,,,,,,,,,,58.3244775,,hospital,,,Vårdcentralen Mjölby,,,,,,,,,
+clinic,,13.1719616,,,,,,,,3,,,,,,,,,,,,,,,,,55.7077198,,yes,,,Vårdcentralen Måsen,,,,,,,,,
+clinic,,15.5611496,,,,,Region Östergötland,,40 A,,,,,,,,,http://www.lio.se/vc/ryd,,,,,,+46 10-105 96 60,,,58.4093894,Alsättersgatan,hospital,,,Vårdcentralen Ryd,,,584 32,yes,Linköping,,,,SE
+clinic,,13.1914374,,,,,,,16,,,,,,,,,http://www.vardcentralensodertull.se/,,,,,,,,,55.6982372,Helgeandsgatan,yes,,,Vårdcentralen Södertull,,,,,Lund,,,,SE
+clinic,,12.9210713,,,,,,,,,,,,,,,,,,,no,,,,,,56.0789782,,yes,,,Vårdcentralen Söderåsen,,,,,,,,,
+clinic,,14.2849378,,,,,,,,,,,,,,,,,,,no,,,,,,55.9289944,,yes,,,Vårdcentralen Åhus,,,,,,,,,
+clinic,,14.0395006,,,,,,,12,,,,,,,,,,,,no,,,,,,61.2318380,Furuvägen,,,,Älvdalens vårdcentral,,,796 30,,Älvdalen,,,,SE
+clinic,,17.3905801,,,,"Sörberge Hälsocentral, Barn och Mödravård",Premicare AB,,,,,,,,,,,,,,,,,,,,62.5199134,,,,,Älvens Hus,,,,,,,,,
+clinic,general,20.3164443,,,,,Region västerbotten,,2,2,Ålidhems hälsocentral: 08-17 Vardagar.,,,,"Primärvårdsjouren öppen 17-23 mån-tors, 17-24 fredag samt 08-24 lördag + söndag.",,,,,,,,,,,,63.8152350,Tvistevägen,commercial,,government,Ålidhems hälsocentral/Primärvårdsjouren,,,907 36,,Umeå,,clinic,,
+clinic,,17.3085122,,,,,,,,,,,,,,,,,,,,,,,,,59.7319739,,yes,,,Örsundsbro vårdcentral,,,,,,,,,
+clinic,,17.8992899,,,,,,,,,,,,,,,,,,,no,,,,,,58.9835005,,yes,,,Ösmos Vård,,,,,,,,,
+clinic,,18.3635168,,,,,,,1,,,,,,,,,http://www.lul.se/osthammar,,,,,,+46 173 88000,,,60.2585283,Lasarettsvägen,,,,Östhammars vårdcentral,,,74234,,Östhammar,,,,SE

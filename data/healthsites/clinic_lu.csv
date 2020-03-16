@@ -1,0 +1,2 @@
+addr:housenumber,building,amenity,addr:city,addr:postcode,lon,lat,addr:street,addr:country,name
+5,yes,clinic,Steinsel,7347,6.1257275,49.6755956,Rue de la Libération,LU,Centre Médical de Steinsel

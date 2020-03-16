@@ -1,0 +1,11 @@
+addr:housenumber,building,amenity,lat,name,phone,wheelchair,addr:postcode,roof:material,healthcare:speciality,lon,addr:city,website,roof:shape,healthcare,operator,addr:country,addr:street
+2,house,dentist,45.4711496,Dental Polyclinic Šiljeg,,,,,,13.5139305,,www.siljeg.hr,,,,,Cvjetna ulica
+,yes,dentist,45.8274302,Dentour,,,,roof_tiles,,15.9799539,,,gabled,,,,
+60,yes,dentist,46.3425357,GALEKOVIĆ STOMATOLOŠKE ORDINACIJE - ZUBNI LABORATORIJ,+385 42 722 022,yes,42207,,,16.1544812,Vinica,https://www.galekovic.net/,,,,,Vladimira Nazora
+51/C,yes,dentist,46.3441771,Poliklinika Galeković d.o.o.,+385 42 722 147,,,,,16.1532615,,https://poliklinika-galekovic.hr/,,,,,Vladimira Nazora
+,yes,dentist,44.1427724,Privatna stomatološka ordinacija,,,,,,15.2467468,,,,dentist,,,
+132,yes,dentist,46.2881401,Specijalistička stomatološka ordinacija za ortodonciju,,,42000,,orthodontics,16.3459052,Varaždin,ortodoncija-weber.com,,dentist,,,Zagrebačka ulica
+,yes,dentist,44.8679459,Stomatologija,,,,,,13.8525817,,,,dentist,,,
+,yes,dentist,46.3531510,Zubna ordinacija,,,,,,16.8127587,,,,dentist,,,
+49,yes,dentist,46.4999846,dr. dent. med. Ninoslav Petek,,,40312,,,16.2818761,Štrigova,https://www.drpetek.hr/,,dentist,,,Štrigova
+26,commercial,dentist,45.8152008,Šlaj Anic stomatološka klinika,,,10000,roof_tiles,,16.0060069,Zagreb,,hipped,,,,Ulica Pavla Štoosa

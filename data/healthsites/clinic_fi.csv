@@ -1,0 +1,76 @@
+roof:levels,amenity,contact:phone,healthcare:speciality,contact:website,roof:colour,fax,roof:height,source:architect,snowmobile,operator,addr:housenumber,room,building:levels,name:fi,image,operator:type,lon,source,roof:material,addr:street,start_date,website,addr:unit,indoor,description,emergency,contact:email,building:material,opening_hours,phone,source:start_date,lat,name:sv,addr:city,building,source:name,name:en,contact:fax,name,roof:shape,addr:postcode,wheelchair,level,email,architect,healthcare,wikidata,toilets:wheelchair,landuse,addr:country
+,clinic,,,,,,,,,,1,,,,,,21.7320756,,,Rantaperentie,,http://www.ksthky.fi/yhteystiedot/eurajoen_terveysasema,,,,,,,,,,61.1982207,,Eurajoki,yes,,,,Eurajoen terveysasema,,27100,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,22.1431543,,,,,,,,,,,,,,,61.1287397,,,,,,,Euran terveyskeskus,,,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,22.2797040,,,,,https://finnhems.fi/tukikohdat/turku/,,,,,,,,,,60.5119048,,,,,,,Finnhems,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,10,,,,,,24.1749101,,,Kauppisentie,,,,,,,,,,,,63.4624454,,Halsua,yes,,,,Halsuan terveyskeskus,,69510,,,,,clinic,,,,
+,clinic,,,,,,,,,,7,,,,,,24.1710643,,,Pohjolankatu,,,,,,,,,,,,65.8415726,,Tornio,,,,,Hannulan neuvola,,95420,,,,,,,,,
+,clinic,,,,,,,,,,42,,,,,,24.3693878,MML2017,,Parolantie,,,,,,,,,,,,61.0554681,,Hattula,office,,,,Hattulan terveysasema,,13720,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,27.5223431,,,,,https://www.inari.fi/fi/yhteystiedot/sosiaali-ja-terveysosasto/ivalon-terveyskeskus.html,,,,,,,,,,68.6569097,,Ivalo,,,,,Ivalon terveyskeskus,,99800,,,,,,,,,FI
+,clinic,,,,,,,,,,8,,,Jakomäen terveysasema,,,25.0749172,,,Vuorensyrjä,,https://www.hel.fi/www/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/jakomaen-terveysasema,,,,,,,,,,60.2602562,Jakobacka hälsostation,Helsinki,yes,,,,Jakomäen terveysasema,,00770,yes,,,,centre,,,,FI
+,clinic,,community,,,,,,,,6,,,,,,24.8788852,Bing,,Kaustisenpolku,,https://www.hel.fi/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/kannelmaen-terveysasema/,,,,,,,Mo-Fr 08:00-16:00; We 08:00-18:00,+358 9 310 47355,,60.2393197,,Helsinki,yes,,,,Kannelmäen terveysasema,,00420,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,26.9573567,,,,,,,,,,,,,,,62.9030132,,,,,,,Karttulan terveysasema,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,220,,,,,,22.5001858,,,Yttiläntie,,http://www.ksthky.fi/yhteystiedot/kauvatsan_terveysasema,,,,,,,,,,61.3366940,,Kauvatsa,yes,,,,Kauvatsan terveysasema,,32920,,,,,clinic,,,,
+,clinic,,,,,,,,,Turun kaupunki,13,,,,,,22.2926480,,,Kirkkotie,,https://www.turku.fi/toimipaikat/kirkkotien-terveysasema,,,,,,,,,,60.4567455,,Turku,,survey,,,Kirkkotien terveysasema,,20540,,,,,clinic,,,,
+,clinic,,,,,,,,,,21,,,Kivikon terveysasema,,,25.0663370,,,Kivikonkaari,,,,,,,,,,,,60.2370399,Stensböle hälsostation,,yes,,,,Kivikon terveysasema,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,3,,3,Kontulan terveysasema,,,25.0839716,,,Ostoskuja,,https://www.hel.fi/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/kontulan-terveysasema,,,,,,,"Mo,Tu,Th,Fr 08:00-16:00; We 08:00-18:00",+358 9 310 60410,,60.2378437,Gårdsbacka hälsostation,,hospital,,,,Kontulan terveysasema,,,yes,,,,clinic,,,,
+,clinic,,,,,,,,,Kouvolan Työterveys Ry,,shop,,,,,26.6570163,,,Tommolankatu,,http://www.kouvolantyoterveys.fi/,,room,,,,,,05 544 5050,,60.8716478,,Kouvola,,,,,Kouvolan Työterveys Ry,,45130,,1,info@kouvolantyoterveys.fi,,,,,,
+,clinic,,,,,,,,,,17,,,,,,22.1887233,,,Koskitie,,https://www.pori.fi/perusturva/terveys/laakari.html,,,,,,,,,,61.4686432,,Kullaa,yes,,,,Kullaan terveysasema,,29340,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,29.1936979,,,,,,,,,,,,,,,65.9639925,,,yes,,,,Kuusamon Neuvola,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,4,,,,,,21.8409383,,,Kirkkotie,,,,,,,,,,,,61.1029277,,Lappi,yes,,,,Lapin terveysasema,,27230,,,,,,,,,
+,clinic,,geriatrics;general;orthodontics,,,,,,,Lappajärven kunta,,,,,,public,23.6384923,,,,,,,,,,,,Mo-Fr 09:00-18:00,,,63.2131312,,,yes,,,,Lappajärven TK,,,,,,,clinic,,,,
+,clinic,,,,,,,Lauttasaaren rakennusinventointi (https://www.hel.fi/hel2/kaumuseo/rakennusinventoinnit/laru/aloitatasta.htm),,,6,,3,,,,24.8823991,,,Taivaanvuohentie,1989,,,,,no,,,,,Lauttasaaren rakennusinventointi (https://www.hel.fi/hel2/kaumuseo/rakennusinventoinnit/laru/aloitatasta.htm),60.1613682,,Helsinki,hospital,,,,Lauttasaaren terveyskeskus,,00200,,,,Jan Söderlund,,,,,
+,clinic,,,,,,,,,,8,,,,,,22.5791278,,,Viittatie,,https://www.pori.fi/perusturva/terveys/laakari.html,,,,,,,,,,61.5968412,,Lavia,yes,,,,Lavian lähipalvelupiste,,38600,,,,,clinic,,,,
+,clinic,,,,,,,,,Lestijärven kunta,3,,,Lestijärven terveyskeskus,,public,24.6498656,,,Niemeläntie,,,,,,,,,,,,63.5321720,,Lestijärvi,yes,,,,Lestijärven terveyskeskus,,69440,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,Liedon terveyskeskus,,,22.4585464,,,,,,,,,,,,,,,60.5065198,,,,,,,Liedon terveyskeskus,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,14,,,,,,26.7253509,,,Väinöläntie,,,,,,no,,,,,,60.8706859,,,office,,,,Lääkäriasema,,45200,,,,,,,,,
+,clinic,,,,,,,,,Kuopion kaupunki,10,,,Maaningan terveysasema,,public,27.2945747,,,Satamatie,,,,,,,,,,,,63.1570719,,Maaninka,yes,,,,Maaningan terveysasema,,71750,,,,,clinic,,,,
+,clinic,,,,#FFFFFF,,1.5,,,Helsingin kaupunki,12-14,,2,Malminkartanon terveysasema,,public,24.8640573,Bing,metal,Luutnantintie,,,,,,yes,,brick,Mo-Fr 08:00-16:00,09 310 48210,,60.2474107,Malmgårds hälsostation,Helsinki,hospital,,,,Malminkartanon terveysasema,gabled,00410,yes,,,,clinic,,,,
+,clinic,,,,,,,,,,3A,,2,,,,24.9340814,,,Suursuonlaita,,,,,,,,,,,,60.2346700,,,yes,,,,Maunulan terveysasema,,,,,,,clinic,,,,
+,clinic,+358 18 14404,,http://www.medimar.ax,,,,,,,4,,,,http://www.medimar.ax/sites/www.medimar.ax/files/logo_12.png,,19.9125643,,,Lövuddsvägen,,,,,,no,receptionen@medimar.ax,,,,,60.1145599,,Mariehamn,hospital,,,+358 18 14407,Medimar,,22120,yes,,,,,,,,AX
+,clinic,,,,,,,,,,52,,,,,,21.5148324,,,Antintie,,https://www.pori.fi/perusturva/terveys/laakari.html,,,,,,,,,,61.8563677,,Merikarvia,yes,,,,Merikarvian terveysasema,,29900,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,24.8766474,,,,,,,,,,,,,,,60.2014362,,Helsinki,yes,,,,Munkkiniemen terveysasema,,,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,22.0267457,,,,,,,,,,,,,,,60.4695361,,,,,,,Naantalin terveysasema,,,,,,,,,,,
+,clinic,,,,,,,,,,2,,,,,,22.0069922,Bing,,Satakunnantie,,http://www.ksthky.fi/yhteystiedot/nakkilan_terveysasema,,,,,,,,,,61.3644199,,Nakkila,yes,,,,Nakkilan terveysasema,,29250,,,,,clinic,,,,
+,clinic,,,,,,,,,Itä-Savon Sairaanhoitopiiri,4,,,,,,28.8520715,,,Pihlajavedentie,,,,,,,,,,+358444172841,,61.8725367,,Savonlinna,yes,,,,Perhepalvelukeskus,,57120,,,,,,,,,
+,clinic,,,,,,,,,,2,,,,,,21.6118978,,,Päretie,,,,,,,,,,,,61.5584714,,Pori,,,,,Pihlavan terveysasema,,28800,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,22.5252011,,,,,,,,,,,,,,,60.4216107,,,,,,,Piikkiön terveyskeskus,,,,,,,clinic,,,,
+0,clinic,,,,,,,,,,6-8,,4,,,,24.8517540,,,Konalantie,,https://www.hel.fi/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/pitajanmaen-terveysasema,C,,,,,,"Mo,Tu,Th,Fr 08:00-16:00; We 08:00-18:00",+358 9 3104 8300,,60.2265240,,Helsinki,civic,,,,Pitäjänmäen terveysasema,,00370,,,,,,,,,
+,clinic,,,,,,,,,,18,,,,,,21.7800411,Bing,,Muistokatu,,,,,,,,,,,,61.4861393,,Pori,yes,,,,Porin Sininauha Ry,,28120,,,,,clinic,,,,
+,clinic,,,,,,,,,,3,,,,,,22.1713914,,,,,,,,,,,,,,,60.4862292,,,yes,,,,Päihde- ja mielenterveysyksikkö,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,3,,,,,,24.2700739,,,Keskustie,,https://www.kangasala.fi/sosiaali_ja_terveys/terveyspalvelut/laakarin_ajanvarausvastaanotto/,,,,,,,,,,61.3391868,,Pälkäne,yes,,,,Pälkäneen Oma Asema,,36600,,,,,clinic,,,,
+,clinic,,,,,,,,,,1,,,,,,22.1724890,,,,,,,,,,,,,,,60.4864260,,,yes,,,,Raision perhekeskus,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,2,,,,,,22.2671428,,,Signalistinkatu,,https://www.turku.fi/toimipaikat/runosmaen-terveysasema,,,,,,,,,,60.4857800,,Turku,,,,,Runosmäen sosiaali- ja terveysasema,,,,,,,clinic,,,,
+,clinic,,,,,,,,,,2,,,,,,22.2183708,,,Ristimäentie,,,,,,no,,,,,,60.5400977,,Rusko,yes,,,,Ruskon Terveysasema,,21290,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,19.9457066,,,,,,,,,,,,,,,60.1595407,,,yes,,,,Rönngården,,,,,,,,,,,
+,clinic,,,,,,,,,,8,,,,,,24.3341565,,,Kurvis-Höllin tie,,https://www.kangasala.fi/sosiaali_ja_terveys/terveyspalvelut/laakarin_ajanvarausvastaanotto/,,,,,,,,,,61.4765702,,Sahalahti,yes,,,,Sahalahden OmaAsema,,36420,,,,,clinic,,,,
+,clinic,,,,,,,,,,6,,,,,,22.2954865,,,Joukahaisenkatu,,,,,,,,,,,,60.4499481,,Turku,yes,,,,Sairaala NEO,,20520,,,,,,Q5908509,,,
+,clinic,,,,,,,,,,1,,,,,,25.0584093,,,Varkkermontie,,,,,,,,,,,,65.6586991,,Simo,,,,,Simon terveyskeskus,,95200,,,,,,,,,
+,clinic,,,,,,,,,,5,,,,,,21.6893316,,,Silontie,,,,,,,,,,,,61.0262700,,Kodisjoki,yes,,,,Terveysasema,,27310,,,,,,,,,
+,clinic,,,,,,,,,,4,,,,,,22.0993587,,,Ruutontie,,,,,,,,,,,,60.5799486,,Masku,,,,,Terveyskeskus,,21250,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,22.3104774,,,,,,,,,,,,,,,61.1154723,,,yes,,,,Terveyskeskus,,,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,21.4389946,,,,,,,,,,,,,,,60.9531986,,,yes,,,,Terveyskeskus,,,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,22.8277878,,,,,,,,,,,,,,,62.7796578,,,,,,,Terveyspalvelukeskus,,,,,,,,,,,
+,clinic,,,,,,,,,,8,,,,,,26.7600176,,,Tervontie,,,,,,,,,,,,62.9578377,,Tervo,yes,,,,Tervon terveysasema,,72210,,,,,clinic,,,,
+,clinic,,,,,,,,,,4,,5,,,,23.7282337,city plan;Bing,,Tipotie,,,,,,no,,,,,,61.4996653,,Tampere,hospital,,,,Tipotien sosiaali- ja terveysasema,,33230,yes,,,,clinic,,yes,,
+,clinic,,,,,,,,,,,,,Torkinmäen terveysasema,,,23.1593943,,,,,,,,,,,,,,,63.8401446,Storkisbackens hälsåstation,,,,,,Torkinmäen terveysasema,,,,,,,clinic,,,,
+,clinic,,,,,,,,,Peruspalveluliikelaitos Jyta,2,,,,,,23.7567323,MML 2012;survey,,Mäntöläntie,,www.jyta.fi/sivu/laakarinvastaanotto_halsua_kaustinen_veteli,,,,,,,,+358 40 804 5000,,63.5016427,,Tunkkari,yes,,,,Tunkkarin terveyskeskus,,69730,,,,,,,,,
+,clinic,,,,,,,,,,13 B,,,Turengin terveysasema,,,24.6467164,Bing,,Tapailanpiha,,,,,,,,,Mo-Fr 08:00-16:00,,,60.9276194,,Turenki,yes,,Turenki health clinic,,Turengin terveysasema,,14200,,,,,,,,,
+,clinic,,occupational,,,,,,,,10,,,Turun Työterveystalo,,,22.2812757,,,Hämeenkatu,,http://www.tyoterveystalo.fi/turun-tyoterveystalo,,,,,,,,,,60.4514032,Arbetshälsogården i Åbo,Turku,,,Turku Centre for Occupational Health,,Turun Työterveystalo,,20500,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,25.5009567,,,,,,,,,,,,,,,60.3171627,,,yes,,,,Työterveysasema,,,,,,,,,,,
+,clinic,,,,,,,,yes,,,,,,,,27.0148835,,,,,,,,,,,,,+358 40 181 0285,,69.9013175,,Utsjoki,,,,,Utsjoen terveyskeskus,,,,,,,,,,,
+,clinic,,,,,(02) 266 1048,,,,,3,,,,,,22.3614033,,,Nisse Kavon katu,,https://www.turku.fi/toimipaikat/varissuon-terveysasema,,,"Avoinna:
+
+Ma - Ti 08:00 - 16:00
+Ke 08:15 - 16:00
+To - Pe 08:00 - 16:00
+
+Ajanvaraus ja neuvonta puhelimitse:
+
+Ma 07:30 - 15:00
+Ti 08:00 - 15:00
+Ke 08:00 - 15:00
+To 08:00 - 15:00
+Pe 08:00 - 15:00",yes,,,,(02) 266 1100,,60.4427416,,Turku,yes,,,,Varissuon terveysasema,,20610,yes,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,24.7906206,Bing,,,,,,,,,,,,,,60.7515928,,,yes,,,,Varuskuntasairaala,,,,,,,,,,,
+,clinic,,,,,,,,,,,,,,,,26.4132649,,,Terveystie,,,,,,,,,,,,62.9307398,,Vesanto,yes,,,,Vesannon terveyskeskus,,72300,,,,,clinic,,,,
+,clinic,,,,,,,,,,,,,,,,23.4447616,,,,,,,,,,,,,,,59.9741720,,,,,,,Ystadsgården,,,,,,,,,,civil,

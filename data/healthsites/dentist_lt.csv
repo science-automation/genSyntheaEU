@@ -1,0 +1,8 @@
+addr:housenumber,building,amenity,addr:city,source,opening_hours,description,lon,email,website,phone,addr:postcode,healthcare,lat,addr:street,addr:country,name
+14,yes,dentist,Utena,,Mo-Fr 09:00-18:00; Sa-Su off,,25.6036404,utena@clinicdpc.lt,https://www.clinicdpc.lt/lt/,+370 632 00005,,,55.4981279,Aušros g.,,Clinic DPC
+49A,yes,dentist,Kaunas,,,,23.8835238,,,,,dentist,54.9284672,Baltų pr.,,Neodenta
+68,yes,dentist,Panevėžys,,,,24.3576100,,,,35158,,55.7354260,Respublikos g.,,Panevėžio m. stomatologijos poliklinika
+125,yes,dentist,Ariogala,,8:00-17:00,,23.4662443,,,,,,55.2651807,Vytauto g.,,UAB Tamka
+54,yes,dentist,Šiauliai,ORT10LT,"Mo-Tu 08:00-17:00, We 08:00-15:00, Th 08:00-17:00, Fr 08:00-12:00",Gyd. ortodontės A. Ancevičienės ir gyd. od. burnos chirurgo A. Ancevičiaus klinika.,23.2991744,,https://siauliuodontologijoscentras.lt/,+37065743737,76332,dentist,55.9375644,S. Daukanto g.,LT,Šiaulių Odontologijos Centras
+33,yes,dentist,Vilnius,,Mo-Fr 8:00-20:00,,25.2514786,,https://kristoforoklinika.lt/,,,,54.6928846,Kęstučio g.,,Šv. Kristoforo odontologijos klinika
+25,yes,dentist,Vilnius,,,,25.2505278,,https://www.zok.lt/,,,,54.6933098,S. Moniuškos g.,LT,Žvėryno odontologijos klinika

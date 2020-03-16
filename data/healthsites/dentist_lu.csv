@@ -1,0 +1,3 @@
+addr:housenumber,building,amenity,addr:city,addr:postcode,lon,name,healthcare,lat,addr:country,addr:street
+2,apartments,dentist,Luxembourg,1635,6.1127836,Centre d'Orthodontie du Val Sainte-Croix,dentist,49.6128888,LU,Allée Léopold Goebel
+,yes,dentist,,,5.9352022,Dr. Schmitz,,49.9678183,,

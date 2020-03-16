@@ -1,0 +1,15 @@
+building,website,amenity,lat,name,lon,building:levels,opening_hours,wheelchair,wikipedia,source,wikidata,dispensing,operator
+yes,,pharmacy,55.4750188,Apotek,9.1379332,,,,,,,,
+yes,,pharmacy,55.7796859,Apotek,8.2864656,,,,,,,no,
+yes,,pharmacy,54.9640084,Apoteksudsalg,8.6941910,,,,,,,,
+yes,,pharmacy,56.4403025,Assentoft Apoteksudsalg,10.1462448,,,,,,,,
+yes,,pharmacy,56.7164337,Hadsund Apotek,10.1142259,,,,,,,,
+,,pharmacy,57.5905294,Hirtshals Apotek,9.9597958,,,,,,,,Apotek
+Retail,https://www.apoteket.dk/apoteker/odense-bolbro-apotek/korup-apoteksfilial,pharmacy,55.4196214,Korup Apoteksudsalg,10.2739032,1,Mo-Fr 09:00-17:30; Sa 09:00-13:00,limited,,local_knowledge,,yes,
+,,pharmacy,57.3684299,Løkken Apotek,9.7125161,,Mo-Fr 09:00-17:30; Sa 09:00-12:30,,,survey,,,
+yes,,pharmacy,56.6515939,Mariager Apotek,9.9835549,,,,,,,,
+yes,,pharmacy,54.6688948,Nysted Apotek,11.7287255,,,,da:Nysted Apotek,,Q12329490,,
+yes,,pharmacy,55.5139180,Otterup Apotek,10.3988944,,,,,,,,
+yes,https://rudkoebingapotek.a-apoteket.dk/,pharmacy,54.9349047,Rudkøbing Apotek,10.7155243,,,,,,,yes,
+yes,,pharmacy,57.4375841,SvaneApoteket,10.5348815,,,yes,,,,,
+yes,,pharmacy,56.2721515,Ulfborg Apotek,8.3221173,,,yes,,,,yes,

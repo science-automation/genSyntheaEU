@@ -1,0 +1,20 @@
+amenity,healthcare:speciality,roof:colour,layer,roof:height,height,addr:housenumber,is_in:country,building:levels,is_in:city,lon,source,is_in:county,addr:street,phone,website,is_in:country_code,roof:shape,lat,addr:city,building,opening_times,name,level,addr:postcode,roof:orientation,healthcare
+dentist,,,,,,25,,,,24.1585929,,,Strada Eroilor,0745253824,,,,45.7834760,Sibiu,yes,,Cabinet Ortodontie,,,,
+dentist,,,,,,,,,,22.4048342,Legea 544/2001,,,,,,,44.7348477,,hospital,,Cabinet Stomatologic,,,,
+dentist,,,,,,,,,,24.5604184,,,,,,,,45.0075137,,yes,,Cabinet Stomatologic,,,,
+dentist,,,,,,,,,,25.9225778,,,,,,,,47.8366993,,yes,,Cabinet dentar,,,,
+dentist,,,,,,,,,,21.2387704,,,,,,,,45.7503557,,yes,,Casa Denti,,,,dentist
+dentist,,,,,,,,,,22.9061332,Bing,,,,,,,45.8766841,,yes,,Centru Privat de Medicină Dentară,,,,
+dentist,,,,,,,,,,26.0962944,,,Strada Stoian Militaru,,,,,44.3940569,,yes,,Clinica Stomatologică,,,,
+dentist,dentistry,,,,,43,,,,24.0418748,,,Strada Între Români,+40749861948,,,,45.8356003,Șura Mică,yes,,Clinica Stomatologică Light Smile,,557270,,dentist
+dentist,,,,,,35,,,,21.2443834,,,Strada Saturn,,,,,45.7894755,Dumbrăvița,yes,,Clinica de stomatologie dr. Scurtu,,307160,,dentist
+dentist,,,,,,,,,,26.0919854,,,Șoseaua Giurgiului,,,,,44.3811144,,yes,,Clinica stomatologică Dr. Toma Adrian,,,,
+dentist,,,,,,,,,,26.4384570,,,,,,,,47.7704456,,yes,,Cristina Tudora,,,,
+dentist,,,,,,,,,,21.2257810,,,,,,,,45.7385670,,yes,,Dental Experts,,,,
+dentist,,,,,,6,,,,24.1760410,,,Strada Doctor Corneliu Diaconovici,,,,,45.7993003,Sibiu,,,Doctor Gusan Ioana Anca,,,,
+dentist,,,,,,37,Romania,,Sibiu,24.1523302,,Sibiu,Strada Plugarilor,0754418713,,RO,,45.7749740,Sibiu,yes,,Dr. Lenghen Isabella Denise,,,,
+dentist,,,-1,,,,,,,26.0902368,,,,+40 726 666999,,,,44.5079883,,,Mo-Su 10:00-22:00,Perfect Smile by Germandentist,-1,,,dentist
+dentist,dentistry,,,,,,,,,25.0472260,,,,,,,,45.2740681,,yes,,Stomatologie,,,,dentist
+dentist,,,,,,,,1,,22.6608515,,,,,,,,44.6362624,,yes,,Stomatologie,,,,
+dentist,dentistry,,,,,,,,,27.9235417,,,,,,,,46.9600037,,yes,,Stomatologie Bazga,,,,dentist
+dentist,,,,,,55,,,,28.6388554,,,Strada I. G. Duca,,http://www.tratadent.ro/,,,44.1790999,Constanța,yes,,Tratadent,,,,

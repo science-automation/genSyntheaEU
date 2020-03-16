@@ -1,0 +1,21 @@
+amenity,healthcare:speciality,operator,phone_1,addr:housenumber,TIPO,building:levels,opening_hours,lon,name,source,email,website,phone,lat,addr:street,building,addr:city,NOME,addr:postcode,roof:material,healthcare
+dentist,,"Adriano carreira - Medicina Dentária, Lda",+351 968 430 173,518,,,,-8.4649198,Adriano Carreira,local knowledge,,https://adrianocarreira.com/,+351 234 384 992,40.5570325,Rua da Fonte Nova,yes,Águeda,,3750-726,,dentist
+dentist,,,,,,1,,-8.8617515,Araújo Lacerda Clínica Médica e Dentária,survey 2016;bing 2016,,,,39.8509218,,commercial,,,,roof_tiles,
+dentist,,,,,,,,-8.0462708,Climed,,,,,37.2411211,,yes,,,,,dentist
+dentist,,,,23,,2,Mo-Sa 09:00-19:00,-27.2130270,Clinica Dentária Medicabulum,,clinicamedicabulum@gmail.com,www.medicabulum.com,+351 295 218988,38.6569336,Rua Dr. Henrique Brás,commercial,Angra do Heroísmo,,9700-097,,
+dentist,,,,,,,,-8.0144099,Clínica Dentária Bárrios,,,,,37.1361758,,yes,,,,,dentist
+dentist,,,,,,,,-8.6099160,Clínica Dentária da Liga,,,,,41.1486383,,office,,,,,
+dentist,,,,,,,,-8.7995584,Clínica Médica Dentária,,,,,41.6264298,,yes,,,,,
+dentist,,,,,,,,-8.1701098,Clínica de Medicina Dentária de Fafe - Medifafel,,,,,41.4497486,,yes,,,,,
+dentist,,,,312,,,,-9.4242109,Clínica dentária de Alvide,,,,,38.7140055,Rua Capitão Rei Vilar,yes,,,,,dentist
+dentist,,,,,,,,-8.0205466,Clínica i9,,,,,37.1398758,,yes,,,,,dentist
+dentist,,,,,,,,-8.0196178,Dom Filipe,,,,,37.1353928,,yes,,,,,dentist
+dentist,,,,,,,,-8.0195081,Espaço Fluor,,,,,37.1371979,,yes,,,,,dentist
+dentist,,,,,,,,-9.1555959,Fresenius Medical Care,,,,,38.7658970,,commercial,,,,,dentist
+dentist,,,,,,,,-8.0166687,Malo Clinic,,,,,37.1370803,,yes,,,,,dentist
+dentist,dentistry,,,94,,,,-9.1339818,Oral Med,,,,,39.4035771,Praça da República,yes,Caldas da Rainha,,2500-798,,
+dentist,,,,,,,,-8.6052927,Oralklass Dentistas,,,,,41.1518499,,yes,,,,,
+dentist,,,,,,,,-8.7991540,Silviana Festa Clínica Dentária,,,,,41.6198610,,yes,,,,,
+dentist,,,,,,,,-8.0247306,Sorriso De Loulé,,,,,37.1392579,,yes,,,,,dentist
+dentist,,,,,,,,-8.6132330,Vitaldent,,,,,41.1460000,,yes,,,,,
+dentist,,,,,,,,-8.0164753,smile.up,,,,,37.1366569,,yes,,,,,dentist

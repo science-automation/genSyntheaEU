@@ -1,0 +1,13 @@
+amenity,building:facade:material,roof:colour,building:min_level,operator,addr:housenumber,addr:district,building:levels,opening_hours,lon,brand:wikidata,addr:street,website,brand,roof:shape,lat,smoking,addr:city,building,building:colour,name,phone,addr:postcode,roof:material,addr:country,dispensing,healthcare,wheelchair
+pharmacy,,,0,,,,1,,26.1303521,,,,,,56.0671015,,,yes,,Aptieka,,,,,,,
+pharmacy,,,,,,,,,25.6352798,,,,,,56.8977460,,,yes,,Aptieka,,,,,,pharmacy,
+pharmacy,,,,,,,,,25.6388718,,,,,,56.5595046,,,,,BENU,,,,,no,,
+pharmacy,,,,a.apotheka,22,,2,,24.4030316,,Daugavas iela,,,,56.7476271,,Baldone,yes,,Baldones aptieka,,,,,yes,pharmacy,
+pharmacy,,,,,,,,,22.0164715,,,,,,56.6769358,,,yes,,Latvijas aptieka,,,,,,,
+pharmacy,,,,,1,Limbažu novads,,,24.7130290,,Burtnieku iela,https://manaaptieka.lv/,,,57.5148612,outside,Limbaži,commercial,,Limbažu aptieka,+37164070113,LV-4001,,LV,,,limited
+pharmacy,,,,,,,,,24.1927002,,,,,,56.4079953,,,yes,,Mana Aptieka,,,,,,,
+pharmacy,,,,,,,,,21.1641863,,,,,,56.5353269,,,yes,,Mēness Aptieka,,,,,,,
+pharmacy,,,,,23,,,,24.0962732,Q57583051,Valdeķu iela,,Mēness aptieka,,56.9142595,,,yes,,Mēness aptieka,,,,,,pharmacy,
+pharmacy,,,,,50,,,,24.3989931,,Rīgas iela,,,,56.7424050,,Baldone,yes,,SIA Liepa un Gailīte,,,,,,,yes
+pharmacy,,,,,,,,,22.0143438,,,,,,56.6760109,,,yes,,Zaļā aptieka,,,,,,,
+pharmacy,,,,,4,Limbažu novads,,,24.7175376,,Pasta iela,,,,57.5111181,,Limbaži,yes,,Ģimenes aptieka,,LV-4001,,LV,,,

@@ -1,0 +1,11 @@
+amenity,indoor,addr:streetnumber,payment:debit_cards,payment:cash,operator,payment:credit_cards,addr:housenumber,area,opening_hours,lon,note,source,import,addr:street,addr:conscriptionnumber,email,website,emergency,stroller,phone,old_name,lat,room,building,name,level,addr:postcode,wheelchair,payment:coins,addr:city,healthcare,addr:country
+dentist,room,,,,,,,yes,,21.2380548,,,,,,,,,,,,48.6947366,shop,,Curaprox,1,,,,,dentist,
+dentist,room,,yes,yes,,yes,,yes,Mo-Su 09:00-21:00,21.2632731,,,,,,tomasondrus@curaprox.sk,https://www.curaprox.com/sk-sk/,,,+421 917 948 411,,48.7178459,shop,,Curaprox,0,,yes,yes,,dentist,
+dentist,,1,,,,,1,,,21.8891584,,kapor2,,Gaštanová,,,,,,,,48.9360477,,yes,Dentálne centrum,,06601,,,Humenné,,SK
+dentist,,8,,,,,689/8,,,17.2238496,,kapor2,budovy201004,Pplk. Pľjušťa,689,,,,,,Vila Pilárikových,48.8462849,,office,EHS,,90901,,,Skalica,,SK
+dentist,,,,,,,,,,22.1841940,,,,,,,,,,,,48.7435352,,yes,Kladent s.r.o.,,,,,,,
+dentist,,39,,,,,508/39,,,18.6208253,,,,F. Hečku,508,,,,,,,48.2133593,,yes,MUDr. Ján Littva,,,,,Levice,,SK
+dentist,room,,yes,yes,Schill Dental Clinic Košice s.r.o.,yes,,yes,Mo-Fr 07:00-19:00,21.2645666,,,,,,kosice@schill.sk,https://www.schill.sk/,,yes,+421 55 3100 031,,48.7180943,shop,,Schill Dental Clinic,2,,yes,yes,,dentist,
+dentist,,,,,,,,,,18.9425872,nová budova; zamerať presne,,,,,,,,,,,49.3469485,,,Stomatologická klinika,,,,,,,
+dentist,,,,,,,,,,19.6518049,,kapor2,,,,,,yes,,,,48.3379917,,house,Zubná ambulancia Kristián Gejza,,,,,,,
+dentist,,12,,,,,192/12,,,21.9059449,,kapor2,budovy201004,Martina Rázusa,192,,,,,,,48.7540612,,yes,Zubná poliklinika,,07101,,,Michalovce,,SK

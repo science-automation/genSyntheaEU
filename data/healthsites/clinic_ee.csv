@@ -1,0 +1,14 @@
+amenity,maaamet:ETAK,healthcare:speciality,operator,addr:housenumber,building:levels,opening_hours,lon,name,source,email,website,fax,source:addr,emergency,addr:full,phone,old_name,lat,addr:street,building,addr:city,addr:postcode,healthcare,addr:country
+clinic,6467083,,,179,4,Mo-Fr 08:00-18:00,24.6504820,Haabersti Tervisekeskus,,,,,Maa-amet 2013,no,,+372 6261314,,59.4197530,Õismäe tee,yes,Tallinn,,clinic,EE
+clinic,,,,179,4,,24.6502959,Hooldusravikliinik,,,,,,no,,,,59.4196023,Õismäe tee,hospital,Tallinn,,,
+clinic,723140,,,2,,,26.7026010,Kliinilise geneetika keskus,Tartu City Government,,,,Maa-amet 2019,,,,,58.3674780,Ludvig Puusepa,yes,Tartu,50406,clinic,EE
+clinic,,,,167,,,26.6869964,Kopsukliinik,Tartu City Government,kopsukliinik@kliinikum.ee,http://www.kliinikum.ee/kopsukliinik,,,,Riia 167,+372 731 8903,,58.3624170,Riia,yes,Tartu,51014,clinic,EE
+clinic,586152,,,62,2,,24.6951853,LTK nakkuskliiniku polikliinik,,,,,Maa-amet 2012,,,,,59.4298645,Paldiski mnt,yes,Tallinn,,clinic,EE
+clinic,,dentistry;dermatology;general;physiatry,,61,,Mo-Su 07:30-20:00,24.8476183,Lasnamäe Medicum,,medicum@medicum.ee,https://www.medicum.ee/,+372 6050774,,,,+372 6050601,,59.4367515,Punane,yes,Tallinn,13619,clinic,EE
+clinic,723488,,,6,,,26.6966620,Lastekliinik,Tartu City Government,,,,Maa-amet 2019,,,,,58.3671260,Nikolai Lunini,yes,Tartu,50406,clinic,EE
+clinic,,,,27,,,24.6685917,Mustamäe Polikliiniku Perearstikeskus,,,http://www.perearstikeskus.net/,,,,,,Mustamäe ja Nõmme Perearstikeskus OÜ,59.4000997,Ehitajate tee,yes,,,,
+clinic,583650,,,11,4,Mo-Fr 7:30-19:00,24.6862640,Nõmme Tervisekeskus,,,http://www.ltkh.ee/index.php?page=224,,Maa-amet 2012,no,,+372 667 0679,,59.3865730,Jaama,yes,Tallinn,,clinic,EE
+clinic,,,,31,,,26.6816895,Psühhiaatriakliinik,Tartu City Government,,https://www.kliinikum.ee/psyhhiaatriakliinik/,,,,Raja 31,+372 7318 701,,58.3637847,Raja,yes,Tartu,50417,clinic,EE
+clinic,,,,52,,,24.7027550,Põhja-Eesti Regionaalhaigla psühhiaatriapolikliinik,,,,,,,,,,59.4297900,Paldiski mnt,yes,Tallinn,,clinic,EE
+clinic,718081,,,6,,,26.7014233,Statsionaarse õendusabi osakond,Tartu City Government,,,,Maa-amet 2019,,,,,58.3680174,Ludvig Puusepa,yes,Tartu,50406,clinic,EE
+clinic,,otolaryngology,SA TÜ Kliinikum,1,,,26.7151199,TÜ Kliinikumi Kõrvakliinik,,,,,,,,,,58.3772540,J. Kuperjanovi,,Tartu,,clinic,

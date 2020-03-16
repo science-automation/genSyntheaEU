@@ -1,0 +1,26 @@
+amenity,building:part,operator,addr:housenumber,area,opening_hours,lon,source,ref,website,info,phone,lat,addr:street,building,name:en,name,roof:shape,addr:postcode,roof:material,addr:place,addr:city,dispensing,healthcare,wheelchair
+pharmacy,,,,,,18.8841873,,,,,,45.1465074,Kralja Petra Krešimira IV,yes,,Apoteka,,32252,,,Otok,,,
+pharmacy,,,44,,,15.9420765,,,,,,45.6627690,Donjodragonoška cesta,yes,,Farmacity,,10253,,,Zagreb,,,
+pharmacy,,,38a,,7:00-20:00,16.0247131,,,,,+385 (0)1 2312-165,45.8124490,Ulica Vladimira Vidrića,,,Gradska ljekarna,,10000,,,Zagreb,,,
+pharmacy,,,12,,07:00-20:00,16.4197689,,,,,,45.7396364,Školska,yes,,LJEKARNA MILICA LOVRIĆ,,10312,,,Kloštar Ivanić,,,
+pharmacy,yes,Ivana Turek,,,,16.1276514,,,,,,46.3698863,,,,Ljekarna,,,,,,yes,pharmacy,
+pharmacy,,,,,,15.3733928,mapillary,,,,,44.1709295,,yes,,Ljekarna,,,,,,,,
+pharmacy,,,,,,16.0056912,,15,,,,45.8246077,,yes,,Ljekarna,,,,,,,,
+pharmacy,,,26,,,18.5734890,,,,,,45.5238850,Ulica kralja Zvonimira,house,,Ljekarna,,31431,,,Čepin,yes,pharmacy,
+pharmacy,,,6,,Mo-Fr 07:00-20:00,17.2249731,,,,,,45.5904810,Ulica Petra Preradovića,yes,,Ljekarna,,43500,,,Daruvar,,,no
+pharmacy,,,2,,,15.6423535,,,,,,43.7998066,Istočna gomilica,yes,,Ljekarna,,,,,Tisno,,,no
+pharmacy,,,26,,mon-fri: 07.30 h - 20.00 h sat: 07.30 h - 13.00 h,14.4420858,,,https://ljekarna-pablo.hr/bastijanova.htm,,+385 51 506 915,45.3327212,Baštijanova,yes,,"Ljekarna ""Pablo""",,51000,,,Rijeka,,pharmacy,
+pharmacy,,,,,,16.0530460,,,,,,45.8316777,,yes,,Ljekarna Barulek,gabled,,roof_tiles,,,,,
+pharmacy,,,4,,,18.5972781,,,,,+38531701190,45.7687220,Imre Nagya,yes,Pharmacy Beli Manastir,Ljekarna Beli Manastir,,31300,,,Beli Manastir,,,
+pharmacy,,,,,,17.6480434,,,,,,43.0579430,,yes,,Ljekarna Draženović,,,,,,,,
+pharmacy,,,12,,,17.6634142,,,,,,45.4437027,Ulica Vladimira Nazora,yes,,Ljekarna Filipović,,34330,,,Velika,yes,pharmacy,
+pharmacy,,,5,,,13.8574470,,,,,,44.8774815,Trg 1. istarske brigade,yes,,Ljekarna Irena Grahovac,,,,,,yes,,yes
+pharmacy,,,7a,,Mo-Fr 07:00-20:00; Sa 07:30-15:00,14.3540267,,,,,,45.3711505,Šporova jama,yes,,Ljekarna Kastav,,51215,,,Kastav,,pharmacy,
+pharmacy,,,52,,,16.1172116,,,,,,46.2250446,Akademika Mirka Maleza,yes,,Ljekarna Kocijan,,42240,,,Ivanec,,,
+pharmacy,,,44,,,16.4219678,,,,,+38540 343675,46.4034609,Ulica maršala Tita,yes,,Ljekarna Kropek,,40000,,Šenkovec,Čakovec,yes,pharmacy,
+pharmacy,,Gradske ljekarne Zagreb,,yes,24/7,15.9797037,,,,,+38516525425,45.7728018,,,,Ljekarna Novi Zagreb Siget,,,,,,,,
+pharmacy,,,87,,,16.2835222,,,,,042/712-520,46.3279378,Varaždinska ulica,yes,,Ljekarna Salus,,42209,,,Sračinec,,,
+pharmacy,,,48a,,Mo-Sa 07:00-20:00,18.6615392,,,http://www.ljekarne-tripolski.hr/,,,45.5604733,Ulica Antuna Kanižlića,yes,,Ljekarna Tripolski,,31000,,,Osijek,yes,pharmacy,
+pharmacy,,,37,,"Ponedjeljak - petak: 7:00 - 21:00h Subota: 8:00 - 15:00h, Nedjelja: 8:00 - 12:00h",18.6037455,,,http://www.ljekarne-tripolski.hr/ljekarne.php,,+38531705222,45.7672226,Kralja Petra Krešimira IV,yes,,Ljekarna Tripolski Beli Manastir,,31300,,,Beli Manastir,,pharmacy,
+pharmacy,,Ljekarne Ciglenečki,30,,,17.1642795,,,,,034/512031,45.4132182,Slavonska ulica,yes,,Ljekarne Ciglenečki,,34551,,,Lipik,yes,pharmacy,
+pharmacy,,,,,,15.9066551,,,,Dežurna ljekarna Brezovica,,45.7232007,,yes,,Mandis - Pharm,,,,,,,,

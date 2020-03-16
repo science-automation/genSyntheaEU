@@ -1,0 +1,71 @@
+amenity,source:conscriptionnumber,operator:type,building:part,contact:website,addr:suburb,addr:streetnumber,building:min_level,loc_name,wikidata,alt_name,operator,is_in,addr:housenumber,barrier,building:levels,opening_hours,contact:phone,lon,source,healthcare:speciality,import,addr:conscriptionnumber,email,website,FIXME,emergency,contact:email,brand,phone,old_name,lat,air_conditioning,opening_hours:signed,addr:street,building,building:colour,name:en,contact:fax,name,roof:shape,addr:postcode,wheelchair,level,addr:place,addr:city,building:levels:underground,architect,healthcare,addr:country
+clinic,,,,,,8,,,,,,,8,,3,"Mo-We 07:00-20:00; Th,Fr 07:00-16:00",,17.1290504,kapor2,,budovy201004,18141,,https://agelclinic.sk/,,,,,,,48.1548954,,,Jelačičova,yes,,,,AGEL Clinic,,821 08,,,,Bratislava - Ružinov,,,,SK
+clinic,,,,,,,,,,,,,,,,,,18.3051133,,,,,,,,,,,,,48.2432868,,,,yes,,,,Centrum Zdravia,,,,,,,,,,
+clinic,,,,,Petržalka,6,,,,,,,6,,2,,,17.1277593,kapor2,,,1542,,,,,,,,,48.1204901,,,Jankolova,yes,,,,Denné sanatórium pre deti s chybami zraku,,,,,,Bratislava,,,,SK
+clinic,,,,,,,,,,,UVN Ružomberok,,,,,,,19.2991758,,,,,,,,,,,,,49.0844946,,,,,,,,Detské rehabilitačné sanatórium,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,,,,19.1352182,kapor2,,,,,,,,,,,,48.5799496,,,,yes,,,,Duo Med,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,,,,17.5900692,,,,,,,,,,,,,48.3692966,,,,yes,,,,Fresenius Medical Care - Dializačné stredisko,,,,,,,,,dialysis,
+clinic,,,,,,,,,Q12769232,,,,,,,,,17.0950774,kapor2,,budovy201004,,,,,,,,,Kochovo sanatórium,48.1464933,,,,yes,,,,Gynekologicko - pôrodnícka nemocnica KOCH,,,,,,,,Dušan Jurkovič; Jindřich Merganc; Otmar Klimeš,,
+clinic,kapor2,,,,,,,,,,,,76,,,,,19.1021579,kapor2,,,76,,,,,,,,,48.6087541,,,,yes,,,,Kúpeľná poliklinika,,,,,Kováčová,Kováčová,,,,
+clinic,,,,,,,,,,,,,,,,,,19.7206984,survey,,,,,,,,,,,,49.0389290,,,,yes,,,,Lekáreň Pharmacia,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,,,,17.0963385,,,,,,,,,,,,,48.1262804,,,,,,,,Medicentrum Magma,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,,,,17.2582889,kapor2,,,,,,,,,,,,48.1409180,,,,yes,,,,Mediklinik,,,,,,,,,,
+clinic,,,,https://www.medinet.sk/,,,,,,,,,61,,,,,17.4037054,kapor2,,budovy201004,,,,,,,,,,48.2183076,,,Lichnerova,hospital,,,,Medinet s.r.o.,,90301,,,,Senec,,,,
+clinic,,,,,,6,,,,,,,222/6,,2,,,18.3735533,kapor2,,EvidenciaBudovPE,222,,,,,,,,,48.6267114,,,Hrnčiriková,yes,,,,Mestská poliklinika,,95801,,,,Partizánske,,,clinic,SK
+clinic,,,,,,,,,,,,,,,,,,18.1792513,local knowledge,,,,,https://www.surany.sk/organizacie/mestska-poliklinika,,yes,,,,,48.0884428,,,,,,,,Mestská poliklinika Šurany,,,,,,,,,,
+clinic,,,yes,,,,,Nová poliklinika,,,,,,,2,,,17.1530974,bing,,,,,,,,,,,,48.1554206,,,,,,,,Nemocničná poliklinika,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,3,,,18.1740129,kapor2,,budovy201004,,,,,,,,,,48.5630337,,,,yes,,,,Nová poliklinika,,,,,,,,,,
+clinic,kapor2,,,,,,,,,,,,353,,,,045/5 205 480,19.1046999,kapor2,,,353,,www.nrckovacova.sk,,,nrckovacova@nrckovacova.sk,,,,48.6076647,,,,yes,,,045/5 445 357,Národné rehabilitačné centrum,,,yes,,Kováčová,Kováčová,,,,
+clinic,,private,,,,8,,,,,Oremus estate s.r.o.,,8,,2,,,21.2500242,bing,,,,,,,,,,,,48.7339184,yes,,Tomášikova,yes,,,,Oremus,,04001,,,,Košice,,,clinic,SK
+clinic,,,,,,,,,,,,,,,1,Mo-Th 07:00-20:00; Fr 07:00-18:00,,17.1398061,kapor2,,,,,http://www.probios.sk/,,,,,,,48.1538554,,,,hospital,,,,PRO BIOS,,,,,,,,,,
+clinic,,,,,Petržalka,1,,,,,,,1,,3,,,17.0970723,kapor2,allergology;pulmonology,,3914,,http://www.pneumoalergo.sk/,,,,,,,48.1212216,,,Údernícka,office,,,,Pneumo-Alergo Centrum,,,,,,Bratislava,,,,SK
+clinic,,,,,,85,,,,,,,85,,,,,18.7147395,MapBox,,,,,http://www.pksturovo.sk/,,yes,,,,,47.7878983,,,Jesenského,,,,,Poliklinika,,,,,,Štúrovo,,,clinic,SK
+clinic,,,,,,,,,,,,,,,8,,,17.1183648,kapor2,,,3361,,,,,,,,,48.1010680,,,,hospital,,,,Poliklinika,,,,,,Bratislava,,,,SK
+clinic,,,,,III,6,,,,Zdravotné stredisko Tbiliská,,Bratislava - Rača,7711/6,,3,,,17.1601515,,,,7711,,,,,,,,,48.2155441,,,Tbiliská,yes,,,,Poliklinika,,,,,,Bratislava,,,,SK
+clinic,,,,,,,,,,,,,,,,,,17.8709727,,,,,,,,,,,,,48.1516496,,,,yes,,,,Poliklinika,,,,,,,,,,
+clinic,,,,,,6,,,,,,,6,,,,,17.4011243,kapor2,,budovy201004,,,,,,,,,,48.2209677,,,Námestie 1. mája,yes,,,,Poliklinika,,90301,,,,Senec,,,,SK
+clinic,,,,,,62,,,,,,,512/62,,,,,18.3060860,kapor2,,budovy201004,512,,,,,,,,,48.2432284,,,Moravská,yes,,,,Poliklinika,,,,,,Vráble,,,,SK
+clinic,,,,,,2,,,,,,Piešťany,4827/2,,,,,17.8135016,kapor2,,budovy201004,4827,,,,,,,,,48.5744800,,,Rekreačná,yes,,,,Poliklinika,,,,,,Piešťany,,,,SK
+clinic,,,,,,15,,,,,,,573/15,,2,,,18.5857354,kapor2,,,573,,,,,,,,,48.7820393,,no,Janka Kráľa,yes,,,,Poliklinika,flat,972 01,,,,Bojnice,,,,SK
+clinic,,,,,,,,,,,,,,,,,,18.9215581,,,,,,,,,,,,,49.0692798,,,,yes,,,,Poliklinika 1 Škultétyho Martin,,,,,,,,,clinic,
+clinic,,,,,,2,,,,,,,6755/2,,,,,17.5941648,,,,6755,,,,,,,,,48.3802122,,,Starohájska,,,,,Poliklinika Družba,,,,,,Trnava,,,,
+clinic,,,,,,,,,,,,,,,4,,,21.2158339,,,,,,,,,,,,,48.7143932,,,,yes,,,,Poliklinika KVP,,,,,,,,,clinic,
+clinic,,,,http://poliklinikakv.sk/,,,,,,,,,,,,Mo-Fr 06:30-19:00,,17.0605057,,,,,,,,,,,+421 2 602 64 111,,48.1540821,,,,,,,,Poliklinika Karlova Ves,,,,,,,,,,
+clinic,,,,,,,,,,,,,,,,,,19.4228079,,,,,,,,,,,,,48.5596920,,,,yes,,,,Poliklinika LDCH,,,,,,,,,,
+clinic,,,,,,56,,,,,MEDICÍNSKE ZARIADENIE MLYNSKÁ DOLINA s.r.o.,,56,,3,"Mo 07:00-18:30; Tu,Th 07:00-18:00; We 07:00-19:00; Fr 07:00-15:30",,17.0681771,kapor2,,budovy201004,6073,recepcia@klinikamd.sk,http://klinikamd.sk/,,,,,+421 2 3231 3020;+421 911 392 220;+421 910 911 230,,48.1584696,,,Staré Grunty,yes,,,,Poliklinika Mlynská dolina,,841 04,yes,,,Bratislava,,,clinic,SK
+clinic,,,,,,5,,,,,,,5,,6,,,17.1155205,kapor2,,,,,http://www.poliklinikamytna.sk,,,,,,,48.1545407,,,Mýtna,yes,,,,Poliklinika Mýtna,,811 07,,,,Bratislava - Staré Mesto,,,clinic,SK
+clinic,,,,,,,,,,,,,2,,4,,,21.2602764,bing,,,,,,,,,,,,48.7070312,,,Panelová,yes,,,,Poliklinika Panelová,,04001,,,,Košice,,,clinic,
+clinic,,,,,,,,,,,,,,,,,,17.2736502,,,,,,,,,,,,,48.2860667,,,,,,,,Poliklinika Pezinok,,,,,,,,,,
+clinic,,private,,,,5,,,,,"ProCare, a.s.",,5,,3,Mo-Fr 07:00-16:00,,21.2114040,,,,,,https://www.procare.sk/,,,,,+421 907 888 999,,48.7207463,yes,,Jána Pavla II.,yes,,,,Poliklinika ProCare,,04023,yes,,,Košice,,,clinic,
+clinic,,,,,,,,,,,,,2464/38,,,,,17.7374345,survey,,,,,https://www.procare.sk/poliklinika/procare-sered/,,,,ProCare,,,48.2942509,,,Ivana Krasku,,,,,Poliklinika ProCare,,92601,,,,Sereď,,,,
+clinic,,,,,,,,,,,,,,,,,,19.3012901,,,,,,,,,,,,,49.0852636,,,,,,,,Poliklinika RUŽA,,,,,,,,,,
+clinic,,,,,,,,Stará poliklinika,,Ružinovská poliklinika,,,,,7,,,17.1539775,kapor2,,,,,,,,,,,,48.1555170,,,,hospital,yellow,,,Poliklinika Ružinov,,,,,,,,,,
+clinic,,,,,,16,,,,,,,16,,,,,18.0826176,kapor2,,budovy201004,,,,,,,,,,48.2988280,,,Rázusova,yes,,,,Poliklinika Rázusova,,,,,,Nitra,,,,SK
+clinic,,,,,,,,,,,POLIKLINIKA Senica n.o.,,,,4,,,17.3721307,http://www.poliklinikase.sk/,,,,,,,yes,,,,,48.6886123,,,,yes,,,,Poliklinika Senica,,,,,,,,,,
+clinic,,,,,,26,,,,,,,,,,,,17.1279542,,,,,,http://www.poliklinikatehelna.sk/,,,,,,,48.1643302,,,Tehelná,,,,,Poliklinika Tehelná,,831 03,,,,Bratislava,,,,SK
+clinic,,,,,,1,,,,Pohotovosť Toryská,Poliklinika Terasa s.r.o.,,1,,2,24/7,,21.2308248,kapor2,,,,,http://www.poliklinikaterasa.sk,,yes,,,,,48.7138101,,,Toryská,yes,,,,Poliklinika Terasa,,04011,,,,Košice,,,clinic,SK
+clinic,kapor2,,,,,,,,,,,,41,,2,,,18.6255018,kapor2,,,41,,,,,,,,,49.4049491,,,,yes,,,,Poliklinika Turzovka,,,,,Turzovka,Turzovka,,,,SK
+clinic,,,,,,,,,,,,,,,,,,18.9111773,kapor2,,,,,,,,,,,,49.0700436,,,,yes,,,,Poliklinika pri ZŤS,,,,,,,,,clinic,
+clinic,,,,,,14,,,,,,,14,,2,,,17.1188703,kapor2,,,,,,,,,,,,48.1465907,,,Lazaretská,yes,,,,Poliklinika sv. Michala,,,,,,Bratislava,,,,SK
+clinic,,,,,Petržalka,17,,,,,,,17,,,Mo-Th 07:00-18:00; Fr 07:00-16:00,,17.1219348,,,,3776,,https://www.procare.sk/poliklinika/procare-betliarska/,,,,ProCare,,,48.0996399,,,Betliarska,hospital,,,,ProCare,,,,,,Bratislava,,,,SK
+clinic,,,clinic,,,7,2,,,,,,7,,6,Mo-Su 07:00-22:00,,17.1305885,kapor2,,,17983,,https://www.procare.sk/central,,,,ProCare,,,48.1571474,,,Jelačičova,,,,,ProCare Central,,821 08,,,,Bratislava,4,,,
+clinic,,,,,II,49,,,,,,,49,,6,Mo-Fr 06:30-18:00,,17.1745951,kapor2,,budovy201004,2041,,https://www.procare.sk/poliklinika/procare-vlcie-hrdlo/,"naozaj nazov len ""poliklinika"" ?",,,ProCare,,,48.1280907,,,Vlčie hrdlo,yes,,,,ProCare Vlčie hrdlo,,,,,,Bratislava,,,,SK
+clinic,,,,,,,,Gajdár,,,,,,,,,,17.0250032,kapor2,,budovy201004,,,,,,,,,,48.4401175,,,,yes,,,,U gajdara,,,,,,,,,clinic,
+clinic,,,,,,,,,,,,,,,,,,21.2764323,kapor2,,,,,,,,,,,,49.3036231,,,,yes,,,,Ultrazvuková ambulancia,,,,,,,,,,
+clinic,,,,,,42,,,,,,,1247/42,,,,,18.5903650,,,,1247,,,,,,,,,48.7825050,,,Lúčky,yes,,,,Unicentrum,,972 01,,,,Bojnice,,,,SK
+clinic,,,,,Píly - Prievidza II,5,,,,,,,1888/5,,,"Mo-Th 07:00-20:00; Fr 07:00-15:30; Sa-Su,PH off",,18.6111562,,,EvidenciaBudovPD,1888,,,,yes,,,,,48.7805766,,,Nábrežná,yes,,,,Uniklinika kardinála Korca,,97101,,,,Prievidza,,,,SK
+clinic,,,,,,,,,,,,,,fence,,,,19.2987470,Bing,,,,,,,,,,,,49.0859164,,,,,,,,Vojenská nemocnica - Poliklinika,,,,,,,,,,
+clinic,,,,,,,,,,,,,3731,,,,,18.0358596,kapor2,,,,,,,,,,,,48.8865830,,,Partizánska,yes,,,,Vojenská poliklinika,,,,,,,,,clinic,
+clinic,,,,,,,,,,,,,,,,,,21.2974582,kapor2,,budovy201004,,,,,,,,,,48.6334200,,,,yes,,,,Zdravotné stredisko,,,,,,,,,clinic,
+clinic,,,,,,2,,,,,,,84/2,,,,,21.8369641,kapor2,,budovy201004,84,,,,,,,,,48.8727053,,,Mierová,yes,,Medical Centre,,Zdravotné stredisko,,07222,,,,Strážske,,,clinic,SK
+clinic,kapor2,,,,,,,,,,,,1219,,1,,,18.8867260,kapor2,,,1219,,,,,,,,,49.4382796,,,,yes,,,,Zdravotné stredisko,,,,,Oščadnica,Oščadnica,,,,
+clinic,kapor2,,,,,,,,,,,,6,,,,,17.2619715,kapor2,,,6,,,,,,,,,48.1406028,,,,yes,,,,Zdravotné stredisko,,,,,Most pri Bratislave,Most pri Bratislave,,,,SK
+clinic,,,,,,19,,,,,,,13/19,,2,,,18.6811796,kapor2,,freemapkapor,13,,,,,,,,,49.1274275,,,Rajecká cesta,yes,,,,Zdravotné stredisko,,,,,,Rajecké Teplice,,,,
+clinic,,,,,,24,,,,,,,223/24,,2,,,17.0354580,kapor2,,budovy201004,223,,,,,,,,,48.1930481,,,Saratovská,yes,,,,Zdravotné stredisko Asklepios,,,,,,Bratislava,,,,SK
+clinic,,,,,Petržalka,9,,,,,,,9,,5,,,17.1014172,,,,3289,,http://www.zzz.sk/?zariadenie=zsfedinova,,,,,,,48.1168095,,,Fedinova,hospital,,,,Zdravotné stredisko Fedinova,,851 01,,,,Bratislava,,,,SK
+clinic,,,,,,,,,,,,,1,,2,,,18.9332480,kapor2,,,,,,,,,,,,49.0863929,,,Hodžova,yes,,,,Zdravotné stredisko Martin-Košúty,,03601,,,,Martin,,,,
+clinic,,,,,,5,,,,,,,5,,,,,19.1548415,survey,,,,,,,,,,,,48.4245088,,,Hviezdoslavova,yes,,,,Zdravotné stredisko Pliešovce,,,,,,Pliešovce,,,,
+clinic,,,,,,,,,,,,,,,,Mo-Fr 06:45-18:45,,17.0965360,,,,,,,,,,,,,48.1261036,,,,,,,,Zdravotné stredisko Záporožská,,,,,,,,,,
+clinic,,,,,,57,,,,,,,610/57,,,,,17.3468087,kapor2,,,610,,,,,,,,,48.2964130,,,Vinohradská,civic,,,,Zdravotné stredisko Šenkvice,,900 81,,2,,Šenkvice,,,,SK
+clinic,,,,,,,,,,,,Nitra,,fence,,,,18.0802726,kapor2,,,,,,,,,,,,48.3116672,,,,,,,,Zubná poliklinika,,,,,,,,,dentist,
+clinic,,,,,,,,,,,,,,,,,,18.4139354,kapor2,,budovy201004,,,,,,,,,,48.4201777,,,,yes,,,,zdravotné stredisko,,,,,,,,,,

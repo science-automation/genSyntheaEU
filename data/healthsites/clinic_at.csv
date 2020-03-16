@@ -1,0 +1,77 @@
+health_facility:type,roof:levels,amenity,office,healthcare:speciality,building:part,addr:housename,contact:website,surface,loc_name,wikidata,alt_name,parking,operator,name:de,addr:housenumber,access,short_name,lon,building:levels,opening_hours,contact:phone,wikipedia,name,note,source,stars,type,email,website,at_bev:addr_date,description,emergency,contact:email,phone,lat,wheelchair:description,addr:street,building,fixme,ref,contact:fax,addr:city,designation,roof:shape,addr:postcode,wheelchair,addr:place,healthcare,addr:country
+,,clinic,,,,,,,,,,,,,13,,,13.4214861,,,,,AGZ Altenmarkter Gesundheitszentrum,,,,,,http://www.agz-altenmarkt.at/,,,,,,47.3769830,,Michael-Walchhofer-Straße,civic,,,,Altenmarkt im Pongau,,,5541,,,clinic,AT
+,,,,,,,,,,,,,,,28,,,14.4928143,,,,,ALTIS Fitness Arena,,,,,,,2017-10-01,,,,,46.8736573,,Moorweg,yes,,,,Althofen,,,9330,,,,AT
+,,clinic,,,,,,,,,,,,,,,,13.4581826,,,,,Am Kogl,,,,,,,,,,,,47.9414592,,,yes,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,60,,,16.5850500,,,,,Ambulatorium für Rheumatherapie,,,,,,,,,,,,48.5669284,,Liechtensteinstraße,yes,,,,Mistelbach,,,2130,,,,AT
+,,clinic,,,,,,,,,,,Stiftung Kurtherme Badehospiz,,1,,,13.1385286,,,,,Badehospiz,,,4,,,http://badehospiz.at/,,,,,,47.1199022,,Badbergstraße,hotel,,,,Bad Gastein,,,5640,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,,,,13.0905921,,,,,EMCO Klinik,,,,,,,,,,,,47.6619934,,,,,,,,,,,,,,
+,,clinic,,,,,,,,Q252562,,,,,19,,,13.0966002,,,,de:Paselstollen,Gasteiner Heilstollen,,,,,info@gasteiner-heilstollen.com,https://www.gasteiner-heilstollen.com/,,Kuranlage,,,+ 43 6434 3753-0,47.0799904,,Heilstollenstraße,yes,,,,Böckstein,,,5645,,,,AT
+,,clinic,,,,,https://ggz.graz.at/,,,,,,,,,,,15.4286335,,,+43 316 7060 - 0,,Geriatrisches Gesundheitszentrum der Stadt Graz,,,,,,,,,no,ggz.office@stadt.graz.at,,47.0646903,,,,,,,,,,,yes,,clinic,
+,,clinic,,,,,,,,,,,,,19,,,14.4723281,,,,,Gesundheitszentrum Enns,,,,,,https://www.ghz-enns.at/,,,,,,48.2209287,,Kathrein-Straße,civic,,,,Enns,,,4470,,,clinic,AT
+,,clinic,,,,,,,,,,,,,49,,,14.0223845,,,,,Gesundheitszentrum Wels,,,,,,http://www.gesundheit-wels.at,,,,,,48.1735647,,Grieskirchner Straße,,,,,Wels,,,4600,,,,AT
+,,clinic,,,,,http://www.gzw.at/,,,,Sanatorium Kursana,,,,8,,GZW,12.0620917,,,,,Gesundheitszentrum Wörgl,,plan.at 2009,,,,,,,,,,47.4886482,,Fritz Atzl-Straße,hospital,,,,Wörgl,,flat,6300,,,centre,AT
+,,clinic,,,,,,,,,,,,,18,,,13.1443199,,,,,Habsburgerhof,,,,,,,,convalescent home,,,,47.1239845,,Kaiserhofstraße,hotel,,,,Bad Gastein,,,5640,,,rehabilitation,AT
+,,,,,,,,,,,,,,,,,,14.4933310,,,,,Haus 1,,,,,,,,,,,,46.8734835,,,apartments,,,,,,,,,,,
+,,,,,,,,,,,,,,,28,,,14.4929314,,,,,Haus 2,,,,,,,2017-10-01,,,,,46.8738055,,Moorweg,yes,,,,Althofen,,,9330,,,,AT
+,,,,,,,,,,,,,,,,,,14.4939796,,,,,Haus 3,,,,,,,,,,,,46.8718668,,,apartments,,,,,,,,,,,
+,,,,,,,,,,,,,,,26,,,14.4923310,,,,,Haus 4,,,,,,,2017-10-01,,,,,46.8716915,,Moorweg,apartments,,,,Althofen,,,9330,,,,AT
+,,,,,,,,,,,,,,,28,,,14.4929598,,,,,Haus 5,,,,,,,2017-10-01,,,,,46.8741316,,Moorweg,yes,,,,Althofen,,,9330,,,,AT
+,,,,,,,,,,,,,,,,,,14.4922985,,,,,Haus 6,,,,,,,,,,,,46.8747117,,,yes,,,,Althofen,,,,,,,AT
+,,,,,,,,,,,,,,,,,,14.4925097,,,,,Haus 7,,,,,,,,,,,,46.8748809,,,yes,Buildings under construction - shape estimated - to be fixed later,,,,,,,,,,
+rehabilitation,,clinic,,,,,,,,,,,,,310,,,14.9584645,,,,,Herz-Kreislauf-Zentrum Groß Gerungs,,,,Herz-Kreislauf,,https://www.herz-kreislauf.at/,,,,,,48.5656176,,Kreuzberg,yes,,,,Groß Gerungs,,,3920,yes,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,140,,,15.5886571,,,+43 664 8315 444,,InnoVit-health solutions,,geoimage.at,,,,http://innovit.at,,,no,office@innovit.at,+433133 6100,47.0684512,,Hauptstraße,house,,,,Laßnitzhöhe,,,8301,,,physiotherapist,AT
+,,clinic,,,,,,,,,,,,,15,,,15.3397130,,,,,Klinik Judendorf-Straßengel,,geoimage.at,,,,,,,no,,,47.1147576,,Grazer Straße,yes,,,,Gratwein-Straßengel,,,8111,yes,,clinic,AT
+,,clinic,,physiatry,,,,,,,,,,,14,,,13.1280713,,,,,Klinikum Bad Gastein,,basemap.at,,,,https://www.klinikum-badgastein.at/,,,,,+43 6434 2523 4901,47.1031133,,Hans Kudlich-Straße,yes,,,,Bad Gastein,,,5640,,,rehabilitation,AT
+,,clinic,,,,Klinikum Bad Gleichenberg,,,,,,,,,4,,,15.9138587,,,,,Klinikum Bad Gleichenberg,,,,,,,,,no,,,46.8757430,,Schweizereiweg,hospital,,,,,,,8344,,,,
+,0,clinic,,,,,,,,,,,,,,,,15.8194575,3,,,,Klinikum Eggenburg,,,,,,,,,,,,48.6468385,,,hospital,,,,,,,3730,,,,
+,,clinic,,,,,https://www.noegkk.at/,,,,,,Niederösterreichische Gebietskrankenkasse,,9-15,,,16.2295712,,,+43 2252 48177,,Klinikum Peterhof,,,,,,,,,,kph-verw@noegkk.at,,48.0042090,,Sauerhofstraße,public,,,+43 2252 48177-3680,Baden,,,2500,,,,AT
+,,clinic,,,,,,,,,,,,,65,,,14.0055244,,,,,Kompetenzcenter Gesundheit St. Stephan Wels,,geoimage.at,,,,,,,,,,48.1560122,,Salzburger Straße,yes,,,,Wels,,,4600,,,,AT
+,,clinic,,,,,,,,,,,,,,,,14.0059700,,,,,Kompetenzcenter Gesundheit St. Stephan Wels,,,,,,,,,,,,48.1568080,,,,,,,,,,,,,,
+,,clinic,,,,,,,Puntigam Links,Q1341799,,,KAGes,,1,,LSF,15.4180201,,,,de:Landesnervenklinik Sigmund Freud,Landesnervenklinik Sigmund Freud,,geoimage.at,,,,,,,neurology;psychiatry,,,47.0355489,,Wagner-Jauregg-Platz,,,,,Graz,,,8053,,,,AT
+,,clinic,,,,,,,,,,,,,,,,15.5770264,,,,,Luisenheim,,,,,,,,,no,,,47.0754629,,,,,,,Laßnitzhöhe,,,,,,,
+,,clinic,,,,,,,,,,,,,168,,,13.2810260,,,,,MedAlm,,,,,,,2018-10-01,,,,,46.6129060,,,yes,,,,Hermagor-Pressegger See,,,9631,,Tröpolach,,AT
+,,clinic,,,,,http://www.medalp.com/,,,,,,,,1,,,10.6993799,3,,,,Medalp Sportclinic,,,,,,,,,yes,,,47.2140485,,Medalp-Platz,yes,,,,Imst,,flat,6460,yes,,,AT
+,,clinic,,,,,,,,,,,,,18,,,16.7281987,,24/7,+43 2282 9004 0,,Medizinisches Zentrum Gänserndorf,,geoimage.at,,,,,,,,mzg.leitstelle@mistelbach.lknoe.at,,48.3453723,,Barbaraheimstraße,yes,,,,Gänserndorf,,,2230,yes,,,
+,,clinic,,,,,,,,,,,,,2,,,13.0304397,,,,,PKS Privatklinik Salzburg GmbH,,,,,,https://privatkliniksalzburg.at/,,,,,,47.7948146,,Sinnhubstraße,yes,,,,Salzburg,,,5020,,,,AT
+,,clinic,,physiatry,,,,,,,,,KAV Wien,,,,,16.2764458,,,,,Pavillion 1a,"Institut für Physikalische Medizin und Rehabilitation, mit Ambulanz",,,,,,,,,,,48.1709866,,,yes,,,,,,,,,,clinic,
+,,clinic,,,,,,,,,,,,,,,,16.3596272,,,,,Privatklinik Döbling,,,,,,,,,,,,48.2399959,,,yes,,,,,,,,yes,,,
+,,clinic,,,,,,,,,,,,,55-63,,,16.3586013,,,,,Privatklinik Döbling,,,,,,https://www.privatklinik-doebling.at/,,,,,,48.2387803,,Heiligenstädter Straße,,,,,Wien,,,1190,,,clinic,AT
+,,clinic,,,,,,,,,,,,,16,,,15.3843060,,,,,Privatklinik Kastanienhof,,,,,,https://www.kastanienhof.at/,,,no,,,47.0643066,,Gritzenweg,sanatorium,,,,Graz,,,8052,,,,AT
+,,clinic,,,,,,,,,,,,,35,,,15.4413996,,,,,Privatklinik Kreuzschwestern,,Bing,,,,,,,no,,,47.0839255,,Kreuzgasse,yes,,,,Graz,,,8010,,,,AT
+,,clinic,,,hospital,,https://sanlas.at/einrichtungen/privatklinik-leech/,,,,,,Privatklinik Leech GmbH,Privatklinik Leech,2-4,,,15.4493858,,,+43 316 3632 0,,Privatklinik Leech,,,,,,,,,no,office@privatklinik-leech.at,,47.0752879,Zinzendorfgasse 26,Hugo-Wolf-Gasse,,,,+43 316 3632 888,Graz,,,8010,yes,,clinic,AT
+,,clinic,,,,,,,,,,,,,4,,,13.8266564,,,,,Privatklinik Villach,,,,,,https://www.humanomed.at/privatklinik-villach/,,,no,,+43 4242 3044 0,46.5945640,,Doktor-Walter-Hochsteiner-Straße,yes,,,,Villach,,,9504,,,,AT
+,,clinic,,,,,,,,,,,,,,,,13.0457090,,,,,Privatklinik Wehrle-Diakonissen,,,,,andraeviertel@pkwd.at,http://www.privatklinik-wehrle.at/de/,,,,,+43 (0)662 90509-0,47.8083709,,,,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,,,,13.0462858,,,,,Privatklinik Wehrle-Diakonissen,,,,,,http://www.privatklinik-wehrle.at/de/,,,,,+43 (0)662 90509-0,47.8087048,,,yes,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,,,,14.4987935,,,,,Psychiatrische Tagesklinik,,,,,,,,,no,,,48.4922983,,,yes,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,1,,,14.1635663,,,,,REHA Klinik Wilhering,,,,,,,,,,,,48.2999608,,Am Dorfplatz,yes,,,,Wilhering,,,4073,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,VAMED,,4a,,,9.9178558,,,+43 5556 205,,Reha-Klinik Montafon,,,,,,https://www.rehaklinik-montafon.at/de/kontakt.php,2017-10-01,,,office@rehaklinik-montafon.at,,47.0788123,,Wagenweg,yes,,,,Schruns,,,6780,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,31,,,13.6091089,,,,,RehaMed Tisserand,,bad-ischl.ooe.gv.at/Umpostung_von_PLZ_5351_Aigen-Voglhub_auf_PLZ_4820_Bad_Ischl_ab_26_Februar_2018,,,,,,,,,,47.7018326,,Kaltenbachstraße,yes,,,,Bad Ischl,,,4820,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,,,,15.6605153,,,,,Rehabilitationsklinik Gars am Kamp,,,,,,,,,no,,,48.5946573,,,yes,,,,,,,,,,rehabilitation,
+,,clinic,,,,,,,,,REHA Klinik,,AUVA-Allgemeine Unfallversicherungsanstalt,,6,,,15.3646484,,,,,Rehabilitationsklinik Tobelbad,,,,,,https://www.auva.at/portal27/portal/auvaportal/channel_content/cmsWindow?p_tabid=6&p_menuid=2083&action=2,,,,,+433136 52571-0,46.9806441,,Dr.-Georg-Neubauer-Straße,yes,,,,,,,8144,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,,,,12.8409831,,,,,Rehabilitationszentrum - Thor,,"plan.at 2009,geoimage.at",,,,,,,,,,47.4203400,,,yes,,,,Saalfelden am Steinernen Meer,,,5760,,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,206,,,15.2430191,,,,,Rehabilitationszentrum Aflenz,,,,,,,,,,,,47.5453083,,Mariazeller Straße,yes,,,,Aflenz Kurort,,,8623,,,rehabilitation,
+,,clinic,,,,,,,,,,,,,71,,,16.0877916,,,,,Rehabilitationszentrum Felbring,,,,,,https://www.ska-felbring.at/,,,,,,47.8414087,,Felbring,yes,,,,Muthmannsdorf,,,2723,,,rehabilitation,
+,,clinic,,,,,,,,Q2138864,,,,,,,,16.3448150,,,,de:Rehabilitationszentrum Meidling,Rehabilitationszentrum Meidling,,,,,,https://www.auva.at/rzmeidling,,,,,,48.1724253,,,yes,,,,,,,,,,rehabilitation,
+,,clinic,,,,,,,,,,,AUVA Allgemeine Unfallversicherungsanstalt,,350,,,16.2756484,,,+43 5 93 93-51000,,Rehabilitationszentrum Weißer Hof,,,,,,https://www.auva.at/cdscontent/?contentid=10007.671098&portal=auvaportal&viewmode=content,,,,RWV@auva.at,,48.3250002,,Holzgasse,yes,,,,Klosterneuburg,,,3400,yes,,rehabilitation,AT
+,,clinic,,,,,,,,,,,,,44,,,13.5807328,,,,,Rehabilitationszentrum der Pensionsversicherungsanstalt,,bad-ischl.ooe.gv.at/Umpostung_von_PLZ_5351_Aigen-Voglhub_auf_PLZ_4820_Bad_Ischl_ab_26_Februar_2018,,,,,,,,,,47.7157888,,Untere Lindaustraße,yes,,,,Bad Ischl,,,4820,,,rehabilitation,AT
+,,parking,,,,,,concrete,,,,surface,Privatklinik Ragnitz,,,emergency,,15.4749302,,,,,Rettungszufahrt und Patientenaufnahme Privatklinik Ragnitz,,aerial imagery,,,,,,,,,,47.0775307,,,,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,2,,,13.3007310,,,,,Revital Aspach,,geoimage.at,,,,,2017-10-01,,,,,48.1828453,,Revitalplatz,yes,,,,Aspach,,,5252,,,clinic,AT
+,,clinic,,,,,,,,,,,,,,,,15.5781832,,,,,Sanatorium,,,,,,,,,no,,,47.0754299,,,house,,,,Laßnitzhöhe,,,8301,,,,
+,,clinic,,,,,,,,,,,,,25,,,13.4574740,,,,,Sanatorium Am Kogl,,,,,,,,,,,,47.9408021,,Kogl,house,,,,St. Georgen im Attergau,,,4880,,,,AT
+,1,clinic,,,,,,,,,,,,,42,,,15.4445310,3,,,,Sanatorium Hansa,,Bing,,,,,,,no,,,47.0833960,,Körblergasse,yes,,,,Graz,,,8010,,,,AT
+,,clinic,,,,,,,,,,,,,41,,,11.4463914,,,,,Sanatorium Hochrum,,bing,,,,,,,,,,47.2892192,,Lärchenstraße,yes,,,,Rum,,,6063,yes,,clinic,AT
+,,clinic,,,,,,,,,,,Sanatorium Kettenbrücke der Barmherzigen Schwestern GmbH,,1,,,11.4049416,,,,,Sanatorium Kettenbrücke der Barmherzigen Schwestern,,,,,information@sanatorium-kettenbruecke.at,https://www.sanatorium-kettenbruecke.at/,,,,,+43 512 2112,47.2798462,,Sennstraße,,,,,Innsbruck,,,6020,yes,,clinic,AT
+,,clinic,,,,,,,,,,,,,,,,10.1528122,,,,,Sanatorium Rhomberg,,,,,,,,,,,,47.2172202,,,yes,,,,,,,,,,clinic,
+,,clinic,,,,,,,,,,,,,42,,,15.4616260,,,,,Sanatorium St. Leonhard,,survey,,,,,,,no,,,47.0788051,,Schanzelgasse,yes,,,,Graz,,,8010,,,clinic,AT
+,,clinic,,orthopaedics,,,,,,,,,,,91,,,13.8306692,,,,,Sonderkrankenanstalt für Orthopädie,,geoimage.at,,,orthopaedie@warmbad.at,http://www.med-warmbad.at/Orthopaedie/Home.html,,,,,+43 4242 3006,46.5886958,,Kumpfallee,yes,,,,Warmbad-Villach,,,9504,yes,,,AT
+,,clinic,,,,,,,,,,,,,,,,16.3231636,,,,,Sonnberghof,,,,,,,,,,,,47.7742363,,,yes,,,,,,,,,,,
+,,clinic,,,,Sonnenpark Lans,,,,,,,,,247,,,11.4210087,,,,,Sonnenpark Lans,,,,,,,,,,,,47.2362767,,Am Winkl,yes,,,,Lans,Zentrum für psychosoziale Gesundheit,,6072,,,clinic,AT
+,,clinic,physician,trauma,,,,,,,,,,,160,,,11.0085666,,,,,Sportclinic Sölden,,,,,,https://www.medalp.com/open/,,,,,+43 5254 30003,46.9587552,,Dorfstraße,yes,,,,Sölden,,,6450,,,clinic,AT
+,,clinic,,,,,,,,,,,,,830,,,11.8462803,3,,,,Sportclinic Zillertal,,,,,,http://sportclinic.at/,,,yes,,,47.1587836,,Stillupklamm,yes,,,,Mayrhofen,,,6290,,,,AT
+,,clinic,,,,,,,,,,,,,,,,10.2514591,,,,,Sportklinik Arlberg,,,,,,,,,,,,47.1258356,,,yes,,,,,,,,,,,
+,,clinic,,,,,,,,,,,,,,,,16.3421974,,,,,Unfallkrankenhaus Meidling / Rehabilitationszentrum Meidling,,,,,,,,,,,,48.1721323,,,,,,,,,,,,,clinic,
+,,clinic,,,,,,,,,,,,,1,,,13.3007310,,,,,Villa Vitalis,,geoimage.at,,,,,2017-10-01,,,,,48.1828453,,Revitalplatz,yes,,,,Aspach,,,5252,,,clinic,AT
+,,clinic,,,,,,,,,,,,,4,,,13.4641428,,,,,ehem. Sanatorium Rupp,,,,,,,,,,,,47.9411710,,Kogl,house,,,,St. Georgen im Attergau,,,4880,,,,AT
+,,clinic,,,,,,,,,,,,,,,,13.4641668,,,,,ehem. Sanatorium Rupp,,,,,,,,,,,,47.9414528,,,,,,,,,,,,,,
+,,clinic,,,,BG26,,,,,,,,,26,,,14.3404327,,,,,voestalpine Betriebsmedizin,,,,,,,,,,,,48.2694271,,Zentralstraße,yes,,BG17,,Linz,,,4020,,,,
+,,clinic,,,,,,,,,,,,,53,,,15.9868757,,,,,Ärztezentrum Bad Radkersburg,,,,,,,,,,,,46.6895030,,Langgasse,public,,,,Bad Radkersburg,,,8490,,,clinic,

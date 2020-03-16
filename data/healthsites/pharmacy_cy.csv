@@ -1,0 +1,10 @@
+addr:housenumber,building,amenity,name,source,is_in,lon,fixme,phone,dispensing,healthcare,lat,addr:street,addr:city
+,yes,pharmacy,Cemre Eczanesi,Kaart Ground Survey 2017,,33.3496112,,,,pharmacy,35.2019108,Marmara 30 Sokak,
+19,,pharmacy,Christakis N. Phylaktou,,,32.3806783,,26815526,,,34.8828098,,
+,yes,pharmacy,Michalis Menikos Pharmacies,Kaart Ground Survey 2017,,33.3935871,,,,pharmacy,35.1578440,Larnakos,
+,yes,pharmacy,Peter's Pharmacy,,Nicosia,33.3772321,,,,pharmacy,35.1747950,Agiou Andreou,
+,yes,pharmacy,Ενη Σκαλιά Παπαϊωάννου,Kaart Ground Survey 2017,,33.6287885,,,,pharmacy,34.9307899,Electras,
+,yes,pharmacy,ΜΙΚΑΕΛΑ ΠΑΝΑΓΙΩΤΟΥ,Kaart Ground Survey 2017,,33.6209717,,,,pharmacy,34.9353299,Leoforos Papanikoli Avenue,
+,yes,pharmacy,ΦΑΡΜΑΚΕΙΟ,Kaart Ground Survey 2017,,33.5854893,,,,pharmacy,34.8763494,Protomagias,
+,yes,pharmacy,Φαρμακειο,Kaart Ground Survey 2017,,33.3251273,,,,pharmacy,35.1701309,Dimocratias Avenue,Engomi
+,yes,pharmacy,ΧΡΙΣΤΑΚΗΣ ΒΑΣΙΛΕΙΟΥ,Kaart Ground Survey 2017,,33.6216382,,,,pharmacy,34.9343209,Leoforos Papanikoli Avenue,

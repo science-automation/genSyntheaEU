@@ -1,0 +1,7 @@
+amenity,healthcare:speciality,lon,wikidata,operator,addr:housenumber,opening_hours,operator:type,wikipedia,website,fax,emergency,phone,lat,addr:street,building,name:en,name,addr:postcode,addr:city,healthcare,addr:country
+hospital,,14.2461914,,,,,,,,,,,36.0385153,,,,Craig,,,,
+hospital,,14.4308754,,,,,,,,,,,35.8858465,,,,Mt Carmel,,,,
+hospital,surgery;radiology;dentistry;ophthalmology,14.5029905,Q7593482,Saint James Hospital Group,,24/7,private,en:St James Capua Hospital,https://stjameshospital.com/sliema/,+3562133022,yes,+35623291000,35.9131990,George Borg Olivier Street,hospital,,Saint James Hospital,SLM 1807,Sliema,hospital,MT
+hospital,surgery;maternity;radiology;surg,14.5200336,,Saint James Hospital Group,3,24/7,private,,https://stjameshospital.com/zejtun/,,yes,+35623291000,35.8601481,Tal-Hotba,yes,,Saint James Hospital,ZTN 9090,Iż-Żejtun,hospital,
+hospital,,14.4736227,Q6786508,,,,,,https://deputyprimeminister.gov.mt/en/MDH/Pages/Home.aspx,,,,35.9016662,,,Mater Dei Hospital,Sptar Mater Dei,,,hospital,
+hospital,,14.4928538,Q7589800,,,,,,,,no,,35.8937369,,,,Sptar San Luqa,,,hospital,

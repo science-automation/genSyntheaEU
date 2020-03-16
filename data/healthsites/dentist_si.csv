@@ -1,0 +1,12 @@
+addr:housenumber,building,amenity,lat,addr:city,building:levels,addr:postcode,contact:phone,lon,website,phone,healthcare,operator,addr:street,email,name
+15,yes,dentist,46.5671659,Bresternica,,2354,,15.5708795,,,,,Cesta na Žavcerja,,Ambulanta dr. Tihić
+,yes,dentist,46.6582660,Murska Sobota,2,9000,,16.1759876,,,,,Plese,,"EHM, stomatološke storitve Horvat"
+27,yes,dentist,45.9084361,Trebnje,,8210,+386 41 768 399,15.0111580,http://www.marnmedica.si,+386 1 361 60 70,,,Gubčeva cesta,,Marn medica d.o.o
+,yes,dentist,45.6072490,,,,,13.9432100,,,,,,,"Mojca Dodič, dr. dent. med. - zasebna ambulanta"
+30,yes,dentist,46.0711245,Ljubljana,,1126,051810735,14.4490198,,,,,Boletova ulica,,TechDens
+7,yes,dentist,46.3468952,Radovljica,,4240,,14.1718738,https://www.ortodontinja.si/,+386 4 531 22 52,,,Kopališka cesta,info@ortodontinja.si,"ZASEBNA ORTODONTSKA ORDINACIJA Staša Melink, dr.dent.med, spec."
+65,yes,dentist,46.4104735,Gorišnica,,2272,,16.0118296,http://zzsok.si,,,Darja Pribožič,Gorišnica,,Zasebna ambulanta
+33,yes,dentist,46.5649631,Maribor,,2000,+386 31 422 825,15.6323412,,,,,Turnerjeva ulica,,Zasebna zobna ordinacija Martin Pavlin
+68,office,dentist,46.0888875,Ljubljana,,1000,,14.4572348,,,,,Cesta Andreja Bitenca,,Zobozdravnik
+10,hospital,dentist,46.5571079,,,,,15.6489605,,,,,Ulica kneza Koclja,,Zobozdravstvena ambulanta
+251,yes,dentist,46.6941121,Puconci,,9201,,16.1737996,,+3868 2050777,,Simona Čopi,Puconci,,specialistična ambulanta

@@ -1,0 +1,15 @@
+amenity,drive_through,lon,indoor,payment:mastercard,payment:cash,operator,addr:housenumber,building:levels,opening_hours,addr:housename,addr:street,website,payment:visa,phone,lat,room,building,name,wheelchair:description,level,addr:postcode,wheelchair,addr:city,dispensing,healthcare,addr:country
+pharmacy,no,23.7965972,,,,,,,,,,,,,61.3608962,,commercial,Apteekki Ideapark,,,37570,,Lempäälä,,,
+pharmacy,,26.7017437,room,,,,,,,,,,,,60.8688827,shop,,Hansa-Apteekki,,0,,yes,,yes,,
+pharmacy,,22.9864005,,,,,224,,Mon-Fri 9-17 Sat 9-14,,Hirvikoskentie,http://www.hirvikoskenapteekki.fi,,,60.8679027,,yes,Hirvikosken apteekki,,,32210,,Loimaa,,,
+pharmacy,,22.2777083,,,,,,3,Mo-Fr 08:00-20:00; Sa 10:00-18:00; Su 12:00-18:00,,,,,,60.4418022,,apartments,Kupittaan apteekki,Steep stairs with no elevator. Ring the doorbell on the right of the stairs and they'll give you service outside.,,,,,,,
+pharmacy,,26.6262531,room,,,,3,,,Kuusaantori,Kauppakatu,https://www.kuusankoskenapteekki.fi/,,,60.9074118,shop,,Kuusankosken Ykkösapteekki,,0,45700,,,yes,,
+pharmacy,,26.6526515,room,,,,,,,,,,,,60.8758102,shop,,Kyminkulman Apteekki,,0,,yes,,yes,,
+pharmacy,no,22.1790775,,,,,,,,,,,,,62.4305504,,,Nuotti Apteekki,,,,,,,,
+pharmacy,,24.3572336,room,,,,,,,,,,,,61.6782346,yes,,Oriveden Apteekki,,,,,,yes,pharmacy,
+pharmacy,,25.4077194,,,,,56,,,,,,,,65.0791136,,yes,Pateniemen Apteekki,,,,,,yes,,
+pharmacy,,28.3037940,,,,,21,,Mo-Fr 09:00-17:00; Sa 09:00-13:00,,Kylätie,http://www.rantasalmenapteekki.net,,,62.0636912,,yes,Rantasalmen apteekki,,,58900,,Rantasalmi,yes,,
+pharmacy,,26.6572398,room,,,Salpa Apteekki,9,,mo-fr 08:00-20:00; sa 08:00-17:00; su 12:00-16:00,,Tommolankatu,https://www.salpaapteekki.fi/,,010 2195921,60.8725914,,,Salpa Apteekki,,0,45130,yes,Kouvola,yes,,FI
+pharmacy,,23.3032341,,yes,yes,,23,,,,Sockenvägen,,yes,,60.0577929,,commercial,Tenholan Apteekki,,,,,,,,
+pharmacy,,21.5665183,,,,,,,,,,,,,61.1305419,,yes,Uotilan sivuapteekki,,,,,,,,
+pharmacy,,28.1512860,,,,,5,,,,Voisalmentie,,,,61.0772254,,yes,Voisalmen sivuapteekki,,,53920,,Lappeenranta,,,FI

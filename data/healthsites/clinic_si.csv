@@ -1,0 +1,24 @@
+amenity,healthcare:speciality,lon,contact:website,wikidata,operator,addr:housenumber,short_name,building:levels,opening_hours,contact:phone,addr:housename,source,addr:street,email,website,fax,name:sl,source:addr,emergency,contact:email,source:date,phone,lat,operator:type,name:hu,source:addr:date,addr:city,building,name:en,contact:fax,name,addr:postcode,addr:place,ref:gurs:hs_mid,healthcare,addr:country
+clinic,,14.5218840,,,,,,,,,,,,,,,,,,,,,46.0516126,,,,,hospital,,,Dermatovenerološka klinika,,,,clinic,
+clinic,,14.1044875,http://www.dc-bled.si/,,,4,,,,+386 4 5798000,,,Pod skalo,,,,,GURS,,info@dc-bled.si,8.11.2016,,46.3708718,,,,Bled,yes,,+386 4 5798404,Diagnostični center Bled d.o.o.,4260,,,,SI
+clinic,,15.6579884,,,,6,,2,,,,,Mejna ulica,narocanje@zdravsplet.si,http://zdravsplet.si/,,,,,,,+386 2 614 4477,46.5540181,,,,Maribor,house,Surgical center Zdrav splet,,Kirurški center Zdrav splet,2000,,,,
+clinic,,14.3322526,,Q30254039,,36,,,,,,,Golnik,kopa.tajnistvo@klinika-golnik.si,http://www.klinika-golnik.si/,+386 4 2569117,,,,,,+386 4 2569100,46.3291694,,,,Golnik,yes,,,Klinika Golnik,4204,,,,
+clinic,,16.1865939,,,,,,,,,,,,,,,,,,,,,46.6490401,,,,,yes,,,Klinični,,,,,
+clinic,,14.5193871,,,,2,,,,,Klinični oddelek za maksilofacialno in oralno kirurgijo,,Zaloška cesta,,,,,,,,,,46.0515728,,,,Ljubljana,hospital,,,Klinični oddelek za maksilofacialno in oralno kirurgijo,1000,,,clinic,SI
+clinic,,14.5215205,,,,2,,,,,,,Zaloška cesta,,,,,,,,,,46.0519337,,,,Ljubljana,hospital,Department of traumatology,,Klinični oddelek za travmatologijo,1000,,,clinic,
+clinic,,13.6478236,,,,63,,,,,,,Ulica Gradnikove brigade,,,,,,,,,,45.9650643,,,,Nova Gorica,yes,,,Medicinski center Medartis,5000,,,,
+clinic,,14.5216981,,,,2,,,,,,,Zaloška cesta,,,,,,,,,,46.0524168,,,,,hospital,,,Nevrološka klinika,,,,clinic,
+clinic,,14.5204873,,,,,,,,,,,,,,,,,,,,,46.0525452,,,,,yes,,,Onkološki inštitut - B,,,,clinic,
+clinic,,14.5204696,,,,,,,,,,,,,,,,,,,,,46.0520748,,,,,yes,,,Onkološki inštitut - C,,,,clinic,
+clinic,,14.5210220,,,,,,,24/7,,,,,,,,,,yes,,,,46.0550030,,,,,hospital,,,Pediatrična klinika,,,,,
+clinic,,14.5194554,,,,4,,,,,,,Njegoševa cesta,,,,,,,,,,46.0531787,,,,Ljubljana,hospital,,,Poliklinika,1000,,,,
+clinic,,14.5292067,,,,,,,,,,,,,,,,,,,,,46.0546367,,,,,yes,,,Psihiatrična klinika,,,,clinic,
+clinic,,14.5584280,,,,14,,,,,,,Preglov trg,,,,,,,,,,46.0537072,,,,Ljubljana,yes,,,"ZD Ljubljana - MOSTE-POLJE, PE Fužine",1000,,,,
+clinic,,15.7025658,,,,,,,,,,,,,,,,,,,,,46.5022737,,,,,yes,,,Zdravstvena postaja Miklavž na Dravskem polju,,,,,
+clinic,,15.2303050,,,,37,,,,,,,Mariborska cesta,,http://www.zd-radlje.si/,,,,,,,,46.6135292,,,,Radlje ob Dravi,yes,,,Zdravstveni Dom Radlje ob Dravi,2360,,,,
+clinic,,15.4945511,,,,7a,,,,,,GURS,Kolodvorska ulica,,https://www.aristotel.si/,,,,,,20020614,,45.9565668,,,,Krško,yes,,,Zdravstveni center Aristotel,8270,,,clinic,
+clinic,,13.6377993,,,,25,,,,,,,Cesta Prekomorskih brigad,,https://www.zd-go.si/,,,,,,,,45.9307654,,,,Šempeter pri Gorici,yes,,,Zdravstveni dom - Šempeter,5290,Zdravstveni dom - Šempeter,,,SI
+clinic,,13.7822111,,,,2,,,,,,,Koroška ulica,,,,,GURS,no,,,,46.4854588,,,1995-01-01,Kranjska Gora,yes,,,Zdravstveni dom Kr. Gora,4280,,11928510,,
+clinic,general,16.4566397,,,,34,ZD Lendava,,,,,,Kidričeva ulica,,http://www.zd-lendava.si/,,Zdravstveni dom Lendava,,yes,,,,46.5584298,,Egészségház Lendva,,Lendava,yes,,,Zdravstveni dom Lendava,9220,,,clinic,
+clinic,,15.6442791,,,,10,,,,,,,Jezdarska ulica,info@zd-mb.si,,,,,,,,+386 2 228 6200,46.5504426,,,,Maribor,commercial,,,Zdravstveni dom Maribor - enota Tabor,2000,,,clinic,
+clinic,general;physiotherapy;gynaecology;dentistry;paediatrics,14.4652357,,,Zdravstveni dom Ljubljana,1,,,,,,,Ob zdravstvenem domu,taj.sen@zd-lj.si,,+386 1 5125716,,,,,,+386 1 5837400,46.0988375,public,,,Ljubljana - Šentvid,yes,,,Zdravstveni dom Šentvid,1210,,,clinic,

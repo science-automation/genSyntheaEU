@@ -1,0 +1,17 @@
+amenity,healthcare:speciality,official_name,operator,name:ru,addr:housenumber,building:levels,opening_hours,lon,name,source,email,website,emergency,phone,old_name,lat,smoking,addr:street,building,addr:city,addr:postcode,healthcare,addr:country
+clinic,,,,,,,,25.2590661,Cēsu rajona poliklīnika,"Ortofoto 1:10000, 2007.-2008. gads, © Latvijas Ģeotelpiskās informācijas aģentūra",,,,,,57.3123332,,,yes,,,,
+clinic,,RP SIA „Iļģuciema poliklīnika”,Rīgas veselības centrs,,15,3,,24.0541255,Iļģuciema poliklīnika,,,http://rigasveseliba.lv/2015/filiales/ilguciems-selpils,,,Dzirciema poliklīnika,56.9574991,,Sēlpils iela,public,,,,
+clinic,,,,,29,,Mo-Fr 07:00-19:00,24.1367549,LJMC Sarkandaugavas ambulatorās veselības aprūpes centrs,,,,,+371 67889000,,56.9889156,,Patversmes iela,yes,Rīga,LV-1010,,
+clinic,,,,,10,3,"Mo-Fr 08:00-21:00, S 08:00-15:00, S -",24.1128297,LJMC Vecmīlgrāvja primārās veselības aprūpes centrs,,,http://www.ljmc.lv,,+371 67340442,,57.0324691,,Melīdas iela,yes,Rīga,LV-1015,,LV
+clinic,ophthalmology,,,,12A,,Mo-Fr 08:00-18:00; Sa 09:00-14:00,24.1500529,Latvijas Amerikas acu centrs,,laac@laac.lv,https://www.laac.lv/,,+371 672 722 57,,56.9529702,,Augusta Deglava iela,yes,Rīga,LV-1009,clinic,LV
+clinic,,,,Лиепайская поликлиника №1,,,,21.0061143,Liepājas pirma poliklinika,,,,,,,56.5078478,,,clinic,,,,
+clinic,,,,,85,,,24.0101522,Medicīnas centrs Elite,,,,,,,56.9545942,,Anniņmuižas bulvāris,hospital,,,,
+clinic,,,,,45 k-21,3,Mo-Fr 08:00-18:00,24.0853197,Poliklīnika,,,,,,,56.9224403,,Vienības gatve,hospital,,,clinic,
+clinic,,,,,,3,,24.1273616,"Poliklīnika ""Šarlotes""","Rīgas ĢeoMetrs, 29.02.2012",,,,,,56.9604310,,,yes,,,clinic,
+clinic,,,,,,,,24.1281360,"Poliklīnika ""Šarlotes""",,,,,,,56.9605385,,,yes,,,clinic,
+clinic,Psychosomatics,,Rīgas Stradiņa universitāte,,30,4,Mo-Fr 08:00-21:00,24.0698638,Rīgas Stradiņa universitātes Psihosomatiskās medicīnas un psihoterapijas klīnika un katedra,,,https://psihosomatika.lv,,,,56.9462159,outside,Kristapa iela,apartments,Rīga,LV-1046,clinic,LV
+clinic,,,,,13,,,24.1724363,"Rīgas veselības centrs ""Ķengarags""",,,,,,,56.9137724,,Kaņiera iela,yes,Rīga,,clinic,
+clinic,,,,,24,2,,24.0896202,"SIA ""Rīgas veselības centrs"" filiāle ""Ziepniekkalns""",,,,,,,56.9027252,,Spulgas iela,yes,Rīga,LV-1058,clinic,LV
+clinic,,,,,11,2,,24.1241465,VCA poliklīnika Vesels,,,https://www.vca.lv,no,+371 67509640,,57.0030988,,Zāģeru iela,yes,Rīga,LV-1005,,
+clinic,general,,,,16,7,,24.2043762,"Veselības centrs ""Pļavnieki""",,,,no,,,56.9379552,,Andreja Saharova iela,yes,Rīga,LV-1021,clinic,
+clinic,,,,,180,,,24.1467075,Veselības centrs 4,"Rīgas ĢeoMetrs, 29.02.2012",,,,,,56.9659969,,Brīvības iela,yes,Rīga,,clinic,

@@ -1,0 +1,17 @@
+amenity,int_name,healthcare:speciality,amenity_1,lon,amenity_2,addr:housenumber,wikipedia,note,source,start_date,website,description,emergency,phone,old_name,lat,tourism,addr:street,building,name,addr:postcode,wheelchair,addr:city,healthcare
+clinic,,,,5.1774276,,,,,,,,,,,,59.7944256,,,yes,Bremnes helsestasjon,,,,clinic
+clinic,,,,11.4813213,,,,,statkart.no,,,,,,,64.0330838,,,yes,Egge Helsetun,,,,
+clinic,,,,10.8061205,,19,,Working Hours: M: 08:00-17:00 | T: 08:00-19:00 | W: 07:00-17:00 | Th: 08:00-18:00 | F: 08:00-15:00 | Sat: closed | Sun: closed,,2007,,"Health clinic located at Økern in Oslo, Norway. The clinic is multi-disciplinary clinic with chiropractors, physiotherapist, massage therapists, osteopaths and the clinic has a little gym. The clinic was established i 2007. Book an appointment online from",,,,59.9278976,,Østre Aker vei,yes,Fokusklinikken,0581,,Oslo,
+clinic,Fredheim Health Center,,,9.5959530,,,,,Kartverket,,https://fredheim.org/,,,,,59.6400449,hotel,,yes,Fredheim Helsesenter,,,,
+clinic,,,,11.3749503,,,,,,,https://sykehuset-ostfold.no/steder/haldenklinikken,,yes,,,59.1279084,,,yes,Haldenklinikken,,,,
+clinic,,,,5.2933143,,,,,,,,,yes,+47 52 80 40 00,,59.4037657,,,hospital,Haugesund legevakt,,,,clinic
+clinic,,,,10.8163907,,,,,,,,,,,,59.8173897,,,,Høyås bo- og rehabiliteringssenter,,,,rehabilitation
+clinic,,,,10.8589197,,,,,,,,,,,,59.9560296,,,yes,Incognito klinikk,,,,clinic
+clinic,,,,5.2828227,,,,,,,,,,,,59.2824203,,,,Karmøy DPS,,,,
+clinic,,psychiatry,,10.4795142,,,,,,,https://www.trondheim.kommune.no/tema/helse-og-omsorg/helsetjenester/psykisk-helse/leistad-etterbehandling--kad/,,,,,63.4206914,,,yes,Leistad Etterbehandling / KAD,,yes,,
+clinic,,,doctors,9.7398730,dentists,,,,,,,,,,,61.6001680,,Nordre Byre,no,Nordre Byre,,,,
+clinic,,psychiatry,,5.3155844,,,no:Sandviken sykehus,,,,,,,,,60.4203685,,,,"Psykiatrisk klinikk, Haukeland universitetssjukehus",,,,clinic
+clinic,,,,8.6072291,,,,,,,https://www.sthf.no/steder/rjukan,,,,,59.8800975,,,,Sykehuset Telemark - Rjukan,,,,
+clinic,,,,5.2244369,,,,,,,,,,,,60.3404134,,,yes,Sykestua,,,,
+clinic,,,,10.4454969,,,,,,,https://stolav.no/avdelinger/barne-og-ungdomsklinikken/trondsletten-habiliteringssenter,,,,,63.4234465,,,yes,Trondsletten habiliteringssenter,,,,
+clinic,,,,11.4017274,,,,,,,,,,,LHL-klinikken Røros,62.5732973,,,yes,Unicare Røros,,,,
