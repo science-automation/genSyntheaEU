@@ -31,15 +31,15 @@ jobs:
         echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites" > .env
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
     - script: |
-        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU
+        ls -la ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         git config --global user.name "scivm"
         git config http.version HTTP/1.1
-        cd scripts
         python genSyntheaProvider.py
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
         git add .
         git commit -m "generated from automation [skip ci]"
-        git push https://scivm:$PASS@github.com/science-automation/genSyntheaEU.git HEAD:master
+        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
       env:
         PASS: $(gitpass)
       displayName: 'Generate providers from OSM data'
