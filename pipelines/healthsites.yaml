@@ -3,8 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- master
+trigger: None
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -22,7 +21,6 @@ jobs:
       displayName: 'Install python modules needed'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s
-        ls -la 
         git config --global user.name "scivm"
         git config http.version HTTP/1.1
         cd scripts

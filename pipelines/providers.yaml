@@ -7,8 +7,7 @@ resources:
       endpoint: science-automation
       name: synthetichealth/synthea-international
 
-trigger:
-- master
+trigger: None
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -20,7 +19,6 @@ jobs:
     - checkout: self
       persistCredentials: true
     - checkout: synthea-international
-      fetchDepth: 1
       clean: true
     - script: |
         pip install pandas
@@ -31,7 +29,6 @@ jobs:
         echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites" > .env
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
     - script: |
-        ls -la ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         git config --global user.name "scivm"
         git config http.version HTTP/1.1
