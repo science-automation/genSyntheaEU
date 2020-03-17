@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-import pathlib
 import zipfile
 from dotenv import load_dotenv
 
@@ -10,13 +9,15 @@ from dotenv import load_dotenv
 load_dotenv(verbose=True)
 
 # set output directory
-# Path to the directory containing the input healthsites files
+# Path to the directory containing the postalcode files
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+# path to iso region file
+ISO_REGION_DIRECTORY    = os.environ['ISO_REGION_DIRECTORY']
 
 # load the iso region file into a dataframe
-isodf = pd.read_csv('../data/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
+isodf = pd.read_csv(ISO_REGION_DIRECTORY + '/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
 
 # list of countries to be processed.  GR and CY have different format and processed later
 countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]

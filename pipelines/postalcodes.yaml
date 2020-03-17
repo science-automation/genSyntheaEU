@@ -22,6 +22,8 @@ jobs:
     steps:
     - checkout: self
       persistCredentials: true
+    - checkout: postalcodes
+      clean: true
     - checkout: synthea-international
       clean: true
     - script: |
@@ -37,6 +39,7 @@ jobs:
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/postalcodes" > .env
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+        echo "ISO_REGION_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data" >> .env
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         python genPostalCodes.py
