@@ -25,6 +25,7 @@ jobs:
         cd ${AGENT_BUILDDIRECTORY}/s
         rm -r -f synthea-international
         git clone https://scivm:$PASS@github.com/science-automation/synthea-international.git
+      displayName: 'checkout from master and not detached head'
     - script: |
         pip install pandas
         pip install python-dotenv
@@ -35,10 +36,10 @@ jobs:
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
-        git config --global user.name "scivm"
-        git config http.version HTTP/1.1
         python genTimeZones.py
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
         git add .
         git commit -m "generated from automation [skip ci]"
         git push https://scivm:$PASS@github.com/science-automation/synthea-international.git master
