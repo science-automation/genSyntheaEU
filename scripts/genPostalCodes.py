@@ -31,11 +31,11 @@ for country in countries:
     if not os.path.exists(OUTPUT_DIRECTORY):
         os.makedirs(OUTPUT_DIRECTORY)
     # make a temp directory to unpack the zip
-    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
+    path_to_zip_file = BASE_INPUT_DIRECTORY + '/' + country.lower() + ".zip"
+    if os.path.exists(path_to_zip_file):
         tmppath = BASE_INPUT_DIRECTORY + "/tmp"
         if not os.path.exists(tmppath):
             os.makedirs(tmppath)
-        path_to_zip_file = BASE_INPUT_DIRECTORY + '/' + country.lower() + ".zip"
         with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
             zip_ref.extractall(tmppath)
         # load the file into a dataframe
