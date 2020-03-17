@@ -1,0 +1,34 @@
+import os
+from dotenv import load_dotenv
+import pandas as pd
+import time
+import ModelSyntheaPandas
+from shutil import copyfile
+
+countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
+
+# ------------------------
+# load env
+# ------------------------
+load_dotenv(verbose=True)
+
+# set output directory
+# Path to the directory containing the input healthsites files
+BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
+# Path to the base directory that provider files will be written to
+BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+
+print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
+print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
+
+for country in countries:
+    # load the properties file
+    file='synthea.properties'
+    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
+        OUTPUT_DIRECTORY =  os.path.join(BASE_OUTPUT_DIRECTORY,country.lower())
+        OUTPUT_DIRECTORY = OUTPUT_DIRECTORY + '/src/main/resources'
+        if not os.path.exists(OUTPUT_DIRECTORY):
+            os.makedirs(OUTPUT_DIRECTORY)
+        src = os.path.join(BASE_INPUT_DIRECTORY,file)
+        dst = os.path.join(OUTPUT_DIRECTORY,file)
+        copyfile(src, dst)
