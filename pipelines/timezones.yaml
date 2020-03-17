@@ -1,0 +1,44 @@
+# create synthea timezones for all eu countries
+
+resources:
+  repositories:
+    - repository: synthea-international
+      type: github
+      endpoint: science-automation
+      name: synthetichealth/synthea-international
+
+trigger: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+jobs:
+  - job: providers_generator
+    timeoutInMinutes: 0
+    steps:
+    - checkout: self
+      persistCredentials: true
+    - checkout: synthea-international
+      clean: true
+    - script: |
+        pip install pandas
+        pip install python-dotenv
+      displayName: 'Install python modules needed'
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
+        echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites" > .env
+        echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
+        git branch master
+        git checkout master
+        python genTimeZones.py
+        cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
+        git add .
+        git commit -m "generated from automation [skip ci]"
+        git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
+      env:
+        PASS: $(gitpass)
+      displayName: 'Generate Synthea timezone file'
