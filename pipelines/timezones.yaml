@@ -39,7 +39,8 @@ jobs:
         git pull origin master
         git add .
         git commit -m "generated from automation [skip ci]"
-        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
+        git show-ref
+        git push https://scivm:$PASS@github.com/science-automation/synthea-international.git origin master
       env:
         PASS: $(gitpass)
       displayName: 'Generate Synthea timezone file'
