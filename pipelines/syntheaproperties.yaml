@@ -21,7 +21,6 @@ jobs:
     - checkout: synthea-international
       clean: true
     - script: |
-        pip install pandas
         pip install python-dotenv
       displayName: 'Install python modules needed'
     - script: |
@@ -30,10 +29,9 @@ jobs:
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
       displayName: 'Prepare Run'
     - script: |
-        cd ${AGENT_BUILDDIRECTORY}/s
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         git config --global user.name "scivm"
         git config http.version HTTP/1.1
-        cd scripts
         python copySyntheaProperties.py
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
         git add .
