@@ -23,6 +23,7 @@ for country in countries:
     print("Copying synthea properties file for " + country)
     # load the properties file
     file='synthea.properties'
+    print(os.path.join(BASE_INPUT_DIRECTORY,file))
     if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
         OUTPUT_DIRECTORY =  os.path.join(BASE_OUTPUT_DIRECTORY,country.lower())
         OUTPUT_DIRECTORY = OUTPUT_DIRECTORY + '/src/main/resources'
