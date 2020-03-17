@@ -13,7 +13,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 jobs:
-  - job: providers_generator
+  - job: timezones_generator
     timeoutInMinutes: 0
     steps:
     - checkout: self
