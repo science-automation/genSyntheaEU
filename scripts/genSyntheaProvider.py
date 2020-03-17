@@ -4,8 +4,6 @@ import pandas as pd
 import time
 import ModelSyntheaPandas
 
-countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
-
 # ------------------------
 # load env
 # ------------------------
@@ -28,6 +26,9 @@ print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
 print('HOSPITAL_BASE_ID         =' + HOSPITAL_BASE_ID)
 print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
+
+# countries list
+countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()

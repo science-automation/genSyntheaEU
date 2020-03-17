@@ -1,25 +1,35 @@
 import pandas as pd
 import os
 import pathlib
+from dotenv import load_dotenv
 
-# build dir
-builddir = '../build'
+# ------------------------
+# load env
+# ------------------------
+load_dotenv(verbose=True)
 
-# load the iso region file into a dataframe
-df = pd.read_csv('../data/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
-
-# load in the country timezones
-zonedf = pd.read_csv('../data/country_timezone.csv', dtype='object')
+# set output directory
+# Path to the directory containing the input healthsites files
+BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
+# Path to the base directory that provider files will be written to
+BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 
 # list of countries to be processed
 countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "GR", "ES", "FR", "HR", "IT", "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
 
+# load the iso region file into a dataframe
+df = pd.read_csv(BASE_INPUT_DIRECTORY + '/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
+
+# load in the country timezones
+zonedf = pd.read_csv(BASE_INPUT_DIRECTORY + '/country_timezone.csv', dtype='object')
+
 for country in countries:
-    print(country)
+    print("Processing " + country)
+    OUTPUT_DIRECTORY =  os.path.join(BASE_OUTPUT_DIRECTORY,country.lower())
+    OUTPUT_DIRECTORY = OUTPUT_DIRECTORY + '/src/main/resources/geography'
+    if not os.path.exists(OUTPUT_DIRECTORY):
+        os.makedirs(OUTPUT_DIRECTORY)
     regions = df.loc[df['country'] == country]
-    path = builddir + "/" + country.lower() + "/src/main/resources/geography"
-    if not os.path.exists(path):
-        os.makedirs(path)
     # write the timezones.csv file
     countryzone = zonedf.loc[zonedf['country_code'] == country]
     countryzone = countryzone.reset_index(drop=True)
@@ -30,4 +40,4 @@ for country in countries:
     regions['TZ'] = std_abbr
     regions = regions.rename(columns={"name": "STATE", "isocodem": "ST"})
     header = ["STATE","ST","TIMEZONE","TZ"]
-    regions.to_csv(path + '/timezones.csv', columns = header, index=False, encoding='UTF-8')
+    regions.to_csv(OUTPUT_DIRECTORY + '/timezones.csv', columns = header, index=False, encoding='UTF-8')
