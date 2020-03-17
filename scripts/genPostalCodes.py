@@ -14,8 +14,6 @@ load_dotenv(verbose=True)
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
-# postal code base directory
-POSTAL_CODE_DIRECTORY   = os.environ['POSTAL_CODE_DIRECTORY']
 
 # load the iso region file into a dataframe
 isodf = pd.read_csv('../data/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
@@ -36,7 +34,7 @@ for country in countries:
         tmppath = BASE_INPUT_DIRECTORY + "/tmp"
         if not os.path.exists(tmppath):
             os.makedirs(tmppath)
-        path_to_zip_file = POSTAL_CODE_DIRECTORY + '/' + country.lower() + ".zip"
+        path_to_zip_file = BASE_INPUT_DIRECTORY + '/' + country.lower() + ".zip"
         with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
             zip_ref.extractall(tmppath)
         # load the file into a dataframe

@@ -6,6 +6,10 @@ resources:
       type: github
       endpoint: science-automation
       name: synthetichealth/synthea-international
+    - repository: postalcodes
+      type: github
+      endpoint: science-automation
+      name: science-automation/postalcodes
 
 trigger: none
 
@@ -21,24 +25,27 @@ jobs:
     - checkout: synthea-international
       clean: true
     - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s
+        rm -r -f synthea-international
+        git clone https://scivm:$PASS@github.com/science-automation/synthea-international.git
+      displayName: 'checkout from master and not detached head'
+    - script: |
         pip install pandas
         pip install python-dotenv
       displayName: 'Install python modules needed'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
-        echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data/healthsites" > .env
+        echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/postalcodes" > .env
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
-        git config --global user.name "scivm"
-        git config http.version HTTP/1.1
-        git branch master
-        git checkout master
         python genPostalCodes.py
         cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
         git add .
         git commit -m "generated from automation [skip ci]"
-        git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git HEAD:master
+        git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git master
       env:
         PASS: $(gitpass)
       displayName: 'Generate postal codes from geonode data'
