@@ -1,8 +1,6 @@
 import os
 from dotenv import load_dotenv
-import pandas as pd
 import time
-import ModelSyntheaPandas
 from shutil import copyfile
 
 countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
