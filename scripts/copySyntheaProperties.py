@@ -20,6 +20,7 @@ print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
 print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
 
 for country in countries:
+    print("Copying synthea properties file for " + country)
     # load the properties file
     file='synthea.properties'
     if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
@@ -29,4 +30,6 @@ for country in countries:
             os.makedirs(OUTPUT_DIRECTORY)
         src = os.path.join(BASE_INPUT_DIRECTORY,file)
         dst = os.path.join(OUTPUT_DIRECTORY,file)
+        print(src)
+        print(dst)
         copyfile(src, dst)
