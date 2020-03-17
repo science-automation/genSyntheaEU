@@ -34,5 +34,5 @@ for country in countries:
         copyfile(src, dst)
         with open(dst) as f:
             newText=f.read().replace('exporter.csv.export = false', 'exporter.csv.export = true').replace('generate.append_numbers_to_person_names = true','generate.append_numbers_to_person_names = true').replace('generate.geography.country_code = US','generate.geography.country_code = ' + country)
-        with open(FileName, "w") as f:
+        with open(dst, "w") as f:
             f.write(newText)
