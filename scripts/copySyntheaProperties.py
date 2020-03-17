@@ -3,20 +3,6 @@ from dotenv import load_dotenv
 import time
 from shutil import copyfile
 
-def inplace_change(filename, old_string, new_string):
-    # Safely read the input filename using 'with'
-    with open(filename) as f:
-        s = f.read()
-        if old_string not in s:
-            print('"{old_string}" not found in {filename}.'.format(**locals()))
-            return
-    # Safely write the changed content, if found in the file
-    with open(filename, 'w') as f:
-        s = f.read()
-        print('Changing "{old_string}" to "{new_string}" in {filename}'.format(**locals()))
-        s = s.replace(old_string, new_string)
-        f.write(s)
-
 # country list
 countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
 
@@ -46,6 +32,7 @@ for country in countries:
         src = os.path.join(BASE_INPUT_DIRECTORY,file)
         dst = os.path.join(OUTPUT_DIRECTORY,file)
         copyfile(src, dst)
-        inplace_change(dst,"exporter.csv.export = false","exporter.csv.export = true")
-        inplace_change(dst,"generate.append_numbers_to_person_names = true","generate.append_numbers_to_person_names = false")
-        inplace_change(dst,"generate.geography.country_code = US","generate.geography.country_code = " + country)
+        with open(dst) as f:
+            newText=f.read().replace('exporter.csv.export = false', 'exporter.csv.export = true').replace('generate.append_numbers_to_person_names = true','generate.append_numbers_to_person_names = true').replace('generate.geography.country_code = US','generate.geography.country_code = ' + country)
+        with open(FileName, "w") as f:
+            f.write(newText)
