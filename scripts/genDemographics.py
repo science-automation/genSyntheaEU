@@ -37,7 +37,7 @@ for country in countries:
     df = pd.DataFrame(columns=model_synthea.model_schema['demographics'].keys())
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
-    citieslocal = citieslocal.sort_values('name')
+    citieslocal = citieslocal.sort_values('name').reset_index()
     df['NAME'] = citieslocal['name']
     df['CTYNAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
