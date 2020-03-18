@@ -37,11 +37,12 @@ for country in countries:
     df = pd.DataFrame(columns=model_synthea.model_schema['demographics'].keys())
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
+    citieslocal = citieslocal.sort_values('name')
     df['NAME'] = citieslocal['name']
     df['CTYNAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
     df['TOT_POP'] = citieslocal['population']
     # sort
-    df = df.sort_values('CTYNAME').reset_index()
+    df = df.sort_values('CTYNAME')
     # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=True)
