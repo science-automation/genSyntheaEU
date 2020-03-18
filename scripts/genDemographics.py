@@ -23,6 +23,10 @@ model_data = ModelData.ModelData()
 # load the world cities into a dataframe
 cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8")
 
+# load data so that we can convert geonames fips to region name
+divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', sep=';', encoding = "utf-8")
+print(divisions)
+
 # list of countries to be processed.  No FI since we have better data
 countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
@@ -37,10 +41,12 @@ for country in countries:
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
     citieslocal = citieslocal.sort_values('name').reset_index()
+    divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
+    citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
     df['NAME'] = citieslocal['name']
     df['ID'] = df.index
     df['COUNTY'] = df.index
-    df['STNAME'] = citieslocal['admin1 code']
+    df['STNAME'] = citieslocal['Name of Subdivision']
     df['POPESTIMATE2015'] = citieslocal['population']
     df['CTYNAME'] = citieslocal['name']
     df['TOT_POP'] = citieslocal['population']
