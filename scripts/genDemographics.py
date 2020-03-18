@@ -25,7 +25,6 @@ cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.m
 
 # load data so that we can convert geonames fips to region name
 divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', sep=';', encoding = "utf-8")
-print(divisions)
 
 # list of countries to be processed.  No FI since we have better data
 countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
