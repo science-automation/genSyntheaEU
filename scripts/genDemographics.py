@@ -38,14 +38,53 @@ for country in countries:
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
     citieslocal = citieslocal.sort_values('name').reset_index()
+    df['NAME'] = citieslocal['name']
     df['ID'] = df.index
     df['COUNTY'] = df.index
-    df['NAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
     df['CTYNAME'] = citieslocal['name']
     df['TOT_POP'] = citieslocal['population']
     df['TOT_MALE'] = '.5'
     df['TOT_FEMALE'] = '.5'
+    df['WHITE'] =
+    df['HISPANIC'] =
+    df['BLACK'] =
+    df['ASIAN'] =
+    df['NATIVE'] =
+    df['OTHER'] =
+    df['1'] =
+    df['2'] =
+    df['3'] =
+    df['4'] =
+    df['5'] =
+    df['6'] =
+    df['7'] =
+    df['8'] =
+    df['9'] =
+    df['10'] =
+    df['11'] =
+    df['12'] =
+    df['13'] =
+    df['14'] =
+    df['15'] =
+    df['16'] =
+    df['17'] =
+    df['18'] =
+    df['00..10'] =
+    df['10..15'] =
+    df['15..25'] =
+    df['25..35'] =
+    df['35..50'] =
+    df['50..75'] =
+    df['75..100'] =
+    df['100..150'] =
+    df['150..200'] =
+    df['200..999'] =
+    df['LESS_THAN_HS'] =
+    df['HS_DEGREE'] =
+    df['SOME_COLLEGE'] =
+    df['BS_DEGREE'] =
+
     # sort
     df = df.sort_values('CTYNAME')
     # save to disk
