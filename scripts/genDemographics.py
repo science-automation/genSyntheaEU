@@ -37,5 +37,7 @@ for country in countries:
     df['CTYNAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
     df['TOT_POP'] = citieslocal['population']
-    # load the file into a dataframe
+    # sort
+    df = df.sort_values('CTYNAME')
+    # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', header=True, index=True)
