@@ -33,9 +33,9 @@ for country in countries:
     if not os.path.exists(OUTPUT_DIRECTORY):
         os.makedirs(OUTPUT_DIRECTORY)
     # create synthea demographic df
-    citieslocal = pd.DataFrame(columns=model_synthea.model_schema['demographics'].keys())
+    df = pd.DataFrame(columns=model_synthea.model_schema['demographics'].keys())
     # filter only cities in this country
-    df = citieslocal.loc[citieslocal['country code'] == country]
+    citieslocal = cities.loc[cities['country code'] == country]
     df['NAME'] = citieslocal['name']
     df['CTYNAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
