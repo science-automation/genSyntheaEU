@@ -38,11 +38,15 @@ for country in countries:
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
     citieslocal = citieslocal.sort_values('name').reset_index()
+    df['ID'] = df.index
+    df['COUNTY'] = df.index
     df['NAME'] = citieslocal['name']
-    df['CTYNAME'] = citieslocal['name']
     df['STNAME'] = citieslocal['admin1 code']
+    df['CTYNAME'] = citieslocal['name']
     df['TOT_POP'] = citieslocal['population']
+    df['TOT_MALE'] = '.5'
+    df['TOT_FEMALE'] = '.5'
     # sort
     df = df.sort_values('CTYNAME')
     # save to disk
-    df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=True)
+    df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=False)
