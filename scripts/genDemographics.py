@@ -41,6 +41,7 @@ for country in countries:
     df['ID'] = df.index
     df['COUNTY'] = df.index
     df['STNAME'] = citieslocal['admin1 code']
+    df['POPESTIMATE2015'] = ['population']
     df['CTYNAME'] = citieslocal['name']
     df['TOT_POP'] = citieslocal['population']
     df['TOT_MALE'] = '.5'
