@@ -21,7 +21,7 @@ model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
 model_data = ModelData.ModelData()
 
 # load the world cities into a dataframe
-cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8")
+cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8", header=False)
 print(cities.dtypes)
 
 # list of countries to be processed.  No FI since we have better data
