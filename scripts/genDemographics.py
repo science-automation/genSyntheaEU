@@ -22,7 +22,6 @@ model_data = ModelData.ModelData()
 
 # load the world cities into a dataframe
 cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8")
-print(cities.dtypes)
 
 # list of countries to be processed.  No FI since we have better data
 countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
