@@ -44,4 +44,4 @@ for country in countries:
     # sort
     df = df.sort_values('CTYNAME')
     # save to disk
-    df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', header=True, index=True)
+    df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=True)
