@@ -2,6 +2,8 @@ import pandas as pd
 import os
 import zipfile
 from dotenv import load_dotenv
+import ModelSyntheaPandas
+import ModelData
 
 # ------------------------
 # load env
@@ -16,6 +18,7 @@ BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
+model_data = ModelData.ModelData()
 
 # load the world cities into a dataframe
 cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8")
