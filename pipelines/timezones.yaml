@@ -6,6 +6,10 @@ resources:
       type: github
       endpoint: science-automation
       name: synthetichealth/synthea-international
+    - repository: postalcodes
+      type: github
+      endpoint: science-automation
+      name: science-automation/postalcodes
 
 trigger: none
 
@@ -20,6 +24,8 @@ jobs:
       persistCredentials: true
       clean: true
     - checkout: synthea-international
+      clean: true
+    - checkout: postalcodes
       clean: true
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s
