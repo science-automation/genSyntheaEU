@@ -44,7 +44,7 @@ for country in countries:
         # get the region iso code
         df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
         # change some column names
-        df = df.rename(columns={"admin_name1": "USPS", "admin code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
+        df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
         # clean up
         df['NAME'] = df['NAME'].str.rstrip()
         # write the zipcodes.csv file
