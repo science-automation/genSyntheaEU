@@ -27,8 +27,8 @@ print('HOSPITAL_BASE_ID         =' + HOSPITAL_BASE_ID)
 print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
 
-# countries list
-countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
+# countries list. There is better data for FI so doing that one later
+countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
@@ -85,3 +85,8 @@ for country in countries:
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True)
     else:
         print("File " + file + " does not exist")
+
+# process FI now
+# When the country data is loaded into Open Street Maps this may no longer be necessary
+if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
+    hospitals = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
