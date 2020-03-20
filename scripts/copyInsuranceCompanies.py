@@ -32,7 +32,7 @@ for country in countries:
         src = os.path.join(BASE_INPUT_DIRECTORY,file)
         dst = os.path.join(OUTPUT_DIRECTORY,file)
         copyfile(src, dst)
-        #with open(dst) as f:
-        #    newText=f.read().replace('exporter.csv.export = false', 'exporter.csv.export = true')
+        with open(dst) as f:
+            newText=f.read()
         with open(dst, "w") as f:
             f.write(newText)
