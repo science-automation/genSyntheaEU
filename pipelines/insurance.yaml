@@ -1,0 +1,46 @@
+# copy the synthea properties file into all countries
+#
+resources:
+  repositories:
+   - repository: synthea-international
+     type: github
+     endpoint: science-automation
+     name: synthetichealth/synthea-international
+
+trigger: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+jobs:
+  - job: insurance_generator
+    timeoutInMinutes: 0
+    steps:
+    - checkout: self
+      persistCredentials: true
+    - checkout: synthea-international
+      clean: true
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s
+        rm -r -f synthea-international
+        git clone https://scivm:$PASS@github.com/science-automation/synthea-international.git
+      displayName: 'checkout from master and not detached head'
+    - script: |
+        pip install python-dotenv
+      displayName: 'Install python modules needed'
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
+        echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data" > .env
+        echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+      displayName: 'Prepare Run'
+    - script: |
+        cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
+        python copyInsuranceCompanies.py
+        cd ${AGENT_BUILDDIRECTORY}/s/synthea-international
+        git config --global user.name "scivm"
+        git config http.version HTTP/1.1
+        git add .
+        git commit -m "generated from automation [skip ci]"
+        git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git master
+      env:
+        PASS: $(gitpass)
