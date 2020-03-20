@@ -33,6 +33,6 @@ for country in countries:
         dst = os.path.join(OUTPUT_DIRECTORY,file)
         copyfile(src, dst)
         with open(dst) as f:
-            newText=f.read().replace('exporter.csv.export = false', 'exporter.csv.export = true').replace('generate.append_numbers_to_person_names = true','generate.append_numbers_to_person_names = true').replace('generate.geography.country_code = US','generate.geography.country_code = ' + country)
+            newText=f.read().replace('exporter.csv.export = false', 'exporter.csv.export = true').replace('generate.append_numbers_to_person_names = true','generate.append_numbers_to_person_names = true').replace('generate.geography.country_code = US','generate.geography.country_code = ' + country).replace('generate.payers.insurance_companies.medicare = Medicare','generate.payers.insurance_companies.medicare = National Health Service').replace('generate.payers.insurance_companies.medicaid = Medicaid','generate.payers.insurance_companies.medicaid = National Health Service').replace('generate.payers.insurance_companies.dual_eligible = Dual Eligible','generate.payers.insurance_companies.dual_eligible = National Health Service')
         with open(dst, "w") as f:
             f.write(newText)
