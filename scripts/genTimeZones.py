@@ -13,7 +13,7 @@ BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 # postal code base files
-BASE_POSTAL_CODE_DIR    = os.environ['BASE_POSTAL_CODE_DIR']
+BASE_POSTAL_CODE_DIRECTORY    = os.environ['BASE_POSTAL_CODE_DIRECTORY']
 
 # list of countries to be processed
 countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "IE", "GR", "ES", "FR", "HR", "IT", "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
