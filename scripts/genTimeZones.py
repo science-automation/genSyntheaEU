@@ -12,12 +12,13 @@ load_dotenv(verbose=True)
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+# postal code base files
+BASE_POSTAL_CODE_DIR    = os.environ['BASE_POSTAL_CODE_DIR']
 
 # list of countries to be processed
-countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "GR", "ES", "FR", "HR", "IT", "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
-
-# load the iso region file into a dataframe
-df = pd.read_csv(BASE_INPUT_DIRECTORY + '/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
+countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "IE", "GR", "ES", "FR", "HR", "IT", "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3", "admin_code3", "latitude", "longitude", "accuracy
+        "]
 
 # load in the country timezones
 zonedf = pd.read_csv(BASE_INPUT_DIRECTORY + '/country_timezone.csv', dtype='object')
@@ -28,15 +29,21 @@ for country in countries:
     OUTPUT_DIRECTORY = OUTPUT_DIRECTORY + '/src/main/resources/geography'
     if not os.path.exists(OUTPUT_DIRECTORY):
         os.makedirs(OUTPUT_DIRECTORY)
-    regions = df.loc[df['country'] == country]
-    # write the timezones.csv file
-    countryzone = zonedf.loc[zonedf['country_code'] == country]
-    countryzone = countryzone.reset_index(drop=True)
-    std_full = countryzone.at[0,"std_full"]
-    std_abbr = countryzone.at[0,"std_abbr"]
-    print(std_full, std_abbr)
-    regions['TIMEZONE'] = std_full
-    regions['TZ'] = std_abbr
-    regions = regions.rename(columns={"name": "STATE", "isocodem": "ST"})
-    header = ["STATE","ST","TIMEZONE","TZ"]
-    regions.to_csv(OUTPUT_DIRECTORY + '/timezones.csv', columns = header, index=False, encoding='UTF-8')
+    # read the postal code file
+    path_to_zip_file = BASE_POSTAL_CODE_DIRECTORY + '/' + country.lower() + ".zip"
+    if os.path.exists(path_to_zip_file):
+        tmppath = BASE_INPUT_DIRECTORY + "/tmp"
+        if not os.path.exists(tmppath):
+            os.makedirs(tmppath)
+        with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
+            zip_ref.extractall(tmppath)
+        # load the file into a dataframe
+        csvfile = tmppath + "/" + country + ".txt"
+        df = pd.read_csv(csvfile, dtype='object', sep='\t', names=columns, header=None)
+        # get distinct 
+        df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
+        # join on country code
+        df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
+        df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST", "std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
+        header = ["STATE","ST","TIMEZONE","TZ"]
+        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
