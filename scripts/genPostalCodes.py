@@ -19,8 +19,8 @@ ISO_REGION_DIRECTORY    = os.environ['ISO_REGION_DIRECTORY']
 # load the iso region file into a dataframe
 isodf = pd.read_csv(ISO_REGION_DIRECTORY + '/2019-2-SubdivisionCodes.csv', dtype='object', encoding = "cp1252")
 
-# list of countries to be processed.  GR and CY have different format and processed later
-countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
+# list of countries to be processed.  GR and CY have different format and processed later. FI is using data from Finnish posti
+countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3", "admin_code3", "latitude", "longitude", "accuracy"]
 
@@ -44,7 +44,7 @@ for country in countries:
         # get the region iso code
         df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
         # change some column names
-        df = df.rename(columns={"admin_name1": "USPS", "isocodem": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
+        df = df.rename(columns={"admin_name1": "USPS", "admin code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
         # clean up
         df['NAME'] = df['NAME'].str.rstrip()
         # write the zipcodes.csv file
