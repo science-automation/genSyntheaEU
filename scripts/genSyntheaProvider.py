@@ -89,7 +89,6 @@ for country in countries:
         if not os.path.exists(OUTPUT_DIRECTORY):
             os.makedirs(OUTPUT_DIRECTORY)
         df = pd.DataFrame(columns=model_synthea.model_schema['hospitals'].keys())
-        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
         df['name'] = hospitals['name']
         df['id'] = df.index + int(HOSPITAL_BASE_ID)
         df['LAT'] =  hospitals['lat']
@@ -103,11 +102,11 @@ for country in countries:
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency'].apply(emergencyValue)
         df = addGeoInfo(df, APIKEY, model_synthea.model_schema['hospitals'].keys())
-        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
+        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
         df = df.loc[df['emergency'].str.lower() == 'yes']
         df['id'] = df.index + int(URGENT_CARE_BASE_ID)
-        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'urgent_care_facilities.csv'), mode='w', header=True, index=True)
+        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'urgent_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
 
@@ -129,7 +128,7 @@ for country in countries:
             clinics['addr:housenumber'] = clinics['addr:housenumber'].astype('str')
             df['address'] = clinics['addr:street'] + " " + clinics['addr:housenumber']
         df = addGeoInfo(df, APIKEY, model_synthea.model_schema['primary_care_facilities'].keys())
-        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True)
+        df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
 
