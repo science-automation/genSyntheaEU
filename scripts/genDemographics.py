@@ -4,6 +4,11 @@ import zipfile
 from dotenv import load_dotenv
 import ModelSyntheaPandas
 import ModelData
+import unicodedata
+
+def getAsciiString(unistring):
+    return unicodedata.normalize('NFD', unistring).encode('ascii', 'ignore').decode("utf-8")
+    
 
 # ------------------------
 # load env
@@ -42,12 +47,12 @@ for country in countries:
     citieslocal = citieslocal.sort_values('name').reset_index()
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
     citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
-    df['NAME'] = citieslocal['name']
+    df['NAME'] = citieslocal['name'].apply(getAsciiString)
     df['ID'] = df.index
     df['COUNTY'] = df.index
     df['STNAME'] = citieslocal['Name of Subdivision']
     df['POPESTIMATE2015'] = citieslocal['population']
-    df['CTYNAME'] = citieslocal['name']
+    df['CTYNAME'] = citieslocal['name'].apply(getAsciiString)
     df['TOT_POP'] = citieslocal['population']
     df['TOT_MALE'] = '.5'
     df['TOT_FEMALE'] = '.5'
