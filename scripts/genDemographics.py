@@ -6,10 +6,10 @@ import ModelSyntheaPandas
 import ModelData
 import unicodedata
 
-def getAsciiString(unistring):
-    return unicodedata.normalize('NFD', unistring).encode('ascii', 'ignore').decode("utf-8")
+def getAsciiString(demo):
+    text = unicode(demp, 'utf-8')
+    return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode("utf-8")
     
-
 # ------------------------
 # load env
 # ------------------------
