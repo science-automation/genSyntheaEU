@@ -49,4 +49,5 @@ jobs:
         git push -f https://scivm:$PASS@github.com/science-automation/synthea-international.git master
       env:
         PASS: $(gitpass)
+        APIKEY: $(apikey)
       displayName: 'Generate providers from OSM data'
