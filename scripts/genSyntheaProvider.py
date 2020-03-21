@@ -3,6 +3,47 @@ from dotenv import load_dotenv
 import pandas as pd
 import time
 import ModelSyntheaPandas
+import sys
+import requests
+
+# fix emergency yes/no case
+def emergencyValue(value):
+    if value == "yes":
+        return "Yes"
+    elif value == "no":
+        return "No"
+    else:
+        return value
+
+# take df and add geo data based on lat and lon
+def addGeoInfo(df, apikey, columns):
+    API_URL = 'https://reverse.geocoder.ls.hereapi.com/6.2/reversegeocode.json'
+    df2 = pd.DataFrame(columns=columns)
+    for index, row in df.iterrows():
+        lat = row['LAT']
+        lon = row['LON']
+        prox = str(lat) + "," + str(lon)
+        params = {
+            'language': 'en_us',
+            'max_results': '1',
+            'prox': prox,
+            'mode': 'retrieveAreas',
+            'apikey': apikey
+        }
+        try:
+            req = requests.get(API_URL, params=params)
+            res = req.json()
+            row['city'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['City']
+            row['state'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['AdditionalData'][2]['value']
+            row['zip'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['PostalCode']
+            dftemp = row.to_frame().T
+        except:
+            dftemp = row.to_frame().T
+        req = requests.get(API_URL, params=params)
+        df2 = pd.concat([df2,dftemp])
+        print(df2)
+    return df2
+
 
 # ------------------------
 # load env
@@ -20,6 +61,8 @@ HOSPITAL_BASE_ID        = os.environ['HOSPITAL_BASE_ID']
 URGENT_CARE_BASE_ID     = os.environ['URGENT_CARE_BASE_ID']
 # Primary care base id
 PRIMARY_CARE_BASE_ID    = os.environ['PRIMARY_CARE_BASE_ID']
+# apikey
+APIKEY                  = os.environ['APIKEY']
 
 print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
 print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
@@ -34,6 +77,7 @@ countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
 
 for country in countries:
+    print("Processing country: " + country)
     # load the csv
     file='./hospital_'+ country.lower() + '.csv'
     if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
@@ -54,10 +98,12 @@ for country in countries:
         if 'phone' in hospitals.columns:
             df['phone'] = hospitals['phone']
         if 'addr:housenumber' in hospitals.columns and 'addr:street' in hospitals.columns:
-            #df['address'] = hospitals['addr:housenumber'] + " " + hospitals['addr:street']
-            df['address'] = hospitals['addr:street']
+            hospitals['addr:street'] = hospitals['addr:street'].astype('str')
+            hospitals['addr:housenumber'] = hospitals['addr:housenumber'].astype('str')
+            df['address'] = hospitals['addr:street'] + " " +  hospitals['addr:housenumber']
         if 'emergency' in  hospitals.columns:
-            df['emergency'] = hospitals['emergency']
+            df['emergency'] = hospitals['emergency'].apply(emergencyValue)
+        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['hospitals'].keys())
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True)
         # create urgent_care_facilities by filtering on emergency
         df = df.loc[df['emergency'].str.lower() == 'yes']
@@ -80,13 +126,12 @@ for country in countries:
         if 'phone' in clinics.columns:
             df['phone'] = clinics['phone']
         if 'addr:housenumber' in clinics.columns and 'addr:street' in clinics.columns:
-            #df['address'] = clinics['addr:housenumber'] + " " + clinics['addr:street']
-            df['address'] = clinics['addr:street']
+            clinics['addr:street'] = clinics['addr:street'].astype('str')
+            clinics['addr:housenumber'] = clinics['addr:housenumber'].astype('str')
+            df['address'] = clinics['addr:street'] + " " + clinics['addr:housenumber']
+        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['primary_care_facilities'].keys())
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True)
     else:
         print("File " + file + " does not exist")
 
-# process FI now
-# When the country data is loaded into Open Street Maps this may no longer be necessary
-if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
-    hospitals = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
+
