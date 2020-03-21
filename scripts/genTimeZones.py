@@ -23,6 +23,9 @@ columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code
 # load in the country timezones
 zonedf = pd.read_csv(BASE_INPUT_DIRECTORY + '/country_timezone.csv', dtype='object')
 
+# load in iso codes
+isocode = pd.read_csv(BASE_INPUT_DIRECTORY + '/2019-2-SubdivisionCodes.csv', dtype='object')
+
 for country in countries:
     print("Processing " + country)
     OUTPUT_DIRECTORY =  os.path.join(BASE_OUTPUT_DIRECTORY,country.lower())
@@ -40,11 +43,19 @@ for country in countries:
         # load the file into a dataframe
         csvfile = tmppath + "/" + country + ".txt"
         df = pd.read_csv(csvfile, dtype='object', sep='\t', names=columns, header=None)
-        # get distinct 
-        df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
-        df = df[df['admin_name1'].notnull()]
+        if country == "GB":
+            df = df[['country_code','admin_name2']].drop_duplicates()
+            df = pd.merge(df, isocode, left_on='admin_name2', right_on='name', how='left')
+            df = df.rename(columns={"admin_name2": "STATE", "isocodem": "ST"})
+            df = df[['country_code','STATE','ST']].drop_duplicates()
+            df = df.dropna()  # still dropping too many that dont have iso codes
+        else:
+            # get distinct 
+            df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
+            df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
+            df = df.dropna()
         # join on country code
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
-        df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST", "std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
+        df = df.rename(columns={"std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
         header = ["STATE","ST","TIMEZONE","TZ"]
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
