@@ -7,8 +7,7 @@ import ModelData
 import unicodedata
 
 def getAsciiString(demo):
-    #text = unicode(demo, 'utf-8')
-    return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode("utf-8")
+    return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
     
 # ------------------------
 # load env
