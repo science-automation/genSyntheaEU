@@ -41,7 +41,6 @@ def addGeoInfo(df, apikey, columns):
             dftemp = row.to_frame().T
         req = requests.get(API_URL, params=params)
         df2 = pd.concat([df2,dftemp])
-        print(df2)
     return df2
 
 
