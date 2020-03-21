@@ -42,6 +42,7 @@ for country in countries:
         df = pd.read_csv(csvfile, dtype='object', sep='\t', names=columns, header=None)
         # get distinct 
         df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
+        df = df[df['admin_name1'].notnull()]
         # join on country code
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
         df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST", "std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
