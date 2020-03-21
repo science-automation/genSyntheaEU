@@ -131,5 +131,5 @@ for country in countries:
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
-
+    sys.stdout.flush()
 
