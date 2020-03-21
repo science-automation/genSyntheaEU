@@ -28,6 +28,7 @@ jobs:
     - script: |
         pip install pandas
         pip install python-dotenv
+        pip install requests
       displayName: 'Install python modules needed'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
