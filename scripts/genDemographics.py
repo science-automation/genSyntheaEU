@@ -49,8 +49,8 @@ for country in countries:
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
     if country == 'GB':
         postalcode =  pd.read_csv(BASE_ZIPCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
-        citieslocal = pd.merge(citieslocal, postalcode[['ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
-        citieslocal = citieslocal.rename(columns={"ST": "Name of Subdivision"})
+        citieslocal = pd.merge(citieslocal, postalcode[['USPS','ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
+        citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
     else:
         citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
     df['NAME'] = citieslocal['name'].apply(getAsciiString)
