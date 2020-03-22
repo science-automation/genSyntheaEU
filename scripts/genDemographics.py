@@ -19,6 +19,8 @@ load_dotenv(verbose=True)
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that demographhic files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+#
+BASE_ZIPCODE_DIRECTORY  = os.environ['BASE_ZIPCODE_DIRECTORY']
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
@@ -45,7 +47,12 @@ for country in countries:
     citieslocal = cities.loc[cities['country code'] == country]
     citieslocal = citieslocal.sort_values('name').reset_index()
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
-    citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
+    if country == 'GB':
+        postalcode =  pd.read_csv(BASE_ZIPCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
+        citieslocal = pd.merge(citieslocal, postalcode[['ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
+        citieslocal = citieslocal.rename(columns={"ST": "Name of Subdivision"})
+    else:
+        citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
     df['NAME'] = citieslocal['name'].apply(getAsciiString)
     df['ID'] = df.index
     df['COUNTY'] = df.index
