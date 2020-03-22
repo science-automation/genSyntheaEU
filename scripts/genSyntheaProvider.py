@@ -5,6 +5,10 @@ import time
 import ModelSyntheaPandas
 import sys
 import requests
+import unicodedata
+
+def getAsciiString(demo):
+        return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
 
 # fix emergency yes/no case
 def emergencyValue(value):
@@ -16,7 +20,7 @@ def emergencyValue(value):
         return value
 
 # take df and add geo data based on lat and lon
-def addGeoInfo(df, apikey, columns):
+def addGeoInfo(df, apikey, columns, regions):
     API_URL = 'https://reverse.geocoder.ls.hereapi.com/6.2/reversegeocode.json'
     df2 = pd.DataFrame(columns=columns)
     for index, row in df.iterrows():
@@ -34,8 +38,17 @@ def addGeoInfo(df, apikey, columns):
             req = requests.get(API_URL, params=params)
             res = req.json()
             row['city'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['City']
-            row['state'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['AdditionalData'][2]['value']
             row['zip'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['PostalCode']
+            county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
+            country = getAsciiString(county)
+            state = res['Response']['View'][0]['Result'][0]['Location']['Address']['State']
+            state = getAsciiString(state)
+            if state in regions:
+                row['state'] = state
+            elif county in regions:
+                row['state'] = county
+            else:
+                row['state'] = county
             dftemp = row.to_frame().T
         except:
             dftemp = row.to_frame().T
@@ -54,6 +67,8 @@ load_dotenv(verbose=True)
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+# region code 
+BASE_REGION_DIRECTORY   = os.environ['BASE_REGION_DIRECTORY']
 # Hospital base id
 HOSPITAL_BASE_ID        = os.environ['HOSPITAL_BASE_ID']
 # Urgent care base id
@@ -65,6 +80,7 @@ APIKEY                  = os.environ['APIKEY']
 
 print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
 print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
+print('BASE_REGION_DIRECTORY    =' + BASE_REGION_DIRECTORY)
 print('HOSPITAL_BASE_ID         =' + HOSPITAL_BASE_ID)
 print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
@@ -77,6 +93,14 @@ model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
 
 for country in countries:
     print("Processing country: " + country)
+    # get a list of regions
+    if os.path.exists(BASE_REGION_DIRECTORY):
+        file = BASE_REGION_DIRECTORY + "/" + country.lower() + '/src/main/resources/geography/timezones.csv'
+        regiondf = pd.read_csv(file)
+        regions = regiondf.STATE.unique()
+    else:
+        sys.exit()
+
     # load the csv
     file='./hospital_'+ country.lower() + '.csv'
     if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
@@ -101,7 +125,7 @@ for country in countries:
             df['address'] = hospitals['addr:street'] + " " +  hospitals['addr:housenumber']
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency'].apply(emergencyValue)
-        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['hospitals'].keys())
+        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['hospitals'].keys(), regions)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
         df = df.loc[df['emergency'].str.lower() == 'yes']
@@ -127,7 +151,7 @@ for country in countries:
             clinics['addr:street'] = clinics['addr:street'].astype('str')
             clinics['addr:housenumber'] = clinics['addr:housenumber'].astype('str')
             df['address'] = clinics['addr:street'] + " " + clinics['addr:housenumber']
-        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['primary_care_facilities'].keys())
+        df = addGeoInfo(df, APIKEY, model_synthea.model_schema['primary_care_facilities'].keys(), regions)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
