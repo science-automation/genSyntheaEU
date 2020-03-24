@@ -15,9 +15,6 @@ API_URL = 'https://geocoder.ls.hereapi.com/search/6.2/geocode.json'
 counter=0
 
 for line in lines: 
-    if counter < 79665:
-        counter=counter+1
-        continue
     line = line.strip()
     line = line.replace('"','')
     address = line.split(';')[0]
@@ -33,18 +30,19 @@ for line in lines:
     try: 
         req = requests.get(API_URL, params=params)
         res = req.json()
+        print(res)
         location = res['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']
     except:
         print("Could not get geocode for " + address)
         continue
     lat = location['Latitude']
     lon = location['Longitude']
-    fg.write(lineid + ";" + str(lat) + ";" + str(lon) + "\n")
+    #fg.write(lineid + ";" + str(lat) + ";" + str(lon) + "\n")
     counter = counter + 1
     print("Completed geocode for " + address + " count: " + str(counter))
-    #if counter == 10:
-    #    f.close()
-    #    fg.close()
-    #    sys.exit()
+    if counter == 10:
+        f.close()
+        fg.close()
+        sys.exit()
 f.close()
 fg.close()
