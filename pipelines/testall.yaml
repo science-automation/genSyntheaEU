@@ -30,8 +30,7 @@ jobs:
       displayName: 'Install python modules needed'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
-        echo "SYNTHEA_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea" > .env
-        echo "SYNTHEA_INTERNATIONAL_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+        echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" > .env
       displayName: 'Prepare Run'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
