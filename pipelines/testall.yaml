@@ -22,6 +22,8 @@ jobs:
     steps:
     - checkout: self
       persistCredentials: true
+    - checkout: synthea
+      clean: true
     - checkout: synthea-international
       clean: true
     - script: |
