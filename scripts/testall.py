@@ -36,4 +36,4 @@ for country in countries:
     for region in regions:
         # run synthea
         print("Running synthea for region " + region)
-        os.system("./run_synthea -p 5 " + "\"" + region "\"")
+        os.system("./run_synthea -p 5 " + "\"" + region + "\"")
