@@ -26,6 +26,7 @@ countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "H
 
 for country in countries:
     print("Processing: " + country)
+    sys.stdout.flush()
     zonefile = BASE_INPUT_DIRECTORY + "/" + country.lower() + "/src/main/resources/geography/timezones.csv"
     print(zonefile)
     df = pd.read_csv(zonefile)
@@ -36,4 +37,5 @@ for country in countries:
     for region in regions:
         # run synthea
         print("Running synthea for region " + region)
+        sys.stdout.flush()
         os.system("./run_synthea -p 5 " + "\"" + region + "\"")
