@@ -35,4 +35,4 @@ jobs:
       displayName: 'Prepare Run'
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
-        python testall.py
+        python testall.py ${AGENT_BUILDDIRECTORY}
