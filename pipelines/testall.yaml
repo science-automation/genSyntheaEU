@@ -9,7 +9,7 @@ resources:
    - repository: synthea-international
      type: github
      endpoint: science-automation
-     name: synthetichealth/synthea-international
+     name: science-automation/synthea-international
 
 trigger: none
 
