@@ -10,6 +10,7 @@ import sys
 if len(sys.argv) <2:
     print("BASEDIR should be set")
     sys.exit()
+basedir = sys.argv[1]
 
 # ------------------------
 # load env
