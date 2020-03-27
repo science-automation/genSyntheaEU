@@ -1,0 +1,13 @@
+addr:housenumber,building,amenity,addr:city,healthcare:speciality,addr:postcode,wheelchair,addr:housename,opening_hours,ref:caclr,website,phone,lon,healthcare,lat,addr:street,addr:country,name
+76,hospital,doctors,Luxembourg,,1460,,,,8901,,,6.1351333,,49.6315466,Rue d'Eich,LU,Centre Médical Fondation Norbert Metz
+18,yes,doctors,Redange,,8508,,,Mo-Sa 07:00-20:00,,www.cmred.lu,+352 23 62421,5.8955079,,49.7677798,Rue de la Piscine,LU,Centre Médical Rédange
+4,apartments,doctors,Luxembourg,paediatrics,1635,,,,,,,6.1127836,doctor,49.6128888,Allée Léopold Goebel,LU,Centre de Pédiatrie du Val Sainte-Croix
+,yes,doctors,,,,limited,,,,,,6.1033788,,49.7459274,,,Centre médical
+51,house,doctors,Soleuvre,,4437,,,,,,,5.9331622,,49.5228814,Rue de Differdange,LU,Dr Lech
+,yes,doctors,,,,,,,,,,5.8750132,doctor,49.5974640,,,Flamion
+13A,yes,doctors,Nospelt,,8391,,,,,,+352 30 81 31,6.0106475,,49.6738456,Rue des Fleurs,LU,Hoffelt-Defobis Martine
+59,yes,doctors,Luxembourg,,2730,,,Mo-Fr 20:00-07:00; Sa-Su 08:00-07:00; PH 08:00-07:00,23191,,,6.1269927,centre,49.6028877,Rue Michel Welter,LU,Maison Médicale du Centre
+110,yes,doctors,Ettelbruck,,9080,,,,135015,,,6.0964589,centre,49.8522297,Avenue Lucien Salentiny,LU,Maison Médicale du Nord
+70,house,doctors,Esch-sur-Alzette,,4240,,Maison médicale Esch,,66467,,,5.9826903,centre,49.5021647,Rue Émile Mayrisch,LU,Maison Médicale du Sud
+16,apartments,doctors,Luxembourg,,1452,,,,,,,6.1065434,,49.6091360,Rue Théodore Eberhard,LU,Martine Zeyen
+38,yes,doctors,Bascharage,,4912,,,,,,+352 26 50 09 47,5.9095464,,49.5620653,Rue du Bois,,Welter

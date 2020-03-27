@@ -1,0 +1,15 @@
+short_name:sv,amenity,guard:operator,indoor,short_name:fi,wikidata,operator,addr:housenumber,emergency,area,building:levels,opening_hours,addr:postal:postcode,lon,name,access,source,amenity:dentists,addr:postal:city,start_date,website,short_name,healthcare,phone,lat,name:sv,short_name:en,addr:street,building,name:en,addr:city,level,addr:postcode,email,name:fi,room,addr:country
+,doctors,,room,,,Kouvolan Fysiotraining Oy,,,yes,,,,26.6563714,FysioTraining,,,,,,http://kouvolanfysiotraining.com/,,physiotherapist,020 775 0960,60.8713785,,,Tommolankatu,,,Kouvola,1,45130,info@fysiomail.com,,shop,
+,doctors,,,,,,5,,,,,,21.5955577,Gerbyn terveysasema,,,,,,,,doctor,,63.1312043,Gerby hälsostation,,Mäntymaantie,yes,,,,,,,,
+,doctors,,,,,,6,,,,,,25.1097349,Heikkilän neuvola,,,,,,https://www.kerava.fi/soster_neuvolat.asp,,,,60.4062757,,,Heikkiläntie,yes,,Kerava,,04200,,,,FI
+,doctors,,,,,,,,,,,,24.6581450,Luopioisten terveysasema,,,,,,,,,,61.3644401,,,,yes,,,,,,,,
+,doctors,,,,,,,,,,,,23.1185584,Läntinen terveysasema,,,,,,,,doctor,,60.3892252,,,,yes,,,,,,,,
+,doctors,,room,,,,,,,,,,26.7017437,Meditiimi,,,,,,,,,,60.8688827,,,,,,,1,,,,,
+,doctors,,room,,,,,,,,,,26.7017530,Meditiimi,,,,,,,,,,60.8688349,,,,,,,1,,,,,
+,doctors,Securitas,,,,,8,,,,"Mo-Tu, Th-Fr 08:00-16:00; We 08:00-18:00",,25.0097950,Pihlajamäen terveysasema,,,,,1994,https://www.hel.fi/www/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/pihlajamaen-terveysasema,,,,60.2340491,,,Meripihkatie,yes,,,,00710,,,,
+,doctors,,,,Q5908509,,6,,,,,,22.2954865,Sairaala NEO,,,,,,,,doctors,,60.4499481,,,Joukahaisenkatu,yes,,Turku,,20520,,,,
+,doctors,,,,,,11,,,,Mo-Fr 08:00-16:00,,24.9977476,Suutarilan terveysasema,,,,,,https://www.hel.fi/www/helsinki/fi/sosiaali-ja-terveyspalvelut/terveyspalvelut/terveysasemat/terveysasemien-yhteystiedot/suutarilan-terveysasema,,,09 3105 3410,60.2750521,Shomakarböle hälsostation,,Seulastentie,public,Suutarila area healthcare center,Helsinki,,00740,,Suutarilan terveysasema,,FI
+,doctors,,,,,,,,,,,,27.1842683,Terveyskeskus,,,,,,,,doctor,,63.5625679,,,,yes,,,,,,,,
+,doctors,,,,,Terveystalo,6,,,,,,23.7309571,Terveystalo,,MML,,,,,,,,62.6033668,,,Väkkäräpakantie,yes,,Alavus,,63610,,,,
+,doctors,,,,,,,no,,,,,22.8334314,Terveystalo,,,,,,,,doctor,,62.7890812,,,,yes,,,,,,,,
+SHVS,doctors,,,YTHS,,,3,,,3,,33014,23.7775127,Ylioppilaiden terveydenhoitosäätiö,private,,yes,Tampereen yliopisto,,,YTHS,,,61.4953866,Studenternas hälsovårdsstiftelse,FSHS,Kalevantie,yes,Finnish Student Health Service,Tampere,,33100,,Ylioppilaiden terveydenhoitosäätiö,,

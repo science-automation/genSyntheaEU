@@ -178,7 +178,7 @@ building:ruian:type,amenity,contact:phone,healthcare:speciality,addr:conscriptio
 ,hospital,,,,,,,,,,,,,,,,,,,,,,,fence,14.3481838,,,,,,,,,,,,,,,,,,,,,,,,,,50.3610065,,,,,,,,,,psychiatrická léčebna,,,,,,,,,,,,,,,,
 ,hospital,,,,,,,,,,,,,,,,,,,,,,,,17.5893352,,,,,,,cuzk:km,,,,,,,,,,,,,,,,,,,50.0439834,,,,,yes,,,,,zdravotní středisko,,,,,,,,,,,,,,,,
 5,hospital,,emergency,,,,,,,,,reditelstvi@unbr.cz,Q26945170,,,,,,,,,,,,16.6151120,7,,,,Unfallkrankenhaus in Brünn,,cuzk:ruian,,,19020449,,,+420 545 211 082,,,,,Úrazová nemocnice v Brně,,,,+420 545 538 111,,,,49.1979708,,,,,civic,,,,,Úrazová nemocnice v Brně,,,,,,,,,,,hospital,,,,,
-,hospital,,,,,,,,,,,vysoke@ruka-kosmetika.cz,,,,,,,,,,,,,15.4031923,,,,,,,,,,,,http://www.ruka-kosmetika.cz,,,,yes,,,,,,+420481350905,,,,50.6828414,,,,,,,,,,Ústav chirurgie ruky a plastické chirurgie Vysoké nad Jizerou,,,,,,,,,,,,,,,,
+,hospital,,,,,,,,,,,vysoke@ruka-kosmetika.cz,,,,,,,,,,,,,15.4031923,,,,,,,,,,,,http://www.ruka-kosmetika.cz,,,,yes,,,,,,+420481350905,,,,50.6828414,,,,,,,,,,Ústav chirurgie ruky a plastické chirurgie Vysoké nad Jizerou,,,,,,,,,,,hospital,,,,,
 ,hospital,,,,,,,,,,,,,,,,,,,,,,,,14.4207751,,,,,,,,,,,,,,,,,,,,,,,,,,50.0753691,,,,,,,,,,Ústav hematologie a krevní transfuze,,,,,,,,,,,hospital,,,,,
 ,hospital,,,,,,,,,,,,Q11087656,ÚPMD,,,,Институт здоровья матери и ребенка Подоли,,,,,,,14.4195431,,,,cs:Ústav pro péči o matku a dítě,,,,,,,,,,,,,,,,,,,,,,50.0615624,,,,,,,,,,Ústav pro péči o matku a dítě Podolí,,,,,,,,,,,,,,,,
 ,hospital,,,,,,,,,,,,,,,,,,,,,,,fence,15.8035883,,,,,,,,,,,,,,,,,,,,,,,,,,50.0712578,,,,,,,,,,Ústav sociální péče Ráby,,,,,,,,,,,,,,,,

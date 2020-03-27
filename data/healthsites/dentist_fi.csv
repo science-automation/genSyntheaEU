@@ -1,5 +1,5 @@
 addr:housenumber,building,amenity,addr:city,building:levels,addr:postcode,lon,opening_hours,website,source,alt_name,healthcare,lat,addr:street,guard:operator,name
-2,university,dentist,Turku,,20520,22.2927469,,,mml,Hammas,dentist,60.4502271,Lemminkäisenkatu,,Dentalia
+2,university,dentist,Turku,3,20520,22.2922992,,,mml,Hammas,dentist,60.4500770,Lemminkäisenkatu,,Dentalia
 2,yes,dentist,Helsinki,1,00240,24.9243151,,,,,,60.2017433,Leankatu,,Hammas Mehiläinen Leanportti
 4,yes,dentist,,,,28.1463366,,,,,,61.0775536,Niittyvillantie,,Hammashoitola
 9,yes,dentist,Turku,,20460,22.3501817,Mo-Fr 08:00-15:30,https://www.turku.fi/toimipaikat/jakarlan-hammashoitola,,,dentist,60.5385204,Arkeologinkatu,,Jäkärlän hammashoitola

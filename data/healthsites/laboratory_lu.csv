@@ -1,0 +1,4 @@
+addr:housenumber,building,amenity,addr:city,addr:postcode,lon,ref:caclr,lat,addr:street,name
+54,yes,laboratory,Luxembourg,1220,6.1312481,9651,49.6400105,Rue de Beggen,Ketterthill
+,,laboratory,,,6.1293091,,49.6101999,,Ketterthill
+,,laboratory,,,6.1280780,,49.6136781,,Laboratoires d'Analyses Médicales Laboratoires Réunis

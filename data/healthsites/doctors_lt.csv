@@ -1,0 +1,34 @@
+addr:housenumber,building,amenity,lat,addr:city,source,building:levels,addr:postcode,wheelchair,description,lon,addr:state,email,website,phone,opening_hours,operator,addr:street,tourism,addr:country,name
+4,yes,doctors,55.9293260,Šiauliai,,,,,,23.3228736,,,,,,,S. Šalkauskio g.,,LT,A. Viruišio reabilitacijos klinika
+48,yes,doctors,54.4033498,Alytus,,,,,,24.0243877,,,,,,,Naujoji g.,,,Alytaus raj. savivaldybės PSPC
+11,yes,doctors,55.9110664,Šiauliai,,,78291,,,23.2691698,,,https://www.sbklinika.lt/,,,,Tilžės g.,,,Bokšto klinika
+,yes,doctors,54.5019488,,,,,,,24.2496836,,,,,,,,,,Butrimonių ambulatorija
+59,yes,doctors,54.6717706,Vilnius,,,03209,,,25.2654363,,,,,,,Vytenio g.,,,"Centro poliklinika, Vytenio filialas"
+18,hospital,doctors,55.9123368,Šiauliai,,3,78242,,,23.2708664,,,,,Mo-Fr 07:30-20:00; Sa 08:00-13:00,,Aido g.,,LT,Dainų pirminės sveikatos priežiūros centras
+4,yes,doctors,55.9545270,Ginkūnai,ORT10LT,,,,,23.3531149,Šiaulių r.,,,,,,Aušros g.,,LT,Ginkūnų medicinos punktas
+4,yes,doctors,54.6792774,Vilnius,,,,,,25.2593296,,,,,,,Savanorių pr.,,LT,Grožio akademija
+4,yes,doctors,55.7754739,Jūžintai,,,,,,25.6752615,,,,,,,Liepų g.,,LT,Jūžintų BPG kabinetas
+8,yes,doctors,55.7936824,Karsakiškis,,,,,,24.5739812,,,,,,,Lėvens g.,,LT,Karsakiškio medicinos punktas
+49,yes,doctors,54.8908239,Kaunas,,,,,,23.9235902,,,,,,,Vytauto pr.,,,Kauno klinikų Šeimos medicinos klinikos padalinys
+15,yes,doctors,54.6770500,Vilnius,,3,,,,25.2078140,,,,,,,Erfurto g.,,LT,Lazdynų poliklinika
+26,yes,doctors,54.6399685,Lentvaris,,,,,,25.0439454,,,,,Mo-Fr 08:00-16:00,,Lauko g.,,LT,Lentvario ambulatorija
+2,yes,doctors,54.5545978,Marijampolė,,,,,,23.3459164,,,http://marijampolespspc.lt/,,,,P. Kriaučiūno g.,,,Marijampolės pirminės sveikatos priežiūros centras
+32A,yes,doctors,54.7061612,Vilnius,,,,,,25.3165221,,,https://www.medcentras.lt,,,,V. Grybo g.,,,Medicinos diagnostikos ir gydymo centras
+2,yes,doctors,55.2274245,Molėtai,,,33125,,,25.4110811,,,,,,,Graužinių g.,,LT,Molėtų rajono pirminės sveikatos priežiūros centras
+65,yes,doctors,55.9425638,Obeliai,,,,,,25.7987710,,,,,,,Stoties g.,,,Obelių ambulatorija
+8,yes,doctors,56.1157119,Papilys,,,,,,25.0069952,,papilys@birzupoliklinika.lt,http://www.birzupoliklinika.lt/,+370 450 58184,,Biržų rajono savivaldybės poliklinika,Rožių g.,,,Papilio ambulatorija
+82,yes,doctors,54.0130868,Druskininkai,,,66144,yes,,23.9872710,,,https://www.dpspc.lt/,+37031353702,Mo-Fr 7:00-12:00; Sa 8:00-10:00,,M. K. Čiurlionio g.,,,Pirminės sveikatos priežiūros centras
+16A,yes,doctors,55.9465400,Rokiškis,,,,,,25.5842953,,,,,,,Panevėžio g.,,,R. Burnicko BPG kabinetas
+13,yes,doctors,54.8675366,Rumšiškės,,,,,,24.2176878,,,,,,,S. Nėries g.,,LT,Rumšiškių pirminės sveikatos priežiūros centras
+18,yes,doctors,55.8539408,Šiauliai,,,,,,23.3268493,,,,,,,Energetikų g.,,LT,Rėkyvos ambulatorija
+16,yes,doctors,55.3492807,Saldutiškis,,,,,,25.8106315,,,,,,,Laisvės a.,,,Saldutiškio ambulatorija
+23,yes,doctors,54.7293695,Vilnius,,,,,,25.2843602,,,,,,,Pušyno kel.,,LT,Sanatorija „Pušyno kelias“
+5,yes,doctors,55.8933838,Skapiškis,,,40463,,,25.2009888,,,,,,,Varpo a.,,,Skapiškio Igno Vaitoškos ambulatorija
+,yes,doctors,55.9409483,,,,,,,23.3056927,,,,,,,,,,Sporto medicinos centras
+3,yes,doctors,54.7036888,Vilnius,,,,,Grožio terapijos ir chirurgijos klinika,25.2324505,,,https://sugihara.lt/,,Mo-Sa 08:00-21:00,,Č. Sugiharos g.,,,Sugihara
+34,yes,doctors,54.0178548,Druskininkai,,,66251,,,24.0098136,,,https://www.upa.lt/,,,,Sveikatos g.,hotel,,UPA Medea
+7A,yes,doctors,54.9736016,Lapės,,,54436,,,24.0021262,,azuolyno40@gmail.com,,+370 37 470017,,,A. Merkio g.,,,Ąžuolyno šeimos sveikatos centras
+59,yes,doctors,55.9414275,Šiauliai,,,,,,23.3020123,,,,,,,Aušros al.,,LT,Šeimos gydytojų centras
+24,yes,doctors,54.7162131,Vilnius,,,07156,yes,,25.2493322,,,,,"Mo-Fr 07:00-20:00, Sa 08:00-16:00",,Šeškinės g.,,LT,Šeškinės poliklinika
+13,yes,doctors,55.0374444,Širvintos,NŽT ORT10LT,,,,,24.9614131,,,,,,,P. Cvirkos g.,,LT,Širvintų rajono pirminės sveikatos priežiūros centras
+7,yes,doctors,55.2823314,Šėta,,,58130,,,24.2492461,,,,,,,Turgaus g.,,,Šėtos ambulatorija

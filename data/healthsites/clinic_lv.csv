@@ -1,4 +1,5 @@
 amenity,healthcare:speciality,official_name,operator,name:ru,addr:housenumber,building:levels,opening_hours,lon,name,source,email,website,emergency,phone,old_name,lat,smoking,addr:street,building,addr:city,addr:postcode,healthcare,addr:country
+clinic,,,,,241,,,24.1678733,Aiwa,,info@aiwaclinic.lv,https://www.aiwaclinic.lv,,+371 20022581,,56.9262690,,Maskavas iela,yes,,,clinic,
 clinic,,,,,,,,25.2590661,Cēsu rajona poliklīnika,"Ortofoto 1:10000, 2007.-2008. gads, © Latvijas Ģeotelpiskās informācijas aģentūra",,,,,,57.3123332,,,yes,,,,
 clinic,,RP SIA „Iļģuciema poliklīnika”,Rīgas veselības centrs,,15,3,,24.0541255,Iļģuciema poliklīnika,,,http://rigasveseliba.lv/2015/filiales/ilguciems-selpils,,,Dzirciema poliklīnika,56.9574991,,Sēlpils iela,public,,,,
 clinic,,,,,29,,Mo-Fr 07:00-19:00,24.1367549,LJMC Sarkandaugavas ambulatorās veselības aprūpes centrs,,,,,+371 67889000,,56.9889156,,Patversmes iela,yes,Rīga,LV-1010,,

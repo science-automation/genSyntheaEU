@@ -1,0 +1,3 @@
+building,amenity,name,addr:postcode,lon,access,source,wikidata,lat,landuse,addr:street
+office,laboratory,Atlas Centre,OX11 0QX,-1.3150578,,OS_OpenData_StreetView,,51.5755278,,Fermi Avenue
+,laboratory,Rutherford Appleton Laboratory,,-1.3146233,yes,Yahoo,Q45820,51.5746701,industrial,

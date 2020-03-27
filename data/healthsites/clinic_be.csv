@@ -1,8 +1,8 @@
 roof:levels,amenity,addr:flats,healthcare:speciality,lon,health_specialty:rheumatology,payment:cash,alt_name,operator,addr:housenumber,payment:maestro,ref:UrbIS,area,building:levels,opening_hours,hospital,contact:phone,short_name,name,access,source,name:fr,health_specialty:physiotherapy,source:geometry:ref,name:etymology:wikidata,website,health_specialty:midwife,fax,name:nl,description,emergency,health_specialty:dietitian,phone,health_specialty:dentistry,lat,health_specialty:psychotherapy,addr:street,building,fixme,addr:city,url,addr:postcode,wheelchair,source:geometry,email,source:geometry:date,healthcare,landuse,addr:country
 ,clinic,,,4.0005676,,,,,2,,,,,,,,,AZL,,,,,Gbg/5295054,,,,,,,,,,,51.1019939,,Lepelstraat,hospital,,,,,,GRB,,2015-09-05,,,
-,clinic,,,4.0004274,,,,,,,,,,,,,,AZL,,,,,Gbg/4655231,,,,,,,,,,,51.1011797,,,hospital,,,,,,GRB,,2014-04-30,,,
-,clinic,,,4.0002650,,,,,4,,,,,,,,,AZL,,,,,Gbg/948981,,,,,,,,,,,51.1011778,,Lepelstraat,yes,,,,,,GRB,,2008-09-26,,,
 ,clinic,,,4.0011153,,,,,,,,,,,,,,AZL,,,,,Gbg/5295162,,,,,,,,,,,51.1015474,,,hospital,,,,,,GRB,,2015-09-05,,,
+,clinic,,,4.0002650,,,,,4,,,,,,,,,AZL,,,,,Gbg/948981,,,,,,,,,,,51.1011778,,Lepelstraat,yes,,,,,,GRB,,2008-09-26,,,
+,clinic,,,4.0004274,,,,,,,,,,,,,,AZL,,,,,Gbg/4655231,,,,,,,,,,,51.1011797,,,hospital,,,,,,GRB,,2014-04-30,,,
 ,clinic,,,3.8982240,,,,,,,,,,,,,,Ambroise Paré,,,,,,,,,,,,,,,,50.4129788,,,yes,,,,,,,,,clinic,,
 ,clinic,,,4.3890069,,,,Hôpitaux Iris Sud - Iris Ziekenhuizen Zuid,38,,,,,,,+32 2 739 84 11,,Baron Lambert,,,Polyclinique Etterbeek-Baron Lambert,,,,,,,Polikliniek Etterbeek-Baron Lambert,,no,,,,50.8350462,,Rue Baron Lambert - Baron Lambertstraat,,,Etterbeek,,1040,,,,,,,
 ,clinic,,,4.9428464,,,,Psychiatrische kliniek,39,,,,,,,,,Broeders Alexianen,,,,,,,,,,,,,,,,50.8098556,,Veldbornstraat,,,Tienen,,3300,,,,,,,BE
@@ -17,6 +17,7 @@ roof:levels,amenity,addr:flats,healthcare:speciality,lon,health_specialty:rheuma
 ,clinic,,,4.9231886,,,,,,,,,,,,,,Centre Médical du Pont d'Amour,,survey,,,,,,,,,,,,,,50.2625781,,Rue Pont d’Amour,,,Dinant,,5500,,,,,,,
 ,clinic,,,4.6086570,,,,,11,,,,,,,,,Centre PMS provincial,,,,,,,,,,,,,,,,50.4354083,,Rue Emile Duculot,yes,,,,,,,,,,,
 ,clinic,,,3.3956005,,,,,39,,,,,,,,,Centre Psycho-médical - PMS,,,,,,,,,,,,,,,,50.6104974,,Rue Beyaert,yes,,Tournai,,7500,,,,,clinic,,
+,clinic,,,4.2020590,,,,,14,,,,,,,,,Centre Régional de Logopédie et d'Audiophonologie Richard Gondry,,,,,,,,,,,,,,,,50.4640890,,Rue de la Déportation,yes,,Haine-Saint-Paul,,7100,,,,,clinic,,
 ,clinic,,,4.5208314,,,,,,,,,,,,,,Centre de Radiologie de Rixensart,,,,,,,,,,,,no,,,,50.7110046,,,yes,,,http://www.radiologiemorimont.be/,,,,,,,,
 ,clinic,,,5.3457174,,,,,1,,,,,,,,,Centre de Santé Provincial,,,,,,,,,,,,,,,,50.2316745,,Rue Erène,yes,,Marche-en-Famenne,,6900,,,,,,,
 ,clinic,,,3.9405722,,,,,1,,,,,,,,,Centre de médecine sportive CHU Ambroise Paré,,,,,,,,,,,,,,,,50.4666834,,Avenue de la Sapinette,yes,,,,,,,,,,,

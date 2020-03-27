@@ -1,0 +1,38 @@
+roof:levels,amenity,healthcare:speciality,building:part,addr:suburb,addr:streetnumber,source:street,operator,addr:conscriptionnumber,addr:housenumber,building:levels,opening_hours,lon,name,note,source,import,is_in,source:conscriptionnumber,website,wheelchair,FIXME,source:amenity,phone,source:streetnumber,lat,centrum,addr:street,building,building:colour,addr:city,roof:shape,addr:postcode,medical,addr:place,healthcare,addr:country
+,doctors,,,,9,,,9,9/9,2,,17.7225026,BARI group,,kapor2,budovy201004,,,,,,,,,48.1868332,,29. augusta,yes,,Galanta,,,,,,SK
+,doctors,,,,7,,,,980/7,,,18.1686557,BEA MED s.r.o.,,kapor2,budovy201004,,,,,,,,,48.5608116,,Moyzesova,yes,,Topoľčany,,95501,doctor,,doctor,SK
+,doctors,,,Staré mesto - Prievidza I,44,,Bozpo,2776,2776/44,2,,18.6160609,Bozpo - ambulancia pracovného lekárstva,,kapor2,EvidenciaBudovPD,,,,,,,,,48.7727344,,Šumperská,retail,,Prievidza,flat,97101,,,,SK
+,doctors,,,,6,,,491,491/6,,,18.3986105,Chirurgia,,kapor2,budovy201004,,,,,,,,,48.3832847,,Bernolákova,hospital,,Zlaté Moravce,,,,,,SK
+,doctors,,,,17,,,,17,,,17.1023003,Chirurgické centrum,,kapor2,budovy201004,,,,,,,,,48.1465988,,Kozia,yes,,Bratislava,,,,,,SK
+,doctors,,,,,,,,,,,19.0148572,Horská služa,,kapor2,,,,,,,,,,48.7355937,,,yes,,,,,,,,
+,doctors,,,,8,,,502,502/8,,,18.3994125,Infekčné oddelenie,,kapor2,budovy201004,,,,,,,,,48.3834244,,Bernolákova,hospital,,Zlaté Moravce,,,,,,SK
+,doctors,,,,,,,,,,,17.1450418,Medicínske centrum,,kapor2,budovy201004,,,,,,,,,48.1620679,,,yes,,,,,,,,
+1,doctors,,,,,,,,,1,,17.7379799,Medicínske centrum KrasMedika,,kapor2,budovy201004,,,,,,,,,48.2926996,,,yes,,,gabled,,,,,
+,doctors,,,,3,,,,3,,,17.1187515,Medicínske centrum Retia,,kapor2,,,,http://www.retia.sk/?page=medicinske-centrum,yes,,,,,48.1486153,Retia,Cukrová,yes,,Bratislava,,811,,,,SK
+,doctors,,,,,,,,,5,,18.1734425,Mestská poliklinika,,Bing,,Dubnica nad Váhom,,,,,,,,48.9568342,,,yes,,,flat,,,,,
+,doctors,,,,23,,,1120,1120/23,,,21.9195071,Neštátne zdravotnícke zariadenie Antes Plus,,kapor2,budovy201004,,,http://zdravotnictvo.antesplus.sk/,,,,,,48.7515671,,Fr. Kráľa,yes,,Michalovce,,07101,,,,SK
+,doctors,,,,25,,,4260,25,,Mo 08:00-14:00; Tu 14:00-19:00; Th 14:00-19:00; Fr 08:00-12:00,18.9185327,OrtoRei,,kapor2,,,,,,,,,,49.0586677,,Kollárova,yes,,Martin,,,,,,SK
+,doctors,,,,21,,,,21,,,21.8950103,Poliklinika A. Leňa,,kapor2,,,,,,,,,,48.9324312,,1. mája,yes,,Humenné,,06601,,,doctor,SK
+,doctors,,,,,,,,,,,21.2119822,Reedukačný domov pre deti a mládež,,kapor2,,,,https://www.rc-kosice.sk/,,,,+421 55/633 72 32,,48.7449636,,,yes,,,,,,,doctor,
+,doctors,chiropractic,,,,,,,,,,18.0325192,Rehabilitačná Ambulancia,,,,,,,,,,,,48.8764205,,,,,,,,,,ambulatorio,
+,doctors,,,,,,,,,,,19.4068007,Rescue Center,,kapor2,budovy201004,,,,,naozaj anglicky nazov?,,,,48.5405741,,,yes,,,,,,,,
+,doctors,,,,,,,,,,,17.4399588,Všeobecný lekár,,,,,,,,,,,,48.4664426,,,yes,,,,,,,,
+,doctors,,,,,,,,,,,19.4178481,Zdravotnicke centrum,,,,,,,,,,,,48.5620819,,,yes,,,,,,,,
+,doctors,,,,,,,293,293,,,18.2098179,Zdravotné stredisko,,kapor2,,,kapor2,,,,,,,49.0280150,,,yes,,Pruské,,,,Pruské,,SK
+,doctors,,,,2,,,548,548/2,,,16.9130441,Zdravotné stredisko,zdravotne stredisko+Lekaren,kapor2,,,,,,,,,,48.3242766,,Krátka,yes,,Vysoká pri Morave,,,,,,SK
+,doctors,,,,,,,,,,,17.5760908,Zdravotné stredisko,,kapor2,,,,,,,,,,48.1629602,,,yes,,,,,,,,
+,doctors,,,,5,municipality,,773,773/5,,,18.1451436,Zdravotné stredisko,,kapor2,budovy201004,,kapor2,,,,,,municipality,48.9334616,,Gagarinova,yes,,Nová Dubnica,,,,,,SK
+,doctors,,,,,,,257,257,,,17.9734282,Zdravotné stredisko,,,,,,,,,,,,47.7688179,,Cesta kráľa IV. Bélu,detached,,Zlatná na Ostrove,,946 12,,Zlatná na Ostrove,,SK
+,doctors,,,,,,,,,,,17.8190604,Zdravotné stredisko,,,,,,,,,,,,48.2537437,,,yes,,,,,,,,
+,doctors,,,,,,,,,1,,19.3171084,Zdravotné stredisko,,kapor2,,,,,,,,,,49.0745380,,,yes,,,,,,,,
+,doctors,,,,9,,,,9,3,,19.1412618,Zdravotné stredisko,,kapor2,,,,http://www.gynpor.sk,,,,+421455429902,,48.6147925,,SNP,yes,,Sliač,,,,,,
+,doctors,,,,,,,126,126,,,18.6407269,Zdravotné stredisko,,bing,,,kapor2,,,,survey,,,48.2797638,,,civic,,Nová Dedina,,,,Nová Dedina,,SK
+,doctors,,,,,,,,,,,17.9272598,Zdravotné stredisko,,kapor2,,,,,,,,,,48.1508448,,,,,,,,,,,
+,doctors,,,,,,,256,256,,,18.2252818,Zdravotné stredisko,,kapor2,budovy201004,,kapor2,,,,,,,47.7503356,,,yes,,Iža,,,,Iža,doctor,SK
+,doctors,,,,,,,,,,,18.3840249,Zdravotné stredisko,,kapor2,budovy201004,,,,,,,,,48.3875710,,,yes,,,,,,,,
+,doctors,,,,2,,,6543,6543/2,2,,17.0522290,Zdravotné stredisko Lamač,,kapor2,,,,,,,,,,48.1951632,,Malokarpatské námestie,yes,,Bratislava,,841 03,,,,
+,doctors,,,,,,,,,2,,19.6428149,Zdravotné stredisko POLIMED,,kapor2,budovy201004,,,,,,,,,48.8031417,,,yes,,,,,,,,
+,doctors,,,,,,Falck Healthcare,6889,,,Mo-Fr 07:00-18:00,16.9919041,Zdravotné stredisko VW,,,,,,,,,,,,48.2257522,,Jána Jonáša,public,,Bratislava,,,,,,SK
+,doctors,,,,5,,,2788,2788/5,1,,18.1934105,Zdravotné stredisko Šurany,,kapor2,budovy201004,,,,,,,,,48.0875191,,Družstevná,yes,yellow,Šurany,,,,,,SK
+,doctors,,,,111,,,,111,,,17.0167340,ambulancia MUDr. Marianna Maršálková - Pediater,,kapor2,budovy201004,,,,,,,,,48.4396852,,1. mája,yes,,,,901 01,,,,
+,doctors,,,,2A,,,2616,2616/2A,2,,19.6405123,lekárska služba prvej pomoci,,local knowledge,budovy201004,,,,,,,,,48.8053190,,Malinovského,yes,,Brezno,,,,,,SK

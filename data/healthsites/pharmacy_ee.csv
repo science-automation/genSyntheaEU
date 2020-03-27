@@ -1,12 +1,12 @@
-amenity,maaamet:ETAK,indoor,operator,addr:housenumber,opening_hours,lon,name,source,brand:wikidata,email,website,fax,source:addr,brand,phone,lat,addr:street,building,addr:city,level,addr:postcode,wheelchair,dispensing,healthcare,addr:country
-pharmacy,369471,,,2,,26.5264420,Antsla apteek,,,,,,Maa-amet 2013,,,57.8273440,Põllu,yes,Antsla,,,,,,EE
-pharmacy,,,,,,26.7297661,Apotheka,,,,,,,,,58.3769742,,,,0,,yes,,,
-pharmacy,,room,,,,24.7511378,Apotheka,,,,,,,,,59.4334997,,,,0,,,,pharmacy,
-pharmacy,499103,,,1,,24.0566050,Apteek,,,,,,Maa-amet 2012,,,58.9989250,Jaama,yes,Risti alevik,,,,,,EE
-pharmacy,,,,,,24.6656157,Apteek,,,,,,,,,59.3738780,,,,,,,,,
-pharmacy,,,,,Mo-Fr 09:00-20:00; Sa 10:00-17:00; Su 10:00-16:00,26.7448142,Benu,,Q62562792,benu.5137@benu.ee,http://www.benu.ee/,+372 7336655,,Benu,+372 7336655,58.3653324,,,,,,,yes,pharmacy,
-pharmacy,660248,,,35,,26.4186955,Elva apteek,maa-amet,,,,,Maa-amet 2012,,,58.2234515,Kesk,yes,Elva,,,,yes,,EE
-pharmacy,,,Apotheka,,Mo-Su 09:00-21:00,26.6739630,Lõunakeskuse Rimi Apteek,,,zeplouna@apotheka.ee,https://www.apotheka.ee/,,,,+372 7315686,58.3585774,,,,0,,,,pharmacy,
-pharmacy,,,,26,,23.5394065,Posti Apteek,Maa-amet WMS 2012,,,,,,,,58.9429933,Posti,yes,Haapsalu,,90502,,,,EE
-pharmacy,232194,,,3,,25.9786748,Põltsamaa uus apteek,,,,,,Maa-amet 2012,,+372 7752724,58.6533617,Kesk,yes,Põltsamaa,,,,no,pharmacy,EE
-pharmacy,,,Apotheka,1,Mo-Sa 09:00-21:00; Su 09:00-19:00,26.6967575,Veeriku Apteek,,,veeriku@apotheka.ee,,,,,+372 7336744,58.3761497,Vitamiini,,Tartu,,51014,yes,yes,,EE
+amenity,maaamet:ETAK,indoor,drive_through,operator,addr:housenumber,opening_hours,lon,name,source,brand:wikidata,email,website,fax,source:addr,brand,phone,lat,addr:street,building,addr:city,level,addr:postcode,wheelchair,dispensing,healthcare,addr:country
+pharmacy,369471,,no,BENU,2,,26.5264420,Antsla apteek,,,,,,Maa-amet 2013,,,57.8273440,Põllu,yes,Antsla,,,,yes,pharmacy,EE
+pharmacy,,,,,,,26.7297661,Apotheka,,,,,,,,,58.3769742,,,,0,,yes,,,
+pharmacy,,room,,,,,24.7511378,Apotheka,,,,,,,,,59.4334997,,,,0,,,,pharmacy,
+pharmacy,499103,,,,1,,24.0566050,Apteek,,,,,,Maa-amet 2012,,,58.9989250,Jaama,yes,Risti alevik,,,,,,EE
+pharmacy,,,,,,,24.6656157,Apteek,,,,,,,,,59.3738780,,,,,,,,,
+pharmacy,,,,,,Mo-Fr 09:00-20:00; Sa 10:00-17:00; Su 10:00-16:00,26.7448142,Benu,,Q62562792,benu.5137@benu.ee,http://www.benu.ee/,+372 7336655,,Benu,+372 7336655,58.3653324,,,,,,,yes,pharmacy,
+pharmacy,660248,,,,35,,26.4186955,Elva apteek,maa-amet,,,,,Maa-amet 2012,,,58.2234515,Kesk,yes,Elva,,,,yes,,EE
+pharmacy,,,,Apotheka,,Mo-Su 09:00-21:00,26.6739630,Lõunakeskuse Rimi Apteek,,,zeplouna@apotheka.ee,https://www.apotheka.ee/,,,,+372 7315686,58.3585774,,,,0,,,,pharmacy,
+pharmacy,,,,,26,,23.5394065,Posti Apteek,Maa-amet WMS 2012,,,,,,,,58.9429933,Posti,yes,Haapsalu,,90502,,,,EE
+pharmacy,232194,,,,3,,25.9786748,Põltsamaa uus apteek,,,,,,Maa-amet 2012,,+372 7752724,58.6533617,Kesk,yes,Põltsamaa,,,,no,pharmacy,EE
+pharmacy,,,,Apotheka,1,Mo-Sa 09:00-21:00; Su 09:00-19:00,26.6967575,Veeriku Apteek,,,veeriku@apotheka.ee,,,,,+372 7336744,58.3761497,Vitamiini,,Tartu,,51014,yes,yes,,EE

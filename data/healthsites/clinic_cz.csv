@@ -1,5 +1,5 @@
 building:ruian:type,ref:IČO,amenity,lon,contact:website,building:flats,uir_adr:ADRESA_KOD,addr:streetnumber,height,alt_name,social_facility:for,operator,addr:conscriptionnumber,addr:housenumber,ref:DIČ,building:levels,opening_hours,addr:housename,building:place,note,source,start_date,is_in,ref:ruian:building,email,website,description,emergency,building:colour,name:cs,phone,historic,official_name,old_name,lat,addr:street,building,ref:ruian:addr,name,roof:shape,addr:postcode,wheelchair,addr:place,addr:city,internet_access:fee,healthcare,source:addr,addr:country,internet_access
-,,clinic,15.0883687,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,50.9249512,,,,Ambulance,,,,,,,,,,
+,,clinic,15.0883687,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,50.9249512,,,,Ambulance,,,,,,,clinic,,,
 14,,clinic,15.0559821,,,,,,,,,,1,,6,,,,,cuzk:ruian,2017-12-21,,92410600,,http://avicena-liberec.cz,,,,,,,,,50.7714355,Pálkova,commercial,,Avicena,,,,,Liberec,,,,,
 ,,clinic,15.0671972,,,,,,,,,,,,,,,,,cuzk:km,,,,,,,,,,,,,,50.7747388,,yes,,Dětská poliklinika,,,,,,,,,,
 15,,clinic,14.0847486,https://euc.cz/nase-zarizeni/kliniky/euc-klinika-slany/,1,,,,,,,,,,1,,,,,cuzk:ruian,,,6008917,,,,,,,,,,,50.2325807,,civic,,EUC Klinika,,,,,,,,,,

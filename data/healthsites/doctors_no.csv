@@ -1,0 +1,12 @@
+building,addr:housenumber,amenity,name,healthcare:speciality,building:levels,addr:postcode,wheelchair,lon,ref:nhn,addr:city,website,source,fixme,healthcare,lat,toilets:wheelchair,healthcare:service,addr:street
+yes,4,doctors,Betesda Spesialistsenter,,,1604,,10.9508621,,,,Bing,,,59.2096110,,,Rektor Østbyesgate
+yes,,doctors,Fana Helsestasjon,,,,yes,5.3432066,,,,,,,60.2633733,,,
+yes,,doctors,Fastleger,,,,,10.3614884,,,,,,doctor,59.2645460,,,
+yes,,doctors,Hatlestrand helsesenter,general,,,,5.9171744,994319558,,,,,doctor,60.0584951,,fastlege,
+yes,,doctors,Heistad legekontor,general,,,,9.6830831,976532848,,,,,,59.0857464,,fastlege,
+civic,,doctors,Kolsås helsestasjon,,1,,,10.5002285,,,,,,,59.9160428,,,
+yes,,doctors,Risøyhamn legekontor,general,,,,15.6457614,916040555,,http://www.risoyhamnlegekontor.no/,,,doctor,68.9752687,,fastlege,
+yes,2,doctors,Tau legesenter,general,,4120,,5.9130653,980924122,Tau,,,,doctor,59.0651191,,fastlege,Bergtunvegen
+yes,,doctors,Tjølling legekontor,,,,,10.1205261,,,,,,doctor,59.0536843,,,
+yes,,doctors,Utne legekontor,general,,,,6.6206038,876673142,,,,,,60.4232299,,fastlege,
+yes,,doctors,Vinstra legevakt,,2,,yes,9.7401189,,,,,,,61.6011348,yes,,Nordre Byre

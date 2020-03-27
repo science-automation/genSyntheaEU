@@ -1,0 +1,13 @@
+amenity,maaamet:ETAK,lon,name:ru,addr:housenumber,building:levels,addr:housename,name,source,website,source:addr,emergency,addr:full,roof:shape,lat,addr:street,building,addr:city,addr:postcode,healthcare,maaamet:orig_tunnus,addr:country
+doctors,147092,22.5866273,,,,Ambulatooriumi,Emmaste Kliinik,Maa-amet WMS ortho 01.01.2011,,Maa-amet 2019,,,,58.7069915,,yes,Emmaste küla,92001,,,
+doctors,,24.4225394,,12a,,,Keila Perearstikeskus,,,Maa-amet 2012,,,,59.3094795,Keskväljak,yes,Keila,,doctor,116031537-2363908,EE
+doctors,,25.0926739,,,,,Kostivere perearstikeskus,,,,no,,,59.4265434,,yes,,,doctor,,
+doctors,,26.7039195,,1a,,,Maarjamõisa polikliinik,Tartu City Government,,,,,,58.3678380,Ludvig Puusepa,yes,Tartu,,doctor,,EE
+doctors,,25.6009022,,5,,,Maramaa Klinik,,http://maramaakliinik.ee,,,,,58.3698269,August Maramaa pst,yes,Viljandi,71007,,,EE
+doctors,6129453,28.1941217,Нарвская клиническая больница,15a,3,,Narva Haigla Polikliinik,,,Maa-amet 2013,,,flat,59.3801601,Hariduse,yes,Narva,,doctor,,EE
+doctors,643088,28.1708391,,4,1,,Narva Kliinik,,,Maa-amet 2012,,,,59.3825326,Aasa,yes,Narva,,doctor,,EE
+doctors,,27.0468640,,,,,Põlva tervisekeskus,,,,,,,58.0548550,,yes,,,,,
+doctors,,26.3644527,,1,,,Rakvere polikliinik,,,,,,,59.3446545,Tuleviku,yes,,,,,
+doctors,354022,26.1908776,,,,Tohtri,Rannu perearsti punkt,,,Maa-amet 2019,,,,58.2485920,,yes,Noorma küla,61110,,,EE
+doctors,222754,25.4698067,,11,,,Suure-Jaani Perearstikeskus,,,Maa-amet 2019,,,,58.5375375,Tallinna,yes,Suure-Jaani,71502,,,EE
+doctors,,26.7298731,,95,,,Tähe Erakliinik,Tartu City Government,,,,Tähe 95,,58.3619850,Tähe,yes,Tartu,,,,EE

@@ -117,7 +117,7 @@ chemist,pharmacy,no,-8.1987933,,,,,,,,,,,Mo-Fr 09:30-19:00,,7,,,,,Pearse Street,
 ,pharmacy,,-8.1978997,,,,,,,,,,3,,,20-21,,,,,Pearse Street,,,,+353 67 34540,,,,,,+353 67 31464,,retail,,,52.8640106,Nenagh,yes,,,,Ryans Pharmacy and Beauty Salon,,,,,,,,yes,pharmacy,,IE
 ,pharmacy,,-8.1979333,,,,,,,,,,3,,,20-21,,,,,Pearse Street,,,,+353 67 34540,,,,,,+353 67 31464,,retail,,,52.8639841,Nenagh,yes,,,,Ryans Pharmacy and Beauty Salon,,,,,,,,yes,pharmacy,,IE
 ,pharmacy,no,-6.3036109,,,,,,,,,184,,,,,,,,,Templeogue Road,,,,,,,,,,,,,,,53.2982184,,retail,,,,Shannons Pharmacy,,,,,,,,yes,pharmacy,,
-,pharmacy,,-6.1841364,,,,,,,,,,,,,,,,,,Saint Gabriels Road,,,D03,,,,,,,,,,,,53.3646237,Dublin,yes,,,,St Gabriels Pharmacy,,,,,,,,,,,
+,pharmacy,,-6.1841364,,,,,,,,,,,Mo-Fr 09:00-18:30; Sa 09:30-18:00,,,,,,,Saint Gabriels Road,,,D03,,,,,,,,,,,,53.3646237,Dublin,yes,,,,St Gabriels Pharmacy,,,,,,,,,,,
 ,pharmacy,,-6.3271775,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53.3098047,,yes,,,,St. Patricks Pharmacy,,,,,,,,,pharmacy,,
 ,pharmacy,,-6.8373853,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52.9108755,,yes,,,,Stack's Pharmacy,,,,,,,,,,,
 ,pharmacy,no,-6.2719484,,,,,,Stacks Pharmacy,,,4-5,,"Mo-Th 09:00-19:00; Fr 09:00-18:00; Sa 10:00-14:00; Su, PH Closed",,,,,,,Finglas Road,,https://www.stackspharmacy.ie/locations/24,,,,,,,,+353-1-8305543,,,,,53.3661673,Dublin,yes,,,,Stacks Pharmacy,,,,,,,,yes,pharmacy,,

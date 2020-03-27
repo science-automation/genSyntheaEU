@@ -16,7 +16,7 @@ roof:levels,amenity,features,healthcare:speciality,building:part,addr:place,cont
 ,dentist,,,,,,,,,,,,,,,,,,,,18.8534848,Centrum Stomatologii DENT-Team,,,,,,,,,,,,,50.4450326,,,yes,,,,,,,,,,,,,
 ,dentist,,,,,,,,,,,,,,,60,,,,,18.0462007,Centrum Stomatologii Dentus,,,,,,,http://dentus.com.pl,,,,,,53.1261638,,Marii Skłodowskiej-Curie,yes,,,Bydgoszcz,,,,,,,,,,
 ,dentist,,,,,,,,,,,,,,EMUiA (emuia.geoportal.gov.pl),67,,,,,20.8782774,Centrum Stomatologii New Dent,,,,,,,,,,,+48 41 2515263,,51.1236919,,Spółdzielcza,yes,,,Skarżysko-Kamienna,,,26-110,,,,,,,
-,dentist,,,,,,,,,,,,,,,70,,,,,16.8897495,Centrum Stomatologii Uniwersytetu Medycznego,,http://ump.waw.pl/ retrieved 15:05:23 06/30/09 (UMP-Poznan/src/POZNAN.ulice.txt),,,,,,,,,+48 61 854 70 01,,52.4080713,,Bukowska,university,,,Poznań,,,60-812,,,,,,,PL
+,dentist,,,,,,,,,,,,,,EMUiA (emuia.geoportal.gov.pl),70,,,,,16.8897495,Centrum Stomatologii Uniwersytetu Medycznego,,http://ump.waw.pl/ retrieved 15:05:23 06/30/09 (UMP-Poznan/src/POZNAN.ulice.txt),,,,,,,,,+48 61 854 70 01,,52.4080713,,Bukowska,university,,,Poznań,,,60-812,,,,,,,PL
 ,dentist,,,,,,,,,,,,,,,31C,,,,,19.4051495,Centrum Uśmiechu Stomatologia,,,,,,,,,,,,,50.1312160,,Mydlana,yes,,,Chrzanów,,,32-500,,,,,,,
 ,dentist,,,,,,,,,,,,,,,5,,Mo-Fr 08:00-20:00; Sa 08:00-13:00,,,18.4152998,Danuta Marcjasz Gabinet Stomatologiczny,,,,,,,,,,,,,50.8823165,,Lipowa,commercial,,,Olesno,,,46-300,,,,,,,
 ,dentist,,,,,,,,,,,,,,,17,,,,,15.4911398,Den-Med,,,,,,,,,,,,,51.9357754,,Łużycka,yes,,,Zielona Góra,,,65-601,,,,,,dentist,
@@ -30,7 +30,7 @@ roof:levels,amenity,features,healthcare:speciality,building:part,addr:place,cont
 ,dentist,,,,,,,,,,,,,,,,,,,,19.2036667,Dentyści,,Bing,,,,,,,,,,,50.3250707,,,commercial,,,,,,,,,,,,dentist,
 ,dentist,,,,,,,,,,,,,,,,,,,,18.9734838,Diament,,,,,,,,,,,,,50.1147798,,,yes,,,,,,,,,,,,,
 ,dentist,,,,,,,,,,,,,,mapa.um.warszawa.pl,76,,,,,20.9789214,Dorodent,,,,,12740,,https://dorodent.com.pl/,,,,,,52.2787220,0918123,Adama Mickiewicza,yes,,,Warszawa,,,01-650,,,,,,,
-,dentist,,dentistry,,,,,,,,,,,,,7A/1,,We-Th 17:00-19:00,,,18.9367386,EWADEMKO,,local knowledge,,,,,www.ewadent.pl,"Budynek pod adresem Grunwaldzka 7 jest budynkiem mieszkalnym, natomiast znajduje się tam również stomatolog pod adresem 7A.  Building in Grunwaldzka 7 is a normal house building, but on 7A is dentist. It is same building.",,,+48 606 417 484,,53.7329120,,Grunwaldzka,yes,,,Kwidzyn,,,82-500,,,,,,dentist,
+,dentist,,dentistry,,,,,,,,,,,,,7A,,We-Th 17:00-19:00,,,18.9367386,EWADEMKO,,local knowledge,,,,,www.ewadent.pl,"Budynek pod adresem Grunwaldzka 7 jest budynkiem mieszkalnym, natomiast znajduje się tam również stomatolog pod adresem 7A.  Building in Grunwaldzka 7 is a normal house building, but on 7A is dentist. It is same building.",,,+48 606 417 484,,53.7329120,,Grunwaldzka,yes,,,Kwidzyn,,,82-500,,,,,,dentist,
 ,dentist,,,,,,,,,,,,,,,,,,,,19.6971723,Emidental,,,,,,,http://emidental.pl,,,,+48505065351,,51.9576916,,,yes,,,,,,,,geoportal.gov.pl:BDOT,,,,,
 ,dentist,,,,,,,,,,,,,,,48,,,,,18.9702641,Enco-Medica,,UM Tychy,,,,,,,,,,,50.1165341,,Ksawerego Dunikowskiego,yes,,,Tychy,,,43-100,,,,,,,
 ,dentist,,,,,,,,,,,,,,,,2,Mo-Fr 10:00-20:00,,,21.0292664,Endomed,,,,,,,,,,,,,52.0735103,,,office,,,,,,,yes,,,,,dentist,

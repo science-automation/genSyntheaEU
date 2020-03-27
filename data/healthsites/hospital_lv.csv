@@ -1,7 +1,6 @@
 amenity,healthcare:speciality,building:part,contact:website,wikidata,alt_name,operator,name:ru,addr:housenumber,barrier,addr:district,building:levels,contact:phone,lon,name:de,note,source,email,website,fax,emergency,contact:email,phone,lat,addr:street,building,name,url,addr:postcode,wheelchair,addr:city,healthcare,toilets:wheelchair,addr:country
 hospital,,,,,,,,4,,,2,,24.3898382,,,,,,,,,,56.7415269,Iecavas iela,yes,"""Sociālās aprūpes centrs Baldone"", SIA",,,,Baldone,,,
 hospital,,,,,,,,1,,,,,24.1378422,,,,,,,,,,56.9387533,Grebenščikova iela,yes,"""Veselības centrs 4"" diagnostikas centrs",,LV-1003,,Rīga,,,
-hospital,,,,,,,,,,,,,21.5695965,,,,,,,,,,56.9798564,,,Alsungas doktorāts,,,,,hospital,,
 hospital,,,,,,,,1,,Alūksnes novads,,,27.0483628,,,,,,,,,,57.4238827,Vidus iela,yes,Alūksnes poliklīnika,,LV-4301,,Alūksne,,,LV
 hospital,,,,,,,,1A,,Alūksnes novads,,,27.0396445,,,,,,,,,,57.4374993,Pils iela,yes,Alūksnes slimnīca,,LV-4301,,Alūksne,,,LV
 hospital,,,,,,,,,,,,,24.1924727,,,,,,,,,,56.4084510,,yes,Bauskas poliklīnika,,,,,,,
@@ -28,7 +27,7 @@ hospital,,,,,,,,,,,,,24.6195935,,,,,,,,,,56.8194569,,yes,Ogres poliklīnika,,,,,
 hospital,,,,,,,,,,,,,24.6196125,,,"Ortofoto 1:10000, 2007 gads, © Latvijas Ģeotelpiskās informācijas aģentūra",,,,yes,,,56.8195375,,yes,Ogres rajona slimnīca,,,,,,,
 hospital,,,,Q2034327,,,,,,,,,24.0679341,,,,,,,,,,56.9334353,,,Paula Stradiņa Klīniskā universitātes slimnīca,,,,,,,
 hospital,,,,,,,,,,,,,23.7245770,,,,,,,no,,,56.6467259,,yes,Poliklīnika,,,,,,,
-hospital,,,,,,"SIA Rehabilitācijas centrs ""Tērvete""",,,,,,,23.3919800,,,,,,,,,,56.4849332,,hospital,"Rehabilitācijas centrs ""Tērvete""",,LV-3730,,Tervete,hospital,,
+hospital,,,,,,"SIA Rehabilitācijas centrs ""Tērvete""",,,,,,,23.3919934,,,,,,,,,,56.4849191,,hospital,"Rehabilitācijas centrs ""Tērvete""",,LV-3730,,Tervete,hospital,,
 hospital,,,,,,,,,,,3,,25.4311786,,,,,,,,,,57.2620514,,yes,Rīdzenes FVP,,,,,,,
 hospital,,,,Q16351399,,,Рижская Первая больница,,,,,,24.1246718,,,,,,,,,,56.9627022,,,Rīgas 1. slimnīca,,,,,,,
 hospital,,,,Q20564732,,,,,,,,,24.1332566,,,,,http://www.dzemdibu-nams.lv/,,,,,56.9661305,,,Rīgas dzemdību nams,,,,,,,

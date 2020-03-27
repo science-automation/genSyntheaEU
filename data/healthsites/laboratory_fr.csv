@@ -1,0 +1,6 @@
+building,addr:housenumber,amenity,lat,name,short_name,roof:shape,building:levels,addr:postcode,roof:levels,addr:place,lon,website,source,operator,laboratory,addr:street,type,addr:country,addr:city
+yes,,laboratory,45.1896699,Centre des technologies du logiciel,CTL,,,,,,5.7795681,,,,,,,,
+commercial,2bis,laboratory,48.7059280,Laboratoire d'analyse de biologie,,gabled,0,78470,1,,2.0714770,,cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015,,,Rue de la République,,,Saint-Rémy-lès-Chevreuse
+yes,209bis,laboratory,50.6654481,Laboratoire d'analyses médicales,,,,59700,,,3.1018705,,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010,,,Rue de la Rianderie,,FR,Marcq-en-Barœul
+yes,,laboratory,48.2857070,Laboratoire des Orfèvres,,,,,,,6.9515154,,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009,,,,,,
+office,,laboratory,46.4749331,Lasat Champdeniers,,,,,,Montplaisir,-0.3636809,https://www.lasat.net/,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010,Lasat,biochemical,,,,Champdeniers

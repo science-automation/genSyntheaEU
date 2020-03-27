@@ -1,7 +1,7 @@
 amenity,name:da,fvst:navnelbnr,uuid:building,lon,contact:website,layer,loc_name,wikidata,alt_name,operator,emergency,contact:phone,wikipedia,name:de,source,smokefree,healthcare:speciality,type,email,website,description,short_name,phone,old_name,lat,smoking,smoking:outside,name:lt,building,name:en,operator:type,name,fvst:name,wheelchair,healthcare,toilets:wheelchair
 hospital,,,,9.9091295,,,,Q2757508,,,yes,,,,,,,,,,,,,,57.0360687,,,,,,,Aalborg Universitetshospital,,,,
 hospital,,,,9.9146357,,,,,,,,,,,,,,,,,,,,,57.0490521,,,,,,,Aalborg Universitetshospital Nord,,,,
-hospital,,,,8.6952335,,,,,,,,,,,,,,,,https://aalborguh.rn.dk/afsnit-og-ambulatorier/afdelinger-fordelt-paa-lokaliteter/thisted,,,,Sygehus Thy-Mors,56.9566536,,,,,,,Aalborg Universitetshospital Thisted,,,,
+hospital,,,,8.6952335,,,,,,,,,,,,,,,,https://aalborguh.rn.dk/afsnit-og-ambulatorier/afdelinger-fordelt-paa-lokaliteter/thisted,,,,Sygehus Thy-Mors,56.9566536,,,,,,,Aalborg Universitetshospital Thisted,,,hospital,
 hospital,,,,9.3350686,,,Farsø Sygehus,Q12311101,,,yes,,,,,,,,,,,,,,56.7772698,,,,,,,"Aalborg Universitetshospital, Farsø",,,,
 hospital,,,,9.7963359,,,,,,Region Nordjylland,yes,,,,,,internal;cardiology;general;radiology;nephrology;rehabilitation,,aalborguh@rn.dk,https://aalborguh.rn.dk/afsnit-og-ambulatorier/afdelinger-fordelt-paa-lokaliteter/afdelinger-hobro,,,+4597652000,,56.6337890,,,,,,public/government,"Aalborg Universitetshospital, Hobro",,,hospital,
 hospital,,,,9.9775413,,,,,,,no,,,,,,,,,https://psykiatri.rn.dk/da/Afsnit-og-ambulatorier/Her-findes-de-psykiatriske-sygehuse-sengeafsnit-og-ambulatorier/Aalborg-Universitetshospital---Psykiatrien/Ambulatorier-og-sengeafsnit-Brandevej,,,,,57.0255492,,,,,,,"Aalborg Universitetshospital, Psykiatrien",,,,
@@ -30,7 +30,7 @@ hospital,,,,11.7602795,,,,Q24293719,,,,,da:Næstved Sygehus,,,,,,,https://www.re
 hospital,,,,10.6085358,,,,,,,,,,,,,,,,,,,,,55.0562255,,,,,,,OUH Svendborg Sygehus,,,,
 hospital,,,,10.3622345,,,,Q2496415,,,yes,,,Universitätsklinikum Odense,,,,,,http://www.ouh.dk/,,OUH,,,55.3891189,,,,,Odense University Hospital,,Odense Universitetshospital,,yes,,
 hospital,,,,9.4058323,,,,,,,,,,,,,,,,,,,,,56.4448854,,,,yes,,,Patienthotellet,,yes,,
-hospital,,72258,,9.5370458,,,,,,,,,,,,,,,,,,,,,55.6988877,,,,hospital,,,Privathospitalet Mølholm,,,,
+hospital,,72258,,9.5370458,,,,Q12332395,,,,,,,,,,,,,,,,,55.6988877,,,,hospital,,,Privathospitalet Mølholm,,,,
 hospital,,,,11.6592871,,,,,,,,,,,Geodatastyrelsen : FOT ortofoto,,,,,,,,,,55.9087252,,,,,,,Psykiatri Hospitalet Nykøbing Sjælland,,,,
 hospital,,,,8.4406232,,,,,,,,,,,,,,,,,,,,,55.4941919,,,,,,,"Psykiatricenter Vest, Esbjerg",,,,
 hospital,,,,12.3564078,,,,,,,,,,,,,,,,,,,,,55.7234806,,,,,,,Psykiatrisk Center Ballerup,,,,

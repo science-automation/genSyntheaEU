@@ -1,0 +1,31 @@
+amenity,healthcare:speciality,contact:website,lat,clinic,addr:housenumber,addr:municipality,opening_hours,lon,source,addr:street,email,website,fax,emergency,phone,addr:county,addr:city,building,name,url,addr:postcode,wheelchair,source:geometry,building:levels,healthcare,toilets:wheelchair,addr:country
+doctors,,,58.2739325,,2,,,12.2899345,,Lasarettsvägen,,,,,,,,yes,BVC Hjortens Vårdcentral,,46152,,,,,,SE
+doctors,,,62.7484867,,19,,,15.4265693,,Norrlandsgatan,,,,,,,Bräcke,yes,Bräcke Hälsocentral,,84060,,,,,,SE
+doctors,,,55.8377181,,,,,14.0916823,,,,,,,,,,yes,Degeberga Vårdcentral,,,,,,,,
+doctors,,,59.8409114,,5,,,17.5995972,,Granitvägen,,http://www.lul.se/eriksberg,,,+46 18 6117900,,Uppsala,yes,Eriksbergs Vårdcentral,,,,,,,,SE
+doctors,,,58.7050075,,7,,,15.7972191,,Ekkällevägen,,,,,,,Finspång,yes,Finspång rehab,,612 43,,,,,,SE
+doctors,,,61.9267845,,3,,,17.2191621,,Backvägen,,,,,,,,yes,Harmånger hälsocentral,,82075,,,,,,SE
+doctors,,,62.4170499,,,,,13.5187607,,,,,,,,,,civic,Hede Hälsocentral,,,,,,,,
+doctors,,,57.7897825,,,,,14.2718708,,,,,,,,,,yes,Huskvarna Vårdcentrum,,,,,,,,
+doctors,,,56.5547575,,,,,14.1342039,,,,,,,,,,yes,Hälsa,,,,,,doctor,,
+doctors,,,59.3233417,,5,,,18.3981573,yahoo_imagery,Skogsbovägen,,,,,,,Gustavsberg,commercial,Hälsans hus,,134 30,,,,,,SE
+doctors,,,61.2305578,,2,,,16.5681228,,Stationsgatan,,,,,,,,yes,Kilafors hälsocentral,,,,,,,,SE
+doctors,,,58.5854693,,4,Norrköpings kommun,,16.1627500,,Kneippgatan,,,,,,Östergötlands län,Norrköping,yes,Kneippens vårdcentral,,,,,,,,SE
+doctors,,,58.6688911,,,,Mo-Fr 08:30-16:30,16.3635993,,,,,,,,,,hospital,Kolmårdens Vårdcentral,,,,,,,,
+doctors,,,59.3194920,,,,,15.2234386,,,,,,,,,,yes,Lillåns Vårdcentral,,,,,,,,
+doctors,,,59.2846740,,4-6,,,18.0300151,,Annebodavägen,,,,,,,,public,Lisebergs vårdcentral,,,,,,,,SE
+doctors,,,57.6951043,,4,,,11.9813956,,Lyckans väg,,,,,,,Göteborg,yes,Läkarmottagning,,,,,,,,SE
+doctors,,,61.1193555,,,,,14.6136581,,,Vardcentral.Orsa@ltdalarna.se,,+46 250 49 88 33,,+46 250 49 88 00,,,yes,Orsa Vårdcentral,http://www.ltdalarna.se/templates/Base____380.aspx,,yes,,,,yes,
+doctors,,,59.3637384,,,,,17.9933148,,,,,,,,,,yes,Råsunda vårdcentral,,,,,,,,
+doctors,,,57.7496216,,,,,11.9873106,Bing Aerial,,,,,,,,,yes,Selmas Läkarhus,,,,,,doctor,,
+doctors,,,58.5732643,,69,Norrköpings kommun,,16.1469345,,Dalviksgatan,,,,,,Östergötlands län,Norrköping,yes,Skarptorps vårdcentral,,,,,,,,SE
+doctors,,,64.5996490,,,,,18.6732211,,,,,,,,,,yes,Stenbergska,,,,,,,,
+doctors,,,56.6593617,,,,,16.3240630,,,,,,,,,,yes,Stensö Vårdcentral,,,,,,,,
+doctors,,,59.2779362,,181,,,18.0662254,,Tussmötevägen,,,,,,,,yes,Stureby Vårdcentral,,,,,,,,SE
+doctors,,,58.5830995,,18,Norrköpings kommun,,16.1776739,,Gamla Lasarettsgatan,,,,,,Östergötlands län,Norrköping,yes,Såpkullens vårdcentral,,,,,,,,SE
+doctors,general,,59.7519686,,10,,,18.6746973,,Kaserngatan,,,,,,,,yes,Södra vårdcentral,,,,,,doctor,,SE
+doctors,,,63.1576946,,,,,14.7432566,,,,,,,,,,yes,Torvalla Hälsocentral,,,,,,,,
+doctors,,,62.1145612,,,,,13.2940533,,,,,,,,,,yes,Turistläkare,,,,,,,,
+doctors,,http://www.regionorebrolan.se/kumlavc,59.1285251,,8,,,15.1228676,local knowledge,Sörbyvägen,,,,,,,,yes,Vårdcentral Fylstamottagningen,,,,Bing 2012,,,,SE
+doctors,,http://www.regionorebrolan.se/kumlavc,59.1316490,,10,,,15.1467981,,Norra Kungsvägen,,,,no,,,,yes,Vårdcentral Kungsvägsmottagningen,,69231,,Bing 2012,,,,SE
+doctors,,,58.5747923,yes,2,Norrköpings kommun,,16.2030738,,Grundläggaregatan,,,,,,Östergötlands län,Norrköping,yes,Vårdcentralen Hageby,,,,,2,,,SE

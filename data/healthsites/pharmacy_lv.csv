@@ -1,4 +1,5 @@
 amenity,building:facade:material,roof:colour,building:min_level,operator,addr:housenumber,addr:district,building:levels,opening_hours,lon,brand:wikidata,addr:street,website,brand,roof:shape,lat,smoking,addr:city,building,building:colour,name,phone,addr:postcode,roof:material,addr:country,dispensing,healthcare,wheelchair
+pharmacy,,,,,,,,,21.5690149,,,,,,56.9803063,,,yes,,Aptieka,,,,,yes,pharmacy,
 pharmacy,,,0,,,,1,,26.1303521,,,,,,56.0671015,,,yes,,Aptieka,,,,,,,
 pharmacy,,,,,,,,,25.6352798,,,,,,56.8977460,,,yes,,Aptieka,,,,,,pharmacy,
 pharmacy,,,,,,,,,25.6388718,,,,,,56.5595046,,,,,BENU,,,,,no,,

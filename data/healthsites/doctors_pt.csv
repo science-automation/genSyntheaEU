@@ -1,0 +1,21 @@
+building,addr:housenumber,amenity,name:en,name,short_name,phone,opening_hours,wheelchair,description,lon,addr:city,source,addr:postcode,ownership,healthcare,lat,toilets:wheelchair,addr:street
+yes,,doctors,Center of Medical Imaging of Fafe,Centro de Imagiologia Médica de Fafe,CIMAFE,,,,,-8.1711318,,,,,,41.4496631,,
+yes,,doctors,,Centro de Reabilitação Profissional de Gaia,,,,yes,,-8.6329593,,,,,,41.0616100,yes,
+,,doctors,,Centro de Saude Figueiró (Santiago),,,,,,-8.1618748,,,,,,41.3030667,,
+yes,,doctors,,Centro de Saúde de Amoreira,,,,,,-9.2043999,,,,,,39.3425055,,Rua da Mina
+yes,,doctors,,Centro de Saúde de Esposende,,,,,,-8.7809096,,,,,,41.5371415,,
+yes,,doctors,,Centro de Saúde de Fafe,,,,,,-8.1719375,,,,,,41.4466785,,
+yes,,doctors,,Centro de Saúde de Pavia,,,,,,-8.0188676,,Bing,,,,38.8938397,,
+,,doctors,,Centro de Saúde do Turcifal,,,,,,-9.2663356,,,,,,39.0406146,,
+yes,224,doctors,,Clínica Dra. Paula Pereira,,+351 227449153,"Mo-Th, Sa 10:00-22:00",,Especialidades: Medicina Dentária & Psicologia Clínica.,-8.5534476,Mozelos,,4535-166,private,,41.0080589,,Rua Central da Vergada
+,,doctors,,Clínica da Saúde,,,,,,-8.4465590,,,,,,41.5596729,,
+,,doctors,,Consultório Dr. Pedro Ramos,,,Fr 16:00-20:00+Sat 09:00-13:00,yes,,-17.1937624,,,,,,32.7329462,,
+,,doctors,,Cosporacion Dermostetica,,,,,,-8.4222550,,,,,,41.5479778,,
+,,doctors,,Extensão de Saúde Alpedrinha (C. S. Fundão),,,,,,-7.4666972,,,,,,40.0991232,,
+yes,,doctors,,Extensão de Saúde de Fão,,,,,,-8.7695754,,,,,,41.5098579,,
+,,doctors,,Fresenius Medical Care,,,,,,-7.6490030,,,,,,37.1158781,,
+yes,,doctors,,Posto Medicina da Galp,,,,,,-8.7738972,,,,,doctor,38.0640908,,
+yes,,doctors,,Posto Médco Foz do Sousa,,,,,,-8.5017174,,,,,,41.0944370,,
+,,doctors,,Tratamentos Termais,,,,,,-7.3738909,,,,,,41.2915681,,
+,,doctors,,Unidade de Saùde Familiar das Taipas/ Ara de Trajano,,,,,,-8.3519991,,,,,,41.4839803,,
+yes,,doctors,,Unidade de Saúde Familiar do Vale do Âncora,,,,,,-8.8565543,,,,,doctor,41.8120590,,

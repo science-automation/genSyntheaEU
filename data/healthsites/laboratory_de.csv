@@ -1,0 +1,3 @@
+addr:housenumber,building,amenity,addr:city,addr:postcode,wheelchair,lon,website,lat,operator,addr:street,ref,addr:country,name
+6,yes,laboratory,Kiel,24107,,10.0857406,www.lufa-itl.de,54.3491842,,Dr.-Hell-Straße,,DE,LUFA-ITL GmbH (AGROLAB)
+4,university,laboratory,Kiel,24105,limited,10.1422542,,54.3277641,"Universitätsklinikum Schleswig-Holstein, Campus Kiel",Brunswiker Straße,V41,DE,Medizinaluntersuchungsamt und Krankenhaushygiene Kiel
