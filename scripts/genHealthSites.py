@@ -26,7 +26,7 @@ def extract_keys(result):
     return keylist.keys()
 
 api = overpy.Overpass()
-amenity_types = ["hospital", "dentist", "pharmacy", "clinic", "dialysis"]
+amenity_types = ["hospital", "doctor", "doctors", "dentist", "laboratory", "pharmacy", "clinic", "dialysis"]
 countries = ["BE", "BG", "CZ", "CY", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "NO", "GB"]
 
 # create output directory
