@@ -40,19 +40,21 @@ def addGeoInfo(df, apikey, columns, regions):
             row['city'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['City']
             row['zip'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['PostalCode']
             county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
-            country = getAsciiString(county)
             state = res['Response']['View'][0]['Result'][0]['Location']['Address']['State']
-            state = getAsciiString(state)
             if state in regions:
                 row['state'] = state
+            elif getAsciiString(state) in regions:
+                row['state'] = getAsciiString(state)
             elif county in regions:
                 row['state'] = county
+            elif getAsciiString(county) in regions:
+                row['state'] = getAsciiString(county)
             else:
                 row['state'] = county
             dftemp = row.to_frame().T
         except:
             dftemp = row.to_frame().T
-        req = requests.get(API_URL, params=params)
+        #req = requests.get(API_URL, params=params) only use if need to debug
         df2 = pd.concat([df2,dftemp])
     return df2
 
@@ -102,12 +104,21 @@ for country in countries:
         sys.exit()
 
     # load the csv
-    file='./hospital_'+ country.lower() + '.csv'
+    file='hospital_'+ country.lower() + '.csv'
     if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
         hospitals = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
+        # add doctors and clinics for now until we get better hospital data
+        doctorsfile = 'doctors_' + country.lower + '.csv'
+        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
+            doctors = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile), compression=None)
+            hospitals = pd.concat([hospitals,doctors], axis=0, ignore_index=True)
+        clinicsfile = 'clinics_' + country.lower + '.csv'
+        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)):
+            clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile), compression=None)
+            hospitals = pd.concat([hospitals,clinics], axis=0, ignore_index=True)
         # map OSM data synthea data
         # create hospitals.csv and urgent_care_facilities.csv
-        # urgent_care_facilities has emergency=yes
+        # urgent_care_facilities has emergency=yes  (when we get better data but for now keep all)
         OUTPUT_DIRECTORY =  os.path.join(BASE_OUTPUT_DIRECTORY,country.lower())
         OUTPUT_DIRECTORY = OUTPUT_DIRECTORY + '/src/main/resources/providers'
         if not os.path.exists(OUTPUT_DIRECTORY):
@@ -128,29 +139,34 @@ for country in countries:
         df = addGeoInfo(df, APIKEY, model_synthea.model_schema['hospitals'].keys(), regions)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
-        df = df.loc[df['emergency'].str.lower() == 'yes']
+        #df = df.loc[df['emergency'].str.lower() == 'yes']  keep all until we get better data
         df['id'] = df.index + int(URGENT_CARE_BASE_ID)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'urgent_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
 
     # load clinics file and create primary_care_facilities for synthea
-    file='./clinic_'+ country.lower() + '.csv'
-    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
-        clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
+    clinicsfile='clinic_'+ country.lower() + '.csv'
+    doctorsfile='doctors_' + country.lower + '.csv'
+    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)) or os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
+        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)): 
+            clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
+        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
+            doctors = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile), compression=None)
+        primary = pd.concat([clinics,doctors], axis=0, ignore_index=True)
         # create primary_care_facilities.csv
         df = pd.DataFrame(columns=model_synthea.model_schema['primary_care_facilities'].keys())
-        df['name'] = clinics['name']
+        df['name'] = primary['name']
         df['id'] = df.index + int(HOSPITAL_BASE_ID)
-        df['LAT'] =  clinics['lat']
-        df['LON'] = clinics['lon']
+        df['LAT'] =  primary['lat']
+        df['LON'] = primary['lon']
         df['hasSpecialties'] = 'False'
-        if 'phone' in clinics.columns:
-            df['phone'] = clinics['phone']
-        if 'addr:housenumber' in clinics.columns and 'addr:street' in clinics.columns:
-            clinics['addr:street'] = clinics['addr:street'].astype('str')
-            clinics['addr:housenumber'] = clinics['addr:housenumber'].astype('str')
-            df['address'] = clinics['addr:street'] + " " + clinics['addr:housenumber']
+        if 'phone' in primary.columns:
+            df['phone'] = primary['phone']
+        if 'addr:housenumber' in primary.columns and 'addr:street' in primary.columns:
+            primary['addr:street'] = primary['addr:street'].astype('str')
+            primary['addr:housenumber'] = primary['addr:housenumber'].astype('str')
+            df['address'] = primary['addr:street'] + " " + primary['addr:housenumber']
         df = addGeoInfo(df, APIKEY, model_synthea.model_schema['primary_care_facilities'].keys(), regions)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
