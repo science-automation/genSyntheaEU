@@ -31,7 +31,6 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
         # open the file for this if it exists
         geofile = prox + ".json"
         if os.path.exists(os.path.join(geodatadir, geofile)):
-            print(geofile)
             with codecs.open(os.path.join(geodatadir, geofile), 'r', encoding='utf8') as f:
                 res = json.load(f)
             #print(res['Response']['View'][0]['Result'][0]['Location']['Address'])
