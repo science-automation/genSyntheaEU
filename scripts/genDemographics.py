@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import ModelSyntheaPandas
 import ModelData
 import unicodedata
+import string
 
 def getAsciiString(demo):
     return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
