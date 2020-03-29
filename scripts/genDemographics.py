@@ -8,6 +8,10 @@ import unicodedata
 
 def getAsciiString(demo):
     return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
+
+# capitalize the first char of each word to make consistent
+def makeTitle(name):
+    return string.capwords(name)
     
 # ------------------------
 # load env
@@ -56,7 +60,7 @@ for country in countries:
     df['NAME'] = citieslocal['name'].apply(getAsciiString)
     df['ID'] = df.index
     df['COUNTY'] = df.index
-    df['STNAME'] = citieslocal['Name of Subdivision']
+    df['STNAME'] = citieslocal['Name of Subdivision'].apply(makeTitle)
     df['POPESTIMATE2015'] = citieslocal['population']
     df['CTYNAME'] = citieslocal['name'].apply(getAsciiString)
     df['TOT_POP'] = citieslocal['population']
