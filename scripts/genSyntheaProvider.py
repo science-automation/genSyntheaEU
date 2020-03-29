@@ -46,7 +46,7 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                 county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
             if 'State' in address:
                 state = res['Response']['View'][0]['Result'][0]['Location']['Address']['State']
-            if 'state' in locals():
+            if 'state' in locals() and (state in regions or getAsciiString(state) in regions):
                 if state in regions:
                     row['state'] = state
                 elif getAsciiString(state) in regions:
