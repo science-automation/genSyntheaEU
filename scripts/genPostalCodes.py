@@ -55,8 +55,8 @@ for country in countries:
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
         # clean up
         df['NAME'] = df['NAME'].str.rstrip()
-        df = df[df['NAME'].notna()]
-        df['NAME'] = df['NAME'].apply(makeTitle)
+        df = df[df['USPS'].notna()]
+        df['USPS'] = df['USPS'].apply(makeTitle)
         # write the zipcodes.csv file
         header = ["USPS","ST","NAME","ZCTA5","LAT","LON"]
         df.to_csv(OUTPUT_DIRECTORY + '/zipcodes.csv', columns = header, encoding='UTF-8')
