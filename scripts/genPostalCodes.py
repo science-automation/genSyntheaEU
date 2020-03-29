@@ -57,6 +57,8 @@ for country in countries:
         df['NAME'] = df['NAME'].str.rstrip()
         df = df[df['USPS'].notna()]
         df['USPS'] = df['USPS'].apply(makeTitle)
+        if (country=='LV'):
+            df['USPS'] = df['USPS'].str.replace('Nov.','Novads')
         # write the zipcodes.csv file
         header = ["USPS","ST","NAME","ZCTA5","LAT","LON"]
         df.to_csv(OUTPUT_DIRECTORY + '/zipcodes.csv', columns = header, encoding='UTF-8')
