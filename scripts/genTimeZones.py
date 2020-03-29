@@ -2,10 +2,11 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 import zipfile
+import string
 
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
-    return name.title()
+    return string.capwords(name)
 
 # ------------------------
 # load env
