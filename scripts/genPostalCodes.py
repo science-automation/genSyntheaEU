@@ -8,6 +8,13 @@ import string
 def makeTitle(name):
     return string.capwords(name)
 
+def fixBG(name):
+    value = name.split('/')
+    if len(value) == 2:
+        return value[1].strip()
+    else:
+        return name
+
 # ------------------------
 # load env
 # ------------------------
@@ -59,6 +66,8 @@ for country in countries:
         df['USPS'] = df['USPS'].apply(makeTitle)
         if (country=='LV'):
             df['USPS'] = df['USPS'].str.replace('Nov.','Novads')
+        if (country=='BG'):
+            df['USPS'] = df['USPS'].apply(fixBG)
         # write the zipcodes.csv file
         header = ["USPS","ST","NAME","ZCTA5","LAT","LON"]
         df.to_csv(OUTPUT_DIRECTORY + '/zipcodes.csv', columns = header, encoding='UTF-8')

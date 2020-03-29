@@ -8,6 +8,13 @@ import string
 def makeTitle(name):
     return string.capwords(name)
 
+def fixBG(name):
+    value = name.split('/')
+    if len(value) == 2:
+        return value[1].strip()
+    else:
+        return name
+
 # ------------------------
 # load env
 # ------------------------
@@ -63,5 +70,7 @@ for country in countries:
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
         df = df.rename(columns={"std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
         header = ["STATE","ST","TIMEZONE","TZ"]
+        if country == "BG":
+            df['STATE'] = df['STATE'].apply(fixBG)
         df['STATE'] = df['STATE'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
