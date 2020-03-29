@@ -32,6 +32,25 @@ class ModelData:
             ('HASH','object')
         ])
 
+        model_schema['divisions'] = OrderedDict([
+            ('ISO-3166-1', 'object'),
+            ('ISO-3166-2', 'object'),
+            ('Fips', 'object'),
+            ('GN', 'object'),
+            ('Geoname ID', 'object'),
+            ('Name of Subdivision', 'category'),
+            ('Wikipedia', 'object'),
+            ('Type ID', 'object'),
+            ('Type', 'object'),
+            ('Geoname ID of Capital', 'object'),
+            ('Capital', 'object'),
+            ('Population', 'object'),
+            ('lang', 'object'),
+            ('continent', 'object'),
+            ('From','object'),
+            ('Till','object')
+        ])
+
         model_schema['fiaddress'] = OrderedDict([
             ('building_id', 'object'),
             ('region', 'category'),
@@ -64,10 +83,10 @@ class ModelData:
             ('feature code', 'object'),
             ('country code', 'object'),
             ('cc2', 'object'),
-            ('admin1 code', 'object'),
-            ('admin2 code', 'object'),
-            ('admin3 code', 'object'),
-            ('admin4 code', 'object'),
+            ('admin1 code', 'category'),
+            ('admin2 code', 'category'),
+            ('admin3 code', 'category'),
+            ('admin4 code', 'category'),
             ('population', 'object'),
             ('elevation', 'object'),
             ('dem', 'object'),

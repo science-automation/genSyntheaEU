@@ -35,7 +35,7 @@ model_data = ModelData.ModelData()
 cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.model_schema['geoname'], sep='\t', encoding = "utf-8")
 
 # load data so that we can convert geonames fips to region name
-divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', sep=';', encoding = "utf-8")
+divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', dtype=model_data.model_schema['divisions'], sep=';', encoding = "utf-8")
 
 # list of countries to be processed.  No FI since we have better data
 countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
@@ -58,7 +58,7 @@ for country in countries:
         citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
     else:
         citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
-    df['NAME'] = citieslocal['name'].apply(getAsciiString)
+    df['NAME'] = citieslocal['name']
     df['ID'] = df.index
     df['COUNTY'] = df.index
     df['STNAME'] = citieslocal['Name of Subdivision'].apply(makeTitle)
