@@ -3,6 +3,10 @@ import os
 import zipfile
 from dotenv import load_dotenv
 
+# capitalize the first char of each word to make consistent
+def makeTitle(name):
+    return name.title()
+
 # ------------------------
 # load env
 # ------------------------
@@ -50,6 +54,7 @@ for country in countries:
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
         # clean up
         df['NAME'] = df['NAME'].str.rstrip()
+        df['NAME'] = df['NAME'].apply(makeTitle)
         # write the zipcodes.csv file
         header = ["USPS","ST","NAME","ZCTA5","LAT","LON"]
         df.to_csv(OUTPUT_DIRECTORY + '/zipcodes.csv', columns = header, encoding='UTF-8')

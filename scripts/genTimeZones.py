@@ -3,6 +3,10 @@ import os
 from dotenv import load_dotenv
 import zipfile
 
+# capitalize the first char of each word to make consistent
+def makeTitle(name):
+    return name.title()
+
 # ------------------------
 # load env
 # ------------------------
@@ -58,4 +62,5 @@ for country in countries:
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
         df = df.rename(columns={"std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
         header = ["STATE","ST","TIMEZONE","TZ"]
+        df['STATE'] = df['STATE'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
