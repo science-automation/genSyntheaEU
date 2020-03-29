@@ -8,9 +8,14 @@ import requests
 import unicodedata
 import codecs
 import json
+import string
 
 def getAsciiString(demo):
-        return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
+    return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
+
+# capitalize the first char of each word to make consistent
+def makeTitle(name):
+    return string.capwords(name)
 
 # fix emergency yes/no case
 def emergencyValue(value):
@@ -194,6 +199,7 @@ for country in countries:
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency'].apply(emergencyValue)
         df = addGeoInfoLocal(df, model_synthea.model_schema['hospitals'].keys(), regions, BASE_GEOCODE_DIRECTORY)
+        df['state'] = df['state'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
         #df = df.loc[df['emergency'].str.lower() == 'yes']  keep all until we get better data
@@ -225,6 +231,7 @@ for country in countries:
             primary['addr:housenumber'] = primary['addr:housenumber'].astype('str')
             df['address'] = primary['addr:street'] + " " + primary['addr:housenumber']
         df = addGeoInfoLocal(df, model_synthea.model_schema['primary_care_facilities'].keys(), regions, BASE_GEOCODE_DIRECTORY)
+        df['state'] = df['state'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'primary_care_facilities.csv'), mode='w', header=True, index=True, encoding='UTF-8')
     else:
         print("File " + file + " does not exist")
