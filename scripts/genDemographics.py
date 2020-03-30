@@ -108,5 +108,9 @@ for country in countries:
 
     # sort
     df = df.sort_values('CTYNAME')
+
+    # country specific processing
+    if country == 'EE':
+        df['STNAME'] = df['STNAME'].str.replace('Country', 'Maakond')
     # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=False)
