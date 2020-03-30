@@ -11,7 +11,7 @@ def makeTitle(name):
 def fixBG(name):
     value = name.split('/')
     if len(value) == 2:
-        return value[1].strip()
+        return value[0].strip()
     else:
         return name
 
