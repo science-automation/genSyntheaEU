@@ -111,6 +111,6 @@ for country in countries:
 
     # country specific processing
     if country == 'EE':
-        df['STNAME'] = df['STNAME'].str.replace('Country', 'Maakond')
+        df['STNAME'] = df['STNAME'].str.replace('County', 'Maakond')
     # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=False)
