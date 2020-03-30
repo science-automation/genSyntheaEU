@@ -73,4 +73,6 @@ for country in countries:
         if country == "BG":
             df['STATE'] = df['STATE'].apply(fixBG)
         df['STATE'] = df['STATE'].apply(makeTitle)
+        if country == 'LV':
+            df['STATE'] = df['STATE'].str.replace('Nov.','Novads')
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
