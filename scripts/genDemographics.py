@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import sys
 import zipfile
 from dotenv import load_dotenv
 import ModelSyntheaPandas
@@ -131,3 +132,4 @@ for country in countries:
 
     # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=False)
+    sys.stdout.flush()
