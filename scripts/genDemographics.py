@@ -121,7 +121,9 @@ for country in countries:
     df['BS_DEGREE'] = '0.10629286002420331'
 
     # filter out cities that dont have a zip code
+    print("   Number of cities before filtering those that do not have zip code: " + str(len(df)))
     df = df[~df['NAME'].str.contains("nopostalcode")]
+    print("   Number of cities after filtering those that do not have zip code: " + str(len(df)))
 
     # sort
     df = df.sort_values('CTYNAME')
