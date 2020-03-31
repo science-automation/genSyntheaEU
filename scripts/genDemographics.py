@@ -13,6 +13,19 @@ def getAsciiString(demo):
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
     return string.capwords(name)
+
+# make sure city can be found in the zip codes
+def matchZip(name, postalcode):
+    postalcode = postalcode[postalcode['NAME'].notna()]
+    citydf = postalcode[postalcode['NAME'].str.contains(name)]
+    citydfascii = postalcode[postalcode['NAME'].str.contains(getAsciiString(name))]
+    if (len(citydf) > 0):
+        return name
+    elif (len(citydfascii) > 0): 
+        return getAsciiString(name)
+    else:
+        # return a string so we can filter it out later 
+        return "nopostalcode"
     
 # ------------------------
 # load env
@@ -38,7 +51,7 @@ cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.m
 divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', dtype=model_data.model_schema['divisions'], sep=';', encoding = "utf-8")
 
 # list of countries to be processed.  No FI since we have better data
-countries= ["BE", "BG", "CY", "CZ", "DK", "DE", "EE", "GR", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 for country in countries:
     print("Processing: " + country)
@@ -52,18 +65,18 @@ for country in countries:
     citieslocal = cities.loc[cities['country code'] == country]
     citieslocal = citieslocal.sort_values('name').reset_index()
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
+    postalcode =  pd.read_csv(BASE_ZIPCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
     if country == 'GB':
-        postalcode =  pd.read_csv(BASE_ZIPCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
         citieslocal = pd.merge(citieslocal, postalcode[['USPS','ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
         citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
     else:
         citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
-    df['NAME'] = citieslocal['name']
+    df['NAME'] = citieslocal['name'].apply(matchZip,args=(postalcode,))
     df['ID'] = df.index
     df['COUNTY'] = df.index
     df['STNAME'] = citieslocal['Name of Subdivision'].apply(makeTitle)
     df['POPESTIMATE2015'] = citieslocal['population']
-    df['CTYNAME'] = citieslocal['name'].apply(getAsciiString)
+    df['CTYNAME'] = df['NAME']
     df['TOT_POP'] = citieslocal['population']
     df['TOT_MALE'] = '.5'
     df['TOT_FEMALE'] = '.5'
@@ -106,11 +119,15 @@ for country in countries:
     df['SOME_COLLEGE'] = '0.409035901573215'
     df['BS_DEGREE'] = '0.10629286002420331'
 
+    # filter out cities that dont have a zip code
+    df = df[~df['NAME'].str.contains("nopostalcode")]
+
     # sort
     df = df.sort_values('CTYNAME')
 
     # country specific processing
     if country == 'EE':
         df['STNAME'] = df['STNAME'].str.replace('County', 'Maakond')
+
     # save to disk
     df.to_csv(OUTPUT_DIRECTORY + '/demographics.csv', mode='w', encoding = 'utf-8', header=True, index=False)

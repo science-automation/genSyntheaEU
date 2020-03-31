@@ -415,7 +415,7 @@ class ModelSyntheaPandas:
             ('LESS_THAN_HS', 'object'),
             ('HS_DEGREE', 'object'),
             ('SOME_COLLEGE', 'object'),
-            ('BS_DEGRE', 'object')
+            ('BS_DEGREE', 'object')
         ])
 
         return model_schema
