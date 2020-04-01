@@ -418,4 +418,12 @@ class ModelSyntheaPandas:
             ('BS_DEGREE', 'object')
         ])
 
+        model_schema['postalcodes'] = OrderedDict([
+            ('USPS', 'object'),
+            ('ST', 'category'),
+            ('NAME', 'object'),
+            ('ZCTA5', 'category'),
+            ('LAT', 'object'),
+            ('LON', 'object')
+        ])
         return model_schema

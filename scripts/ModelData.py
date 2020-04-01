@@ -64,12 +64,18 @@ class ModelData:
         ])
 
         model_schema['postalcodes'] = OrderedDict([
-            ('USPS', 'object'),
-            ('ST', 'category'),
-            ('NAME', 'object'),
-            ('ZCTA5', 'category'),
-            ('LAT', 'object'),
-            ('LON', 'object')
+            ('country_code', 'object'),
+            ('postal_code', 'object'),
+            ('place_name', 'object'),
+            ('admin_name1', 'object'),
+            ('admin_code1', 'object'),
+            ('admin_name2', 'object'),
+            ('admin_code2', 'object'),
+            ('admin_name3', 'object'),
+            ('admin_code3', 'object'),
+            ('latitude', 'object'),
+            ('longitude', 'object'),
+            ('accuracy', 'object')
         ])
 
         model_schema['geoname'] = OrderedDict([
