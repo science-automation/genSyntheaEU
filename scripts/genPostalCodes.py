@@ -98,12 +98,10 @@ for country in countries:
             df = addGeoInfoLocal(df, model_data.model_schema['postalcodes'].keys(), BASE_GEOCODE_DIRECTORY)
             df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
-            print(df)
         elif (country=='SI'):
             df = addGeoInfoLocal(df, model_data.model_schema['postalcodes'].keys(), BASE_GEOCODE_DIRECTORY)
             df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
-            print(df)
         else:
             df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})

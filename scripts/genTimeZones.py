@@ -3,6 +3,11 @@ import os
 from dotenv import load_dotenv
 import zipfile
 import string
+import ModelSyntheaPandas
+import ModelData
+import codecs
+import json
+import sys
 
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
@@ -15,6 +20,36 @@ def fixBG(name):
     else:
         return name
 
+def isNaN(string):
+    return string != string
+
+# take df and add geo data from downloaded data if postal code file has no state data
+def addGeoInfoLocal(df, columns, geodatadir):
+    df2 = pd.DataFrame(columns=columns)
+    for index, row in df.iterrows():
+        lat = row['latitude']
+        lon = row['longitude']
+        prox = str(lat) + "," + str(lon)
+        # open the file for this if it exists
+        geofile = prox + ".json"
+        if os.path.exists(os.path.join(geodatadir, geofile)):
+            with codecs.open(os.path.join(geodatadir, geofile), 'r', encoding='utf8') as f:
+                res = json.load(f)
+            if res['Response']['View']:
+                address = res['Response']['View'][0]['Result'][0]['Location']['Address']
+            else:
+                address = {}
+            #print(res['Response']['View'][0]['Result'][0]['Location']['Address'])
+            if 'County' in address:
+                county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
+            if isNaN(row['admin_name1']):
+                row['admin_name1'] = county
+            dftemp = row.to_frame().T
+        else:
+            dftemp = row.to_frame().T
+        df2 = pd.concat([df2,dftemp])
+    return df2
+
 # ------------------------
 # load env
 # ------------------------
@@ -22,15 +57,20 @@ load_dotenv(verbose=True)
 
 # set output directory
 # Path to the directory containing the input healthsites files
-BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
+BASE_INPUT_DIRECTORY          = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
-BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
+BASE_OUTPUT_DIRECTORY         = os.environ['BASE_OUTPUT_DIRECTORY']
 # postal code base files
-BASE_POSTAL_CODE_DIRECTORY    = os.environ['BASE_POSTAL_CODE_DIRECTORY']
+BASE_POSTALCODE_DIRECTORY     = os.environ['BASE_POSTALCODE_DIRECTORY']
+# base geocode directory
+BASE_GEOCODE_DIRECTORY        = os.environ['BASE_GEOCODE_DIRECTORY']
+
+model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
+model_data = ModelData.ModelData()
 
 # list of countries to be processed. cy and gr do  not have zip code files so maybe do manually
 countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
-columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3", "admin_code3", "latitude", "longitude", "accuracy"]
+#columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3", "admin_code3", "latitude", "longitude", "accuracy"]
 
 # load in the country timezones
 zonedf = pd.read_csv(BASE_INPUT_DIRECTORY + '/country_timezone.csv', dtype='object')
@@ -45,8 +85,9 @@ for country in countries:
     if not os.path.exists(OUTPUT_DIRECTORY):
         os.makedirs(OUTPUT_DIRECTORY)
     # read the postal code file
-    path_to_zip_file = BASE_POSTAL_CODE_DIRECTORY + '/' + country.lower() + ".zip"
+    path_to_zip_file = BASE_POSTALCODE_DIRECTORY + '/' + country.lower() + ".zip"
     if os.path.exists(path_to_zip_file):
+        #print("file exists")
         tmppath = BASE_INPUT_DIRECTORY + "/tmp"
         if not os.path.exists(tmppath):
             os.makedirs(tmppath)
@@ -54,13 +95,23 @@ for country in countries:
             zip_ref.extractall(tmppath)
         # load the file into a dataframe
         csvfile = tmppath + "/" + country + ".txt"
-        df = pd.read_csv(csvfile, dtype='object', sep='\t', names=columns, header=None)
+        df = pd.read_csv(csvfile, dtype=model_data.model_schema['postalcodes'], sep='\t', names=model_data.model_schema['postalcodes'].keys(), header=None)
         if country == "GB":
             df = df[['country_code','admin_name2']].drop_duplicates()
             df = pd.merge(df, isocode, left_on='admin_name2', right_on='name', how='left')
             df = df.rename(columns={"admin_name2": "STATE", "isocodem": "ST"})
             df = df[['country_code','STATE','ST']].drop_duplicates()
             df = df.dropna()  # still dropping too many that dont have iso codes
+        elif country == 'IE':
+            df = addGeoInfoLocal(df, model_data.model_schema['postalcodes'].keys(), BASE_GEOCODE_DIRECTORY)
+            df = pd.merge(df, isocode, left_on='admin_name1', right_on='name', how='left')
+            df = df[['country_code','admin_name1','isocodem']].drop_duplicates()
+            df = df.rename(columns={"admin_name1": "STATE", "isocodem": "ST"})
+        elif country == 'SI':
+            df = addGeoInfoLocal(df, model_data.model_schema['postalcodes'].keys(), BASE_GEOCODE_DIRECTORY)
+            df = pd.merge(df, isocode, left_on='admin_name1', right_on='name', how='left')
+            df = df[['country_code','admin_name1','isocodem']].drop_duplicates()
+            df = df.rename(columns={"admin_name1": "STATE", "isocodem": "ST"})
         else:
             # get distinct 
             df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
@@ -76,3 +127,4 @@ for country in countries:
         if country == 'LV':
             df['STATE'] = df['STATE'].str.replace('Nov.','Novads')
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
+        sys.stdout.flush()
