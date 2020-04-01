@@ -33,7 +33,7 @@ jobs:
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         echo "BASE_INPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/data" > .env
         echo "BASE_OUTPUT_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
-        echo "BASE_ZIPCODE_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
+        echo "BASE_POSTALCODE_DIRECTORY=${AGENT_BUILDDIRECTORY}/s/synthea-international" >> .env
     - script: |
         cd ${AGENT_BUILDDIRECTORY}/s/genSyntheaEU/scripts
         git config --global user.name "scivm"
