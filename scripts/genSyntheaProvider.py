@@ -15,7 +15,13 @@ def getAsciiString(demo):
 
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
-    return string.capwords(name)
+    if isNaN(name):
+        return name
+    else:
+        return string.capwords(name)
+
+def isNaN(string):
+    return string != string
 
 # fix emergency yes/no case
 def emergencyValue(value):
@@ -51,17 +57,18 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                 county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
             if 'State' in address:
                 state = res['Response']['View'][0]['Result'][0]['Location']['Address']['State']
-            if 'state' in locals() and (state in regions or getAsciiString(state) in regions):
-                if state in regions:
-                    row['state'] = state
-                elif getAsciiString(state) in regions:
-                    row['state'] = getAsciiString(state)
-            elif county in regions:
-                row['state'] = county
-            elif getAsciiString(county) in regions:
-                row['state'] = getAsciiString(county)
-            else:
-                row['state'] = county
+            if 'county' in locals():
+                for region in regions:
+                    if region == county:
+                        row['state'] = county 
+                    if region == getAsciiString(county):
+                        row['state'] = getAsciiString(county)
+            if 'state' in locals():
+                for region in regions:
+                    if region == state:
+                        row['state'] = state
+                    if region == getAsciiString(state):
+                        row['state'] = getAsciiString(state)
             # set address
             if row['address'] == 'nan nan':
                 if 'Street' in address and 'HouseNumber' in address:
@@ -160,7 +167,7 @@ for country in countries:
     # get a list of regions
     if os.path.exists(BASE_REGION_DIRECTORY):
         file = BASE_REGION_DIRECTORY + "/" + country.lower() + '/src/main/resources/geography/timezones.csv'
-        regiondf = pd.read_csv(file)
+        regiondf = pd.read_csv(file, encoding ='utf-8')
         regions = regiondf.STATE.unique()
     else:
         sys.exit()
@@ -220,7 +227,7 @@ for country in countries:
         # create primary_care_facilities.csv
         df = pd.DataFrame(columns=model_synthea.model_schema['primary_care_facilities'].keys())
         df['name'] = primary['name']
-        df['id'] = df.index + int(HOSPITAL_BASE_ID)
+        df['id'] = df.index + int(PRIMARY_CARE_BASE_ID)
         df['LAT'] =  primary['lat']
         df['LON'] = primary['lon']
         df['hasSpecialties'] = 'False'
