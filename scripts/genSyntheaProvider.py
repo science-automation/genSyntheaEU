@@ -61,13 +61,13 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                 for region in regions:
                     if region == county:
                         row['state'] = county 
-                    if region == getAsciiString(county):
+                    elif region == getAsciiString(county):
                         row['state'] = getAsciiString(county)
             if 'state' in locals():
                 for region in regions:
                     if region == state:
                         row['state'] = state
-                    if region == getAsciiString(state):
+                    elif region == getAsciiString(state):
                         row['state'] = getAsciiString(state)
             # set address
             if row['address'] == 'nan nan':
