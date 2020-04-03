@@ -11,7 +11,10 @@ import sys
 
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
-    return string.capwords(name)
+    if isNaN(name):
+        return name
+    else:
+        return string.capwords(name)
 
 def fixBG(name):
     value = name.split('/')
@@ -101,7 +104,7 @@ for country in countries:
             df = pd.merge(df, isocode, left_on='admin_name2', right_on='name', how='left')
             df = df.rename(columns={"admin_name2": "STATE", "isocodem": "ST"})
             df = df[['country_code','STATE','ST']].drop_duplicates()
-            df = df.dropna()  # still dropping too many that dont have iso codes
+            df = df[df['STATE'].notna()]
         elif country == 'IE':
             df = addGeoInfoLocal(df, model_data.model_schema['postalcodes'].keys(), BASE_GEOCODE_DIRECTORY)
             df = pd.merge(df, isocode, left_on='admin_name1', right_on='name', how='left')
@@ -116,7 +119,7 @@ for country in countries:
             # get distinct 
             df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
             df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
-            df = df.dropna()
+            df = df[df['STATE'].notna()]
         # join on country code
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
         df = df.rename(columns={"std_full": 'TIMEZONE', 'std_abbr': 'TZ'})

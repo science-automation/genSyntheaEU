@@ -10,7 +10,10 @@ import json
 
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
-    return string.capwords(name)
+    if isNaN(name):
+        return name
+    else:
+        return string.capwords(name)
 
 def fixBG(name):
     value = name.split('/')
