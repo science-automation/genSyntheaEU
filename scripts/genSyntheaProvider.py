@@ -69,8 +69,8 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                         row['state'] = state
                     elif region == getAsciiString(state):
                         row['state'] = getAsciiString(state)
-            if isNaN(row['state']):
-                print("Did not find state for " + county + " " + state)
+            #if isNaN(row['state']):
+            #    print("Did not find state for " + county + " " + state)
             # set address
             if row['address'] == 'nan nan':
                 if 'Street' in address and 'HouseNumber' in address:
@@ -159,8 +159,7 @@ print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
 
 # countries list. There is better data for FI so doing that one later
-#countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
-countries = ['GB']
+countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
