@@ -55,8 +55,10 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                 row['zip'] = res['Response']['View'][0]['Result'][0]['Location']['Address']['PostalCode']
             if 'County' in address:
                 county = res['Response']['View'][0]['Result'][0]['Location']['Address']['County']
+                county = makeTitle(county)
             if 'State' in address:
                 state = res['Response']['View'][0]['Result'][0]['Location']['Address']['State']
+                state = makeTitle(state)
             if 'county' in locals():
                 for region in regions:
                     if region == county:
