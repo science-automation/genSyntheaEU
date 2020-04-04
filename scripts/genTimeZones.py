@@ -115,6 +115,11 @@ for country in countries:
             df = pd.merge(df, isocode, left_on='admin_name1', right_on='name', how='left')
             df = df[['country_code','admin_name1','isocodem']].drop_duplicates()
             df = df.rename(columns={"admin_name1": "STATE", "isocodem": "ST"})
+        elif country == 'LT':
+            df['admin_name1']=df['admin_name1'].str.replace(' County','')
+            df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
+            df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
+            df = df[df['STATE'].notna()]
         else:
             # get distinct 
             df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
