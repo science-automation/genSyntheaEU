@@ -172,6 +172,7 @@ for country in countries:
     if os.path.exists(BASE_REGION_DIRECTORY):
         file = BASE_REGION_DIRECTORY + "/" + country.lower() + '/src/main/resources/geography/timezones.csv'
         regiondf = pd.read_csv(file, encoding ='utf-8')
+        regiondf['STATE'] = regiondf['STATE'].apply(makeTitle)
         regions = regiondf.STATE.unique()
     else:
         sys.exit()
