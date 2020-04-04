@@ -73,7 +73,6 @@ model_data = ModelData.ModelData()
 
 # list of countries to be processed. cy and gr do  not have zip code files so maybe do manually
 countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
-#columns=["country_code", "postal_code", "place_name", "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3", "admin_code3", "latitude", "longitude", "accuracy"]
 
 # load in the country timezones
 zonedf = pd.read_csv(BASE_INPUT_DIRECTORY + '/country_timezone.csv', dtype='object')
@@ -121,7 +120,6 @@ for country in countries:
             df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
             df = df[df['STATE'].notna()]
         else:
-            # get distinct 
             df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
             df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
             df = df[df['STATE'].notna()]
@@ -129,9 +127,11 @@ for country in countries:
         df = pd.merge(df, zonedf, left_on='country_code', right_on='country_code', how='left')
         df = df.rename(columns={"std_full": 'TIMEZONE', 'std_abbr': 'TZ'})
         header = ["STATE","ST","TIMEZONE","TZ"]
+        df['STATE'] = df['STATE'].apply(makeTitle)
         if country == "BG":
             df['STATE'] = df['STATE'].apply(fixBG)
-        df['STATE'] = df['STATE'].apply(makeTitle)
+        if country == "NO":
+            df['STATE'] = df['STATE'].str.replace('Oslo County','Oslo')
         if country == 'LV':
             df['STATE'] = df['STATE'].str.replace('Nov.','Novads')
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')

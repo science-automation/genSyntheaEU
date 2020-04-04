@@ -11,6 +11,9 @@ import string
 def getAsciiString(demo):
     return unicodedata.normalize('NFD', demo).encode('ascii', 'ignore').decode("utf-8")
 
+def isNaN(string):
+    return string != string
+
 # capitalize the first char of each word to make consistent
 def makeTitle(name):
     if isNaN(name):
@@ -55,7 +58,8 @@ cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.m
 divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', dtype=model_data.model_schema['divisions'], sep=';', encoding = "utf-8")
 
 # list of countries to be processed.  No FI since we have better data
-countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+#countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+countries = ["NO"]
 
 for country in countries:
     print("Processing: " + country)
@@ -67,6 +71,7 @@ for country in countries:
     df = pd.DataFrame(columns=model_synthea.model_schema['demographics'].keys())
     # filter only cities in this country
     citieslocal = cities.loc[cities['country code'] == country]
+    citieslocal = citieslocal[['name','asciiname','admin1 code','population']]
     citieslocal = citieslocal.sort_values('name').reset_index()
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
     postalcode =  pd.read_csv(BASE_POSTALCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
