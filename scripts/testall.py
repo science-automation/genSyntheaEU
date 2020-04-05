@@ -38,4 +38,4 @@ for country in countries:
         # run synthea
         print("Running synthea for region " + region)
         sys.stdout.flush()
-        os.system("./run_synthea -p 5 " + "\"" + region + "\" > out.dat 2<&1")
+        os.system("./run_synthea -p 5 " + "\"" + region + "\")
