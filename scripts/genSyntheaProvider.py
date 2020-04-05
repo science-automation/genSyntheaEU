@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from dotenv import load_dotenv
 import pandas as pd
@@ -71,6 +72,12 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                         row['state'] = state
                     elif region == getAsciiString(state):
                         row['state'] = getAsciiString(state)
+                    # sweden geocode state values match except for extra s län
+                    if country == "SE":
+                        print("trying match for se")
+                        comb = region + u's Län'
+                        if comb == state:
+                            row['state'] = state
             #if isNaN(row['state']):
             #    print("Did not find state for " + county + " " + state)
             # set address
