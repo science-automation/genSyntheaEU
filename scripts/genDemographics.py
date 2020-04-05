@@ -58,8 +58,7 @@ cities = pd.read_csv(BASE_INPUT_DIRECTORY + '/cities500.txt', dtype=model_data.m
 divisions = pd.read_csv(BASE_INPUT_DIRECTORY + '/divisions.csv', dtype=model_data.model_schema['divisions'], sep=';', encoding = "utf-8")
 
 # list of countries to be processed.  No FI since we have better data
-#countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
-countries = ["NO"]
+countries= ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 for country in countries:
     print("Processing: " + country)
