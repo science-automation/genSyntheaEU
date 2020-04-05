@@ -74,7 +74,6 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                         row['state'] = getAsciiString(state)
                     # sweden geocode state values match except for extra s län
                     if country == "SE":
-                        print("trying match for se")
                         comb = region + u's Län'
                         if comb == state:
                             row['state'] = state
