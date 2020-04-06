@@ -83,6 +83,8 @@ for country in countries:
     #elif country == 'SI':
     #    citieslocal = pd.merge(citieslocal, postalcode[['USPS','ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
     #    citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
+    elif country == "LU":
+        citieslocal = pd.merge(citieslocal, divisionslocal[['ISO-3166-2', 'Name of Subdivision']], left_on='admin1 code', right_on='ISO-3166-2', how='left')
     else:
         citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
     df['NAME'] = citieslocal['name'].apply(matchZip,args=(postalcode,))
