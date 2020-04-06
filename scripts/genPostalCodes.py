@@ -117,7 +117,7 @@ for country in countries:
         df = df[df['USPS'].notna()]
         df['USPS'] = df['USPS'].apply(makeTitle)
         if country == "NO":
-            df['STATE'] = df['STATE'].str.replace('Oslo County','Oslo')
+            df['USPS'] = df['USPS'].str.replace('Oslo County','Oslo')
         if (country=='LV'):
             df['USPS'] = df['USPS'].str.replace('Nov.','Novads')
         if (country=='BE'):
