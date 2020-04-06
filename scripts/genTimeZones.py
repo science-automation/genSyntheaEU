@@ -134,5 +134,7 @@ for country in countries:
             df['STATE'] = df['STATE'].str.replace('Oslo County','Oslo')
         if country == 'LV':
             df['STATE'] = df['STATE'].str.replace('Nov.','Novads')
+        if (country=='BE'):
+            df['USPS'] = df['USPS'].str.replace('Bruxelles-capitale','Bruxelles')
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'timezones.csv'), columns = header, index=False, encoding='UTF-8')
         sys.stdout.flush()

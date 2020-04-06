@@ -120,6 +120,8 @@ for country in countries:
             df['STATE'] = df['STATE'].str.replace('Oslo County','Oslo')
         if (country=='LV'):
             df['USPS'] = df['USPS'].str.replace('Nov.','Novads')
+        if (country=='BE'):
+            df['USPS'] = df['USPS'].str.replace('Bruxelles-capitale','Bruxelles')
         if (country=='BG'):
             df['USPS'] = df['USPS'].apply(fixBG)
         # write the zipcodes.csv file
