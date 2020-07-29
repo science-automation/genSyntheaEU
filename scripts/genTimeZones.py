@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 import os
 from dotenv import load_dotenv
@@ -52,6 +53,33 @@ def addGeoInfoLocal(df, columns, geodatadir):
             dftemp = row.to_frame().T
         df2 = pd.concat([df2,dftemp])
     return df2
+
+# fix for poland to use local name
+def plUseLocalName(state):
+    plregion = {
+        "Kujawsko-Pomorskie": "Kujawsko-Pomorskie",
+        "Łódź Voivodeship": "Łódzkie",
+        "Lublin": "Lubelskie",
+        "Lubusz": "Lubuskie",
+        "Lesser Poland": "Małopolskie",
+        "Greate Poland": "Wielkopolskie",
+        "Mazovia": "Mazowieckie",
+        "Opole Voivodeship": "Opolskie",
+        "Subcarpathia": "Podkarpackie",
+        "Podlasie": "Podlaskie",
+        "Pomerania": "Pomorskie",
+        "Silesia": "Śląskie",
+        "Lower Silesia": "Dolnośląskie",
+        "Świętokrzyskie": "Świętokrzyskie",
+        "Warmia-Masuria":  "Warmińsko-Mazurskie",
+        "Greater Poland": "Wielkopolskie",
+        "West Pomerania": "Zachodniopomorskie"
+    }
+    if state in plregion:
+        return plregion[state]
+    else:
+        print("Not found for: " + state)
+        return state
 
 # ------------------------
 # load env
@@ -116,6 +144,11 @@ for country in countries:
             df = df.rename(columns={"admin_name1": "STATE", "isocodem": "ST"})
         elif country == 'LT':
             df['admin_name1']=df['admin_name1'].str.replace(' County','')
+            df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
+            df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
+            df = df[df['STATE'].notna()]
+        elif country == 'PL':
+            df['admin_name1']=df['admin_name1'].apply(plUseLocalName)
             df = df[['country_code','admin_name1','admin_code1']].drop_duplicates()
             df = df.rename(columns={"admin_name1": "STATE", "admin_code1": "ST"})
             df = df[df['STATE'].notna()]

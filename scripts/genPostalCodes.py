@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 import os
 import zipfile
@@ -52,6 +53,33 @@ def addGeoInfoLocal(df, columns, geodatadir):
         df2 = pd.concat([df2,dftemp])
     return df2
 
+# fix for poland to use local name
+def plUseLocalName(state):
+    plregion = {
+        "Kujawsko-Pomorskie": "Kujawsko-Pomorskie",
+        "Łódź Voivodeship": "Łódzkie",
+        "Lublin": "Lubelskie",
+        "Lubusz": "Lubuskie",
+        "Lesser Poland": "Małopolskie",
+        "Greate Poland": "Wielkopolskie",
+        "Mazovia": "Mazowieckie",
+        "Opole Voivodeship": "Opolskie",
+        "Subcarpathia": "Podkarpackie",
+        "Podlasie": "Podlaskie",
+        "Pomerania": "Pomorskie",
+        "Silesia": "Śląskie",
+        "Lower Silesia": "Dolnośląskie",
+        "Świętokrzyskie": "Świętokrzyskie",
+        "Warmia-Masuria":  "Warmińsko-Mazurskie",
+        "Greater Poland": "Wielkopolskie",
+        "West Pomerania": "Zachodniopomorskie"
+    }
+    if state in plregion:
+        return plregion[state]
+    else:
+        print("Not found for: " + state)
+        return state
+
 # ------------------------
 # load env
 # ------------------------
@@ -59,7 +87,7 @@ load_dotenv(verbose=True)
 
 # set output directory
 # Path to the directory containing the postalcode files
-BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
+BASE_POSTALCODE_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 # path to iso region file
@@ -83,9 +111,9 @@ for country in countries:
     if not os.path.exists(OUTPUT_DIRECTORY):
         os.makedirs(OUTPUT_DIRECTORY)
     # make a temp directory to unpack the zip
-    path_to_zip_file = BASE_INPUT_DIRECTORY + '/' + country.lower() + ".zip"
+    path_to_zip_file = BASE_POSTALCODE_DIRECTORY + '/' + country.lower() + ".zip"
     if os.path.exists(path_to_zip_file):
-        tmppath = BASE_INPUT_DIRECTORY + "/tmp"
+        tmppath = BASE_POSTALCODE_DIRECTORY + "/tmp"
         if not os.path.exists(tmppath):
             os.makedirs(tmppath)
         with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
@@ -108,6 +136,9 @@ for country in countries:
         elif (country=='LT'):
             df['admin_name1']=df['admin_name1'].str.replace(' County','')
             df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')
+            df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
+        elif (country=='PL'):
+            df['admin_name1']=df['admin_name1'].apply(plUseLocalName)
             df = df.rename(columns={"admin_name1": "USPS", "admin_code1": "ST", "place_name": "NAME", "postal_code": "ZCTA5", "latitude": "LAT", "longitude": "LON"})
         else:
             df = pd.merge(df,isodf,left_on='admin_name1', right_on='name', how='left')

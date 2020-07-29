@@ -67,6 +67,7 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                     elif region == getAsciiString(county):
                         row['state'] = getAsciiString(county)
             if 'state' in locals():
+                print("state: " + state)
                 for region in regions:
                     if region == state:
                         row['state'] = state
@@ -77,6 +78,12 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                         comb = region + u's Län'
                         if comb == state:
                             row['state'] = state
+                    if country == "PL":
+                        modstate = state.strip("Woj. ")
+                        if region == modstate:
+                            print("Setting state to :" + region)
+                            row['state'] = region
+                        
             #if isNaN(row['state']):
             #    print("Did not find state for " + county + " " + state)
             # set address
@@ -143,6 +150,8 @@ load_dotenv(verbose=True)
 # set output directory
 # Path to the directory containing the input healthsites files
 BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
+# Path to the directory containing the input healthsites files
+BASE_INPUT_HEALTHSITE_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY'] + "/healthsites"
 # Path to the base directory that provider files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 # region code 
@@ -159,6 +168,7 @@ PRIMARY_CARE_BASE_ID    = os.environ['PRIMARY_CARE_BASE_ID']
 APIKEY                  = os.environ['APIKEY']
 
 print('BASE_INPUT_DIRECTORY     =' + BASE_INPUT_DIRECTORY)
+print('BASE_INPUT_HEALTHSITE_DIRECTORY     =' + BASE_INPUT_HEALTHSITE_DIRECTORY)
 print('BASE_OUTPUT_DIRECTORY    =' + BASE_OUTPUT_DIRECTORY)
 print('BASE_REGION_DIRECTORY    =' + BASE_REGION_DIRECTORY)
 print('BASE_GEOCODE_DIRECTORY   =' + BASE_GEOCODE_DIRECTORY)
@@ -167,7 +177,8 @@ print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
 
 # countries list. There is better data for FI so doing that one later
-countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+#countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
+countries = ["PL"]
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
@@ -185,16 +196,16 @@ for country in countries:
 
     # load the csv
     file='hospital_'+ country.lower() + '.csv'
-    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,file)):
-        hospitals = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
+    if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,file)):
+        hospitals = pd.read_csv(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,file), compression=None)
         # add doctors and clinics for now until we get better hospital data
         doctorsfile = 'doctors_' + country.lower() + '.csv'
-        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
-            doctors = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile), compression=None)
+        if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,doctorsfile)):
+            doctors = pd.read_csv(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,doctorsfile), compression=None)
             hospitals = pd.concat([hospitals,doctors], axis=0, ignore_index=True)
         clinicsfile = 'clinics_' + country.lower() + '.csv'
-        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)):
-            clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile), compression=None)
+        if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,clinicsfile)):
+            clinics = pd.read_csv(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,clinicsfile), compression=None)
             hospitals = pd.concat([hospitals,clinics], axis=0, ignore_index=True)
         # map OSM data synthea data
         # create hospitals.csv and urgent_care_facilities.csv
@@ -217,6 +228,7 @@ for country in countries:
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency'].apply(emergencyValue)
         df = addGeoInfoLocal(df, model_synthea.model_schema['hospitals'].keys(), regions, BASE_GEOCODE_DIRECTORY)
+        print(df['state'])
         df['state'] = df['state'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
@@ -229,11 +241,11 @@ for country in countries:
     # load clinics file and create primary_care_facilities for synthea
     clinicsfile='clinic_'+ country.lower() + '.csv'
     doctorsfile='doctors_' + country.lower() + '.csv'
-    if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)) or os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
-        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,clinicsfile)): 
-            clinics = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,file), compression=None)
-        if os.path.exists(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile)):
-            doctors = pd.read_csv(os.path.join(BASE_INPUT_DIRECTORY,doctorsfile), compression=None)
+    if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,clinicsfile)) or os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,doctorsfile)):
+        if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,clinicsfile)): 
+            clinics = pd.read_csv(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,file), compression=None)
+        if os.path.exists(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,doctorsfile)):
+            doctors = pd.read_csv(os.path.join(BASE_INPUT_HEALTHSITE_DIRECTORY,doctorsfile), compression=None)
         primary = pd.concat([clinics,doctors], axis=0, ignore_index=True)
         # create primary_care_facilities.csv
         df = pd.DataFrame(columns=model_synthea.model_schema['primary_care_facilities'].keys())

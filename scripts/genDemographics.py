@@ -45,7 +45,6 @@ BASE_INPUT_DIRECTORY    = os.environ['BASE_INPUT_DIRECTORY']
 # Path to the base directory that demographhic files will be written to
 BASE_OUTPUT_DIRECTORY   = os.environ['BASE_OUTPUT_DIRECTORY']
 #
-BASE_POSTALCODE_DIRECTORY  = os.environ['BASE_POSTALCODE_DIRECTORY']
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
@@ -73,7 +72,7 @@ for country in countries:
     citieslocal = citieslocal[['name','asciiname','admin1 code','population']]
     citieslocal = citieslocal.sort_values('name').reset_index()
     divisionslocal = divisions.loc[divisions['ISO-3166-1'] == country]
-    postalcode =  pd.read_csv(BASE_POSTALCODE_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
+    postalcode =  pd.read_csv(BASE_OUTPUT_DIRECTORY + '/' + country.lower() + '/src/main/resources/geography/zipcodes.csv', encoding = "utf-8")
     if country == 'GB':
         citieslocal = pd.merge(citieslocal, postalcode[['USPS','ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
         citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
@@ -85,6 +84,9 @@ for country in countries:
     #    citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
     elif country == "LU":
         citieslocal = pd.merge(citieslocal, divisionslocal[['ISO-3166-2', 'Name of Subdivision']], left_on='admin1 code', right_on='ISO-3166-2', how='left')
+    elif country == "PL":
+        citieslocal = pd.merge(citieslocal, postalcode[['USPS','ST', 'NAME']], left_on='name', right_on='NAME', how='inner')
+        citieslocal = citieslocal.rename(columns={"USPS": "Name of Subdivision"})
     else:
         citieslocal = pd.merge(citieslocal, divisionslocal[['Fips', 'Name of Subdivision']], left_on='admin1 code', right_on='Fips', how='left')
     df['NAME'] = citieslocal['name'].apply(matchZip,args=(postalcode,))
