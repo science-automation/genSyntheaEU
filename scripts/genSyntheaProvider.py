@@ -225,7 +225,6 @@ for country in countries:
         if 'emergency' in  hospitals.columns:
             df['emergency'] = hospitals['emergency'].apply(emergencyValue)
         df = addGeoInfoLocal(df, model_synthea.model_schema['hospitals'].keys(), regions, BASE_GEOCODE_DIRECTORY)
-        print(df['state'])
         df['state'] = df['state'].apply(makeTitle)
         df.to_csv(os.path.join(OUTPUT_DIRECTORY,'hospitals.csv'), mode='w', header=True, index=True, encoding='UTF-8')
         # create urgent_care_facilities by filtering on emergency
