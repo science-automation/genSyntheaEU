@@ -177,8 +177,7 @@ print('URGENT_CARE_BASE_ID      =' + URGENT_CARE_BASE_ID)
 print('PRIMARY_CARE_BASE_ID     =' + PRIMARY_CARE_BASE_ID)
 
 # countries list. There is better data for FI so doing that one later
-#countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
-countries = ["PL"]
+countries = ["BE", "BG", "CZ", "DK", "DE", "EE", "IE", "ES", "FR", "HR", "IT", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "SE", "NO", "GB"]
 
 # load the synthea model
 model_synthea = ModelSyntheaPandas.ModelSyntheaPandas()
