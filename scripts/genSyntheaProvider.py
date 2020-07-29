@@ -67,7 +67,6 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                     elif region == getAsciiString(county):
                         row['state'] = getAsciiString(county)
             if 'state' in locals():
-                print("state: " + state)
                 for region in regions:
                     if region == state:
                         row['state'] = state
@@ -81,7 +80,6 @@ def addGeoInfoLocal(df, columns, regions, geodatadir):
                     if country == "PL":
                         modstate = state.strip("Woj. ")
                         if region == modstate:
-                            print("Setting state to :" + region)
                             row['state'] = region
                         
             #if isNaN(row['state']):
